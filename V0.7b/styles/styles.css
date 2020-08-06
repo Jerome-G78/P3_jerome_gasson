@@ -1,0 +1,188 @@
+/* CSS Style */
+@font-face 
+{
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.woff') format('woff');
+}
+
+body
+{
+	font-family:Montserrat;
+/*    font-size: 16px;
+	/* RESET*/
+    margin:0; 
+    padding:0;
+}
+
+/* Mise en page générale */
+
+/* conteneurs */
+.Flex
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+	flex-wrap:wrap;
+/*  border: 1px solid green;	/* DEBUG */
+}
+
+.Flex2
+{
+	width:94em;
+/*	display:column; */
+/*	justify-content:center; */
+	align-items:center;
+/*	flex-wrap:wrap; */
+	margin-top:17.1em;
+/*	border: 1px solid green;	/* DEBUG */
+}
+
+/* élements */
+
+#T-Bloc, #B-Bloc
+{
+	width: 94em;
+	position:fixed;
+    background-color:#579c87;
+	text-align: center;
+}
+
+#T-Bloc
+{
+	top:0;
+}
+
+#B-Bloc
+{
+	bottom:0em;
+}
+
+#B-Bloc p
+{
+/*	margin: 4.95em 0; */
+}
+
+#M-Bloc2
+{
+	display: block;
+	padding-bottom: 10em;
+	text-align: center;
+/*	margin-bottom: 4em; */
+/*	border: 1px solid blue;	/* DEBUG */
+}
+
+.Prochainement
+{
+/*    display: block;
+/*	border: 1px solid green;	/* DEBUG */
+}
+
+header
+{
+	margin: 3.95em 0;
+}
+
+footer
+{
+	margin: 0.3em 0;
+}
+
+a
+{
+	font-size: 3em;
+	color: #fdcb46; /* Jaune foncé */
+	text-decoration:none;
+}
+
+.ML
+{
+	padding-left:2.5em;
+	padding-bottom:2.45em;
+	padding-top:1.5em;
+	float:left;
+	
+}
+
+.MLG h3
+{
+	font-size:3.2em;
+	text-align: center;
+}
+
+.MLG p
+{
+	text-align: left;
+	font-size: 1.6em;
+	padding:0 2em;
+	margin-bottom:7em; 
+/*	border: 4px solid red; */
+}
+
+.CT
+{
+	padding-right:2.40em;
+	padding-bottom:2.45em;
+	padding-top:1.5em;
+	float:right;
+}
+
+/* navigation */
+
+.MLNE, .MCAF, .MLDP, .MLPG
+{
+    margin: 2.94em 2em;
+	box-shadow:0 0 16px #f1ebe9;
+/*	border: 1px solid grey; /* DEBUG */
+}
+
+.MLNE
+{
+	background-color:#fcdfdb; 
+}
+
+.MCAF
+{
+	background-color:#fff5fe;
+}
+
+.MLDP
+{
+	background-color:#f9f9f9;
+}
+
+.MLPG
+{
+	background-color:#fdfffd;
+}
+.Flex2 img
+{
+	width: 14em;
+	height: auto;
+}
+
+.MLNE, .MLDP
+{
+	float: left;
+}
+
+.MCAF, .MLPG
+{
+	float: right;
+}
+
+/* Mise en pages des menus */
+
+.Carte
+{
+	font-size:3.2em;
+	text-align: center;
+	margin-top:4.95em;
+	margin-bottom:1.5em; 
+	padding-bottom: 3.6em;
+}
+
+.Carte img
+{
+	height: auto;
+	box-shadow:0 0 16px #f1ebe9;
+}
