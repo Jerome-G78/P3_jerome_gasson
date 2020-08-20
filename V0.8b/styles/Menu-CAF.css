@@ -1,0 +1,327 @@
+/* CSS Style */
+
+@font-face 
+{
+	/* Police Générale */
+
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+	/*Police  Le chic à la française 1 */
+	font-family: 'CroissantOne';
+	src: url('../fonts/croissant-one/CroissantOne-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+	/*Police  Le chic à la française 2 */
+	font-family: 'LibreCaslon';
+	src: url('../fonts/libre-caslon/librecaslondisplay-regular.woff') format('woff');
+}
+
+body
+{
+	font-family:Montserrat;
+/*  font-size: 16px; */
+/*  RESET   */
+    margin:0; 
+    padding:0;
+}
+
+.MLCAF-F
+{
+	background:
+	-webkit-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:
+	-moz-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:
+	-o-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:
+	linear-gradient(to bottom right, #d8852e, #905bfd);
+
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-o-background-clip: text;
+	background-clip:text;
+	color:transparent;
+
+	font-family:CroissantOne;
+	font-size: 0.75em;
+}
+
+/* conteneurs */
+.Flex
+{
+	width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+	flex-wrap:wrap;
+	margin: 0 auto; /* centrage */
+/*  border: 1px solid green;	/* DEBUG */
+}
+
+/* élements */
+
+#B-Bloc, #T-Bloc-Menu
+{
+	width: 100%;
+    background-color:#579c87;
+	text-align: center;
+/*	border: 1px solid blue;	/* DEBUG */
+}
+
+#B-Bloc
+{
+	width: 100%;
+	position:fixed;
+	bottom:0em;
+}
+
+header
+{
+	margin: 3.95em 0;
+/*	border: 1px solid red;	/* DEBUG */
+}
+
+a
+{
+	font-size: 3em;
+	color: #fdcb46; /* Jaune foncé */
+	text-decoration:none;
+}
+
+.ML
+{
+	padding-left:2.5em;
+	padding-bottom:2.45em;
+	padding-top:1.5em;
+	float:left;
+	
+}
+
+.CT
+{
+	padding-right:2.40em;
+	padding-bottom:2.45em;
+	padding-top:1.5em;
+	float:right;
+}
+
+/* Mise en pages des menus */
+
+.Carte
+{
+	font-size:3.2em;
+	text-align: center;
+	margin-top:-0.76em;
+	margin-bottom:4.12em;
+	padding-bottom: 3.6em;
+	padding: 1.2em 3.05em; /* H - L */
+/*	border: 1px solid red; */
+}
+
+/* Menu - Le chic à la française */
+
+.CAF-Menu
+{
+	font-family: 'LibreCaslon';
+	font-size:1.552em;
+	background-color:#fff5fe;
+	text-align: center;
+	box-shadow:0 0 16px #f1ebe9;
+	padding-top:0.754em;
+	padding-bottom:5.6em;
+/*	border: 1px solid red; /* DEBUG */
+}
+
+.CAF-Menu h5
+{
+	display:inline-block;
+	font-size:0.39em;
+	text-align: center;
+/*	border: 1px solid red; /* DEBUG */
+}
+
+.Deco-PSMEA-L
+{
+	position: relative;
+	top:0.5em;
+	left:-2.015em;
+	float: left;
+}
+
+.Deco-PSMEA-R
+{
+	position: relative;
+	top:0.5em;
+	right:-2.015em;
+	float: right;
+}
+
+.C1
+{
+	color:#c67412;
+}
+
+.Deco-PDP-L
+{
+	position: relative;
+	font-size: 0.5em;
+	top:1em;
+	left:-5.015em;
+
+	float: left;
+}
+
+.Deco-PDP-R
+{
+	position: relative;
+	font-size: 0.5em;
+	top:1em;
+	right:-5.015em;
+
+	float: right;
+}
+
+.C2
+{
+	color:#a56799;
+}
+
+.Deco-GS-L
+{
+	position: relative;
+	font-size: 0.5em;
+	top:1em;
+	left:-3.266em;
+	float: left;
+}
+
+.Deco-GS-R
+{
+	position: relative;
+	font-size: 0.5em;
+	top:1em;
+	right:-3.266em;
+	float: right;
+}
+
+.C3
+{
+	color:#6e4ccc;
+}
+
+.P-Left
+{
+	position: relative;
+	top:-0.78em;
+	left:5em;
+
+	font-size:0.345em;
+	text-align: left;
+	float: left;
+/*	border: 1px solid blue; */
+}
+
+.P-Right
+{
+	position: relative;
+	top:-1em;
+	right:4.5em;
+
+	font-size:0.379em;
+	text-align: right;
+	float: right;
+/*	border: 1px solid red; */
+
+}
+
+/* Bottom LNE */
+
+.MLNE-MB
+{
+	display:inline-block;
+	font-size:0.75em;
+/*	border: 1px solid grey; */
+}
+
+.MLNE-MB img
+{
+	position: relative;
+	top:2.15em;
+	font-size:0.12em;
+/*	border: 1px solid grey; */
+}
+
+@media screen and (min-width:1500px) and (orientation: landscape)    /* 95em - Grand Ecran FHD+  */
+{
+    .Flex2
+	{
+		width:95em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	/*	border: 1px solid green;	/* DEBUG */
+    }
+    
+    /* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:1300px) and (max-width:1519px) and (orientation: landscape)    /* 80em - Grand Ecran FHD+  */
+{
+
+}
+
+@media screen and (min-width:1090px) and (max-width:1299px) and (orientation: landscape)    /* 68em - Ecran FHD  	*/
+{
+
+}
+
+@media screen and (min-width:785px) and (max-width:1089px) and (orientation: landscape)    	/* 49em - Tablettes  	*/
+{
+
+}
+
+@media screen and (min-width:785px) and (max-width:1089px) and (orientation: portrait)    	/* 49em - Tablettes  	*/
+{
+
+}
+
+@media screen and (min-width:657px) and (max-width:784px) and (orientation: landscape)    	/* 40em - Smartphones  	*/
+{
+
+}
+
+@media screen and (min-width:657px) and (max-width:784px) and (orientation: portrait)    	/* 40em - Smartphones  	*/
+{
+
+}
+
+@media screen and (min-width:368px) and (max-width:656px) and (orientation: landscape)    	/* 23em - Smartphones  	*/
+{
+
+}
+
+@media screen and (min-width:368px) and (max-width:656px) and (orientation: portrait)    	/* 23em - Smartphones  	*/
+{
+
+}
+
+@media screen and (min-width:320px) and (max-width:367px) and (orientation: portrait)    	/* 20em - Smartphones  	*/
+{
+
+}
+
+@media screen and (max-width:319px) and (orientation: portrait)    							/* 		Obsolète  		*/
+{
+    
+}
