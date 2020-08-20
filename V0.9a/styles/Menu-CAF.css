@@ -126,7 +126,7 @@ a
 
 /* Menu - Le chic à la française */
 
-.CAF-Menu
+.Menu-CAF
 {
 	font-family: 'LibreCaslon';
 	font-size:1.552em;
@@ -138,7 +138,7 @@ a
 /*	border: 1px solid red; /* DEBUG */
 }
 
-.CAF-Menu h5
+.Menu-CAF h5
 {
 	display:inline-block;
 	font-size:0.39em;
@@ -146,7 +146,7 @@ a
 /*	border: 1px solid red; /* DEBUG */
 }
 
-.Deco-PSMEA-L
+.Deco-EL, .Deco-PL, .Deco-DL
 {
 	position: relative;
 	top:0.5em;
@@ -154,7 +154,7 @@ a
 	float: left;
 }
 
-.Deco-PSMEA-R
+.Deco-ER, .Deco-PR, .Deco-DR
 {
 	position: relative;
 	top:0.5em;
@@ -167,47 +167,9 @@ a
 	color:#c67412;
 }
 
-.Deco-PDP-L
-{
-	position: relative;
-	font-size: 0.5em;
-	top:1em;
-	left:-5.015em;
-
-	float: left;
-}
-
-.Deco-PDP-R
-{
-	position: relative;
-	font-size: 0.5em;
-	top:1em;
-	right:-5.015em;
-
-	float: right;
-}
-
 .C2
 {
 	color:#a56799;
-}
-
-.Deco-GS-L
-{
-	position: relative;
-	font-size: 0.5em;
-	top:1em;
-	left:-3.266em;
-	float: left;
-}
-
-.Deco-GS-R
-{
-	position: relative;
-	font-size: 0.5em;
-	top:1em;
-	right:-3.266em;
-	float: right;
 }
 
 .C3
