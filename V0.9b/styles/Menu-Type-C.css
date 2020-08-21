@@ -1,0 +1,1136 @@
+/* CSS Style */
+
+@font-face 
+{
+	/* Police Générale */
+
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+	/*Police  Le chic à la française 1 */
+	font-family: 'CroissantOne';
+	src: url('../fonts/croissant-one/CroissantOne-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+	/*Police  Le chic à la française 2 */
+	font-family: 'LibreCaslon';
+	src: url('../fonts/libre-caslon/librecaslondisplay-regular.woff') format('woff');
+}
+
+body
+{
+	font-family:Montserrat;
+/*  font-size: 16px; */
+/*  RESET   */
+    margin:0; 
+    padding:0;
+}
+
+/* Mise en page générale */
+
+/* conteneurs */
+.Flex
+{
+	width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+	flex-wrap:wrap;
+	margin: 0 auto; /* centrage */
+/*  border: 1px solid green;	/* DEBUG */
+}
+
+/* élements */
+
+#B-Bloc, #T-Bloc-Menu
+{
+	width: 100%;
+    background-color:#579c87;
+	text-align: center;
+/*	border: 1px solid blue;	/* DEBUG */
+}
+
+#B-Bloc
+{
+	width: 100%;
+	position:fixed;
+	bottom:0em;
+}
+
+header
+{
+	margin: 3.95em 0;
+/*	border: 1px solid red;	/* DEBUG */
+}
+
+/* Mise en pages des menus */
+
+.Carte
+{
+	font-size:3.2em;
+	text-align: center;
+	margin-top:-0.73em;
+	margin-bottom:4.12em;
+	padding-bottom: 3.6em;
+	padding: 1.2em 3.05em; /* H - L */
+/*	border: 1px solid red; */
+}
+
+.Flex3
+{
+	width:100%;
+	display:flex;
+/*	border: 1px solid red; */
+}
+
+/* Menu - Le chic à la française */
+
+.Menu-CAF
+{
+	font-family: 'LibreCaslon';
+	font-size:1.552em;
+	background-color:#fff5fe;
+	text-align: center;
+	box-shadow:0 0 16px #f1ebe9;
+	padding-top:0.754em;
+	padding-bottom:5.6em;
+/*	border: 1px solid red; /* DEBUG */
+}
+
+.MLCAF-F
+{
+	background:
+	-webkit-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:
+	-moz-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:
+	-o-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:
+	linear-gradient(to bottom right, #d8852e, #905bfd);
+
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-o-background-clip: text;
+	background-clip:text;
+	color:transparent;
+
+	font-family:CroissantOne;
+	font-size: 0.716em;
+}
+
+.Menu-CAF h5
+{
+	display:inline-block;
+	font-weight:bold;
+	font-size:0.39em;
+/*	border: 1px solid red; /* DEBUG */
+}
+
+.C1
+{
+	color:#c67412;
+}
+
+.C2
+{
+	color:#a56799;
+}
+
+.C3
+{
+	color:#6e4ccc;
+}
+
+/* Décoration */
+
+.Deco-EL, .Deco-PL, .Deco-DL
+{
+	width:13.1em;
+	position: relative;
+	top: 0.35em;
+	left:1.5em;
+	float: left;
+}
+
+.Deco-ER, .Deco-PR, .Deco-DR
+{
+	width:13.1em;
+	position: relative;
+	top:0.35em;
+	right:1.45em;
+	float: right;
+}
+
+.P-Left
+{
+	position: relative;
+	top:-0.85em;
+	left:6.43em;
+
+	font-size:0.345em;
+	text-align: left;
+	float: left;
+/*	border: 1px solid blue; */
+}
+
+.P-Right
+{
+	position: relative;
+	top:-0.93em;
+	right:5.8em;
+
+	font-size:0.38em;
+	text-align: right;
+	float: right;
+/*	border: 1px solid red; */
+}
+
+/* footer */
+a
+{
+	font-size: 3em;
+	color: #fdcb46; /* Jaune foncé */
+	text-decoration:none;
+}
+
+.ML
+{
+	padding-left:2.5em;
+	padding-bottom:2.45em;
+	padding-top:1.5em;
+	float:left;
+	
+}
+
+.CT
+{
+	padding-right:2.40em;
+	padding-bottom:2.45em;
+	padding-top:1.5em;
+	float:right;
+}
+
+
+@media screen and (min-width:1540px) and (orientation: landscape)    /* 96em - Grand Ecran FHD+  */
+{
+    .Flex2
+	{
+		width:95em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	/*	border: 1px solid green;	/* DEBUG */
+	}
+    
+    /* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:1380px) and (max-width:1539px) and (orientation: landscape)    /* 86em - Grand Ecran FHD+  */
+{
+	.Flex2
+	{
+		width:85em;
+	}
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:10.55em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:10.55em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:1090px) and (max-width:1379px) and (orientation: landscape)    /* 68em - Ecran FHD  	*/
+{
+	.Flex2
+	{
+		width: 67em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:5.85em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:5.85em;
+	}
+
+	.P-Left
+	{
+		font-size:0.28em;
+		left:2.1em;
+	}
+
+	.P-Right
+	{
+		font-size:0.28em;
+		right:2em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:792px) and (max-width:1089px) and (orientation: landscape)    	/* 50em - Tablettes  	*/
+{
+	.Flex2
+	{
+		width: 49em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:12.5em;
+		padding:0 0;
+		margin-top:0.67em;
+	}
+
+	.Carte h3
+	{
+		font-size:0.963em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h5
+	{
+		font-size:0.38em;
+	}
+
+	.Menu-CAF h4
+	{
+		font-size:0.8em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:4.18em;
+		top:0.36em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:4.18em;
+		top:0.36em;
+	}
+
+	.P-Left
+	{
+		font-size:0.28em;
+		left:2.05em;
+	}
+
+	.P-Right
+	{
+		font-size:0.28em;
+		right:1.95em;
+	}
+
+	/* footer */
+
+	a
+	{
+		font-size: 2.5em;
+	}
+
+	.ML
+	{
+		padding-left:1em;
+		padding-bottom:2.45em;
+		padding-top:1.5em;
+	}
+
+	.CT
+	{
+		padding-right:1em;
+		padding-bottom:2.45em;
+		padding-top:1.5em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:792px) and (max-width:1089px) and (orientation: portrait)    	/* 49em - Tablettes  	*/
+{
+	.Flex2
+	{
+		width: 49em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:12.5em;
+		padding:0 0;
+		margin-top:0.67em;
+	}
+
+	.Carte h3
+	{
+		font-size:0.963em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h5
+	{
+		font-size:0.38em;
+	}
+
+	.Menu-CAF h4
+	{
+		font-size:0.8em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:4.18em;
+		top:0.36em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:4.18em;
+		top:0.36em;
+	}
+
+	.P-Left
+	{
+		font-size:0.28em;
+		left:2.05em;
+	}
+
+	.P-Right
+	{
+		font-size:0.28em;
+		right:1.95em;
+	}
+
+	/* footer */
+
+	a
+	{
+		font-size: 2.5em;
+	}
+
+	.ML
+	{
+		padding-left:1em;
+		padding-bottom:2.45em;
+		padding-top:1.5em;
+	}
+
+	.CT
+	{
+		padding-right:1em;
+		padding-bottom:2.45em;
+		padding-top:1.5em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:664px) and (max-width:791px) and (orientation: landscape)    	/* 42em - Smartphones  	*/
+{
+	/* Mise en page générale */
+
+	/* conteneurs */
+
+	.Flex2
+	{
+		width:41em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	/* élements */
+
+	.Carte h3
+	{
+		font-size: 0.963em;
+	}
+
+	.Carte
+	{
+		width:12em;
+		padding:0 0;
+		margin-top:0.668em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h5
+	{
+		font-size:0.3em;
+	}
+
+	.Menu-CAF h4
+	{
+		font-size:0.8em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:6.38em;
+		top:0.36em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:6.38em;
+		top:0.36em;
+	}
+
+	.P-Left
+	{
+		font-size:0.26em;
+		left:1.75em;
+	}
+
+	.P-Right
+	{
+		font-size:0.26em;
+		right:1.658em;
+	}
+
+	/*footer */
+	a
+	{
+		font-size: 2em;
+	}
+
+	.ML
+	{
+		padding-left:2em;
+	}
+
+	.CT
+	{
+		padding-right:2em;
+	}
+
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:664px) and (max-width:791px) and (orientation: portrait)    	/* 40em - Smartphones  	*/
+{
+	/* Mise en page générale */
+
+	/* conteneurs */
+
+	.Flex2
+	{
+		width:41em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	/* élements */
+
+	.Carte h3
+	{
+		font-size: 0.963em;
+	}
+
+	.Carte
+	{
+		width:12em;
+		padding:0 0;
+		margin-top:0.668em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h5
+	{
+		font-size:0.3em;
+	}
+
+	.Menu-CAF h4
+	{
+		font-size:0.8em;
+	}
+	
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:6.38em;
+		top:0.36em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:6.38em;
+		top:0.36em;
+	}
+
+	.P-Left
+	{
+		font-size:0.26em;
+		left:1.75em;
+	}
+
+	.P-Right
+	{
+		font-size:0.26em;
+		right:1.658em;
+	}
+
+	/* footer */
+
+	a
+	{
+		font-size: 2em;
+	}
+
+	.ML
+	{
+		padding-left:2em;
+	}
+
+	.CT
+	{
+		padding-right:2em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:568px) and (max-width:663px) and (orientation: landscape)    	/* 36em - Smartphones  	*/
+{
+	/* élements */
+
+	.Flex2
+	{
+		width:35.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:22em;
+	}
+
+	.Carte
+	{
+		width:9.88em;
+		padding:0 0;
+		margin-top:-0.13em;
+	/*	border: 1px solid blue; */
+	}
+
+	.Carte h3
+	{
+		font-size: 0.8em;
+		padding-top: 1em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h5
+	{
+		font-size:0.13em;
+	}
+
+	.Menu-CAF h4
+	{
+		font-size:0.6em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:14em;
+		height:0.5em;
+		top:0.8em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:14em;
+		height:0.5em;
+		top:0.8em;
+	}
+
+	.P-Left
+	{
+		font-size:0.21em;
+		left:0.95em;
+	}
+
+	.P-Right
+	{
+		font-size:0.21em;
+		right:0.95em;
+	}
+
+	/*footer */
+	a
+	{
+		font-size: 1.2em;
+	}
+
+	.ML
+	{
+		padding-left:0.5em;
+	}
+
+	.CT
+	{
+		padding-right:0.5em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:568px) and (max-width:663px) and (orientation: portrait)    	/* 36em - Smartphones  	*/
+{
+	/* élements */
+
+	.Flex2
+	{
+		width:35.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:22em;
+	}
+
+	.Carte
+	{
+		width:9.88em;
+		padding:0 0;
+		margin-top:-0.13em;
+	}
+
+	.Carte h3
+	{
+		font-size: 0.8em;
+		padding-top: 1em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h5
+	{
+		font-size:0.13em;
+	}
+
+	.Menu-CAF h4
+	{
+		font-size:0.6em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:14em;
+		height:0.5em;
+		top:0.8em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:14em;
+		height:0.5em;
+		top:0.8em;
+	}
+
+	.P-Left
+	{
+		font-size:0.21em;
+		left:0.95em;
+	}
+
+	.P-Right
+	{
+		font-size:0.21em;
+		right:0.95em;
+	}
+
+	/* footer */
+	a
+	{
+		font-size: 1.2em;
+	}
+
+	.ML
+	{
+		padding-left:0.5em;
+	}
+
+	.CT
+	{
+		padding-right:0.5em;
+	}
+
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:360px) and (max-width:567px) and (orientation: landscape)    	/* 23em - Smartphones  	*/
+{
+	/* élements */
+
+	.Flex2
+	{
+		width:22em;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:18em;
+	}
+
+	.Carte
+	{
+		width:6.88em;
+		padding:0 0;
+		margin-top:0.98em;
+	/*	border: 1px solid blue; */
+	}
+
+	.Carte h3
+	{
+		font-size: 0.6em;
+		padding-top: 1em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h5
+	{
+		font-size:0.13em;
+	}
+
+	.Menu-CAF h4
+	{
+		font-size:0.5em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:4.35em;
+		top:0.36em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:4.35em;
+		top:0.36em;
+	}
+
+	.P-Left
+	{
+		font-size:0.15em;
+		left:2.05em;
+	}
+
+	.P-Right
+	{
+		font-size:0.15em;
+		right:1.95em;
+	}
+
+	/* footer */
+	a
+	{
+		font-size: 1.2em;
+	}
+
+	.ML
+	{
+		padding-left:0.5em;
+	}
+
+	.CT
+	{
+		padding-right:0.5em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:360px) and (max-width:567px) and (orientation: portrait)    	/* 23em - Smartphones  	*/
+{
+	/* élements */
+
+	.Flex2
+	{
+		width:22em;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:18em;
+	}
+
+	.Carte
+	{
+		width:6.88em;
+		padding:0 0;
+		margin-top:0.98em;
+	/*	border: 1px solid blue; */
+	}
+
+	.Carte h3
+	{
+		font-size: 0.5em;
+		padding-top: 1em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h5
+	{
+		font-size:0.2em;
+	}
+
+	.Menu-CAF h4
+	{
+		font-size:0.4em;
+	}
+	
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:4.35em;
+		top:0.36em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:4.35em;
+		top:0.36em;
+	}
+
+	.P-Left
+	{
+		font-size:0.15em;
+		left:2.05em;
+	}
+
+	.P-Right
+	{
+		font-size:0.15em;
+		right:1.95em;
+	}
+
+	/* Footer */
+	a
+	{
+		font-size: 1.2em;
+	}
+
+	.ML
+	{
+		padding-left:0.5em;
+	}
+
+	.CT
+	{
+		padding-right:0.5em;
+	}
+
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:359px) and (orientation: portrait)    	/* 20em - Smartphones  	*/
+{
+	/* élements */
+
+	.Flex2
+	{
+		width:18.8em;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:18em;
+	}
+
+	.Carte
+	{
+		width:5.85em;
+		padding:0 0;
+		margin-top:1.15em;
+	/*	border: 1px solid grey; */
+	}
+
+	.Carte h3
+	{
+		font-size: 0.4em;
+		padding-top: 1.28em;
+	}
+	
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h5
+	{
+		font-size:0.15em;
+	}
+
+	.Menu-CAF h4
+	{
+		font-size:0.4em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:4.35em;
+		top:0.5em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:4.35em;
+		top:0.5em;
+	}
+
+	.P-Left
+	{
+		font-size:0.125em;
+		left:2.05em;
+	}
+
+	.P-Right
+	{
+		font-size:0.125em;
+		right:1.95em;
+	}
+
+	/* Footer */
+	a
+	{
+		font-size: 1em;
+	}
+
+	.ML
+	{
+		padding-left:0.5em;
+	}
+
+	.CT
+	{
+		padding-right:0.5em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width:319px) and (orientation: portrait)    							/* 		Obsolète  		*/
+{
+	body
+	{
+		background-color:#579c87;
+	}
+
+	.Flex, .Flex2
+	{
+		display: none;
+	}
+
+	.OBS
+	{
+		margin-top: 50%;
+		color: #fdcb46;
+		text-align: center;
+	}
+}
