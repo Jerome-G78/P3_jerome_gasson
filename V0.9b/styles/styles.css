@@ -79,7 +79,7 @@ body
 
 /* élements */
 
-#T-Bloc, #B-Bloc
+#T-Bloc, #B-Bloc, #T-Bloc-ML
 {
 	width: 100%;
     background-color:#579c87;
@@ -885,6 +885,11 @@ a
 		width:20em;
 	}
 
+	#T-Bloc-ML img
+	{
+		width:6.65em;
+	}
+
 	/* navigation */
 
 	.MLNE, .MCAF, .MLDP, .MLPG
@@ -982,6 +987,11 @@ a
 	#T-Bloc img
 	{
 		width:20em;
+	}
+
+	#T-Bloc-ML img
+	{
+		width:6.65em;
 	}
 
 	/* navigation */
@@ -1084,6 +1094,11 @@ a
 		width:18em;
 	}
 
+	#T-Bloc-ML img
+	{
+		width:6em;
+	}
+
 	/* navigation */
 
 	.MLNE, .MCAF, .MLDP, .MLPG
@@ -1182,6 +1197,11 @@ a
 	#T-Bloc img
 	{
 		width:18em;
+	}
+
+	#T-Bloc-ML img
+	{
+		width:6em;
 	}
 
 	/* navigation */
@@ -1283,6 +1303,11 @@ a
 	#T-Bloc img
 	{
 		width:18em;
+	}
+
+	#T-Bloc-ML img
+	{
+		width:6em;
 	}
 
 	/* navigation */
