@@ -295,11 +295,22 @@ a
 		right:1.7em;
 	}
 
-	 /* Obsolète */
-	 .OBS
-	 {
-		 display: none;
-	 }
+	/* Footer */
+	.ML
+	{
+		padding-left:1.5em;
+	}
+	
+	.CT
+	{
+		padding-right:1.5em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
 }
 
 @media screen and (min-width:1090px) and (max-width:1379px) and (orientation: landscape)    /* 68em - Ecran FHD  	*/
@@ -351,11 +362,22 @@ a
 		right:1.9em;
 	}
 
-	 /* Obsolète */
-	 .OBS
-	 {
-		 display: none;
-	 }
+	/* Footer */
+	.ML
+	{
+		padding-left:1.5em;
+	}
+	
+	.CT
+	{
+		padding-right:1.5em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
 }
 
 @media screen and (min-width:792px) and (max-width:1089px) and (orientation: landscape)    	/* 50em - Tablettes  	*/
@@ -423,32 +445,22 @@ a
 		right:1.9em;
 	}
 
-	/* footer */
-
-	a
-	{
-		font-size: 2.5em;
-	}
-
+	/* Footer */
 	.ML
 	{
-		padding-left:1em;
-		padding-bottom:2.45em;
-		padding-top:1.5em;
+		font-size: 0.8em;
 	}
-
+	
 	.CT
 	{
-		padding-right:1em;
-		padding-bottom:2.45em;
-		padding-top:1.5em;
+		font-size: 0.8em;
 	}
 
-	 /* Obsolète */
-	 .OBS
-	 {
-		 display: none;
-	 }
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
 }
 
 @media screen and (min-width:792px) and (max-width:1089px) and (orientation: portrait)    	/* 49em - Tablettes  	*/
@@ -516,32 +528,22 @@ a
 		right:1.9em;
 	}
 
-	/* footer */
-
-	a
-	{
-		font-size: 2.5em;
-	}
-
+	/* Footer */
 	.ML
 	{
-		padding-left:1em;
-		padding-bottom:2.45em;
-		padding-top:1.5em;
+		font-size: 0.8em;
 	}
-
+	
 	.CT
 	{
-		padding-right:1em;
-		padding-bottom:2.45em;
-		padding-top:1.5em;
+		font-size: 0.8em;
 	}
 
-	 /* Obsolète */
-	 .OBS
-	 {
-		 display: none;
-	 }
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
 }
 
 @media screen and (min-width:664px) and (max-width:791px) and (orientation: landscape)    	/* 42em - Smartphones  	*/
@@ -619,21 +621,16 @@ a
 	/*	border: 1px solid red; */
 	}
 
-	/* footer */
-
-	a
-	{
-		font-size: 2em;
-	}
+	/* Footer */
 
 	.ML
 	{
-		padding-left:2em;
+		font-size: 0.7em;
 	}
-
+	
 	.CT
 	{
-		padding-right:2em;
+		font-size: 0.7em;
 	}
 
 	/* Obsolète */
@@ -718,21 +715,16 @@ a
 	/*	border: 1px solid red; */
 	}
 
-	/* footer */
-
-	a
-	{
-		font-size: 2em;
-	}
+	/* Footer */
 
 	.ML
 	{
-		padding-left:2em;
+		font-size: 0.7em;
 	}
-
+	
 	.CT
 	{
-		padding-right:2em;
+		font-size: 0.7em;
 	}
 
 	/* Obsolète */
@@ -757,7 +749,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:22em;
+		width:6.65em;
 	}
 
 	.Carte
@@ -830,21 +822,20 @@ a
 	/*	border: 1px solid red; */
 	}
 
-	/* footer */
-
-	a
-	{
-		font-size: 1.2em;
-	}
+	/* Footer */
 
 	.ML
 	{
-		padding-left:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
-
+	
 	.CT
 	{
-		padding-right:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
 
 	/* Obsolète */
@@ -869,7 +860,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:22em;
+		width:6.65em;
 	}
 
 	.Carte
@@ -911,8 +902,6 @@ a
 
 	/* Décoration */
 
-	/* Décoration */
-
 	.Deco-EL, .Deco-PL, .Deco-DL
 	{
 		width:29.5%;
@@ -943,21 +932,20 @@ a
 	/*	border: 1px solid red; */
 	}
 
-	/* footer */
-
-	a
-	{
-		font-size: 1.2em;
-	}
+	/* Footer */
 
 	.ML
 	{
-		padding-left:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
-
+	
 	.CT
 	{
-		padding-right:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
 
 	/* Obsolète */
@@ -978,7 +966,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:18em;
+		width:6em;
 	}
 
 	.Carte
@@ -1052,19 +1040,19 @@ a
 	}
 
 	/* footer */
-	a
-	{
-		font-size: 1.2em;
-	}
-
+	
 	.ML
 	{
-		padding-left:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
-
+	
 	.CT
 	{
-		padding-right:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
 
 	/* Obsolète */
@@ -1085,7 +1073,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:18em;
+		width:6em;
 	}
 
 	.Carte
@@ -1159,19 +1147,19 @@ a
 	}
 
 	/* footer */
-	a
-	{
-		font-size: 1.2em;
-	}
-
+	
 	.ML
 	{
-		padding-left:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
-
+	
 	.CT
 	{
-		padding-right:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
 
 	/* Obsolète */
@@ -1192,7 +1180,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:18em;
+		width:6em;
 	}
 
 	.Carte
@@ -1267,19 +1255,18 @@ a
 
 	/* footer */
 
-	a
-	{
-		font-size: 1em;
-	}
-
 	.ML
 	{
-		padding-left:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
-
+	
 	.CT
 	{
-		padding-right:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
 
 	/* Obsolète */

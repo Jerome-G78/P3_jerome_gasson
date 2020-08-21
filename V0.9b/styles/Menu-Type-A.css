@@ -331,11 +331,22 @@ a
 		right:1.7em;
 	}
 
-	 /* Obsolète */
-	 .OBS
-	 {
+	/* Footer */
+	.ML
+	{
+		padding-left:1.5em;
+	}
+	
+	.CT
+	{
+		padding-right:1.5em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
 		 display: none;
-	 }
+	}
 }
 
 @media screen and (min-width:1090px) and (max-width:1379px) and (orientation: landscape)    /* 68em - Ecran FHD  	*/
@@ -387,11 +398,22 @@ a
 		right:1.9em;
 	}
 
-	 /* Obsolète */
-	 .OBS
-	 {
-		 display: none;
-	 }
+	/* Footer */
+	.ML
+	{
+		padding-left:1.5em;
+	}
+	
+	.CT
+	{
+		padding-right:1.5em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
 }
 
 @media screen and (min-width:792px) and (max-width:1089px) and (orientation: landscape)    	/* 50em - Tablettes  	*/
@@ -470,32 +492,22 @@ a
 		right:1.9em;
 	}
 
-	/* footer */
-
-	a
-	{
-		font-size: 2.5em;
-	}
-
+	/* Footer */
 	.ML
 	{
-		padding-left:1em;
-		padding-bottom:2.45em;
-		padding-top:1.5em;
+		font-size: 0.8em;
 	}
-
+	
 	.CT
 	{
-		padding-right:1em;
-		padding-bottom:2.45em;
-		padding-top:1.5em;
+		font-size: 0.8em;
 	}
 
-	 /* Obsolète */
-	 .OBS
-	 {
-		 display: none;
-	 }
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
 }
 
 @media screen and (min-width:792px) and (max-width:1089px) and (orientation: portrait)    	/* 49em - Tablettes  	*/
@@ -581,32 +593,22 @@ a
 		right:1.9em;
 	}
 
-	/* footer */
-
-	a
-	{
-		font-size: 2.5em;
-	}
-
+	/* Footer */
 	.ML
 	{
-		padding-left:1em;
-		padding-bottom:2.45em;
-		padding-top:1.5em;
+		font-size: 0.8em;
 	}
-
+	
 	.CT
 	{
-		padding-right:1em;
-		padding-bottom:2.45em;
-		padding-top:1.5em;
+		font-size: 0.8em;
 	}
 
-	 /* Obsolète */
-	 .OBS
-	 {
-		 display: none;
-	 }
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
 }
 
 @media screen and (min-width:664px) and (max-width:791px) and (orientation: landscape)    	/* 42em - Smartphones  	*/
@@ -626,21 +628,6 @@ a
 
 	/* élements */
 
-	a
-	{
-		font-size: 2em;
-	}
-
-	.ML
-	{
-		padding-left:2em;
-	}
-
-	.CT
-	{
-		padding-right:2em;
-	}
-
 	.Carte h3
 	{
 		font-size: 0.963em;
@@ -719,11 +706,23 @@ a
 	/*	border: 1px solid red; */
 	}
 
+	/* Footer */
+
+	.ML
+	{
+		font-size: 0.7em;
+	}
+	
+	.CT
+	{
+		font-size: 0.7em;
+	}
+
 	 /* Obsolète */
-	 .OBS
-	 {
-		 display: none;
-	 }
+	.OBS
+	{
+		display: none;
+	}
 }
 
 @media screen and (min-width:664px) and (max-width:791px) and (orientation: portrait)    	/* 40em - Smartphones  	*/
@@ -743,21 +742,6 @@ a
 
 	/* élements */
 
-	a
-	{
-		font-size: 2em;
-	}
-
-	.ML
-	{
-		padding-left:2em;
-	}
-
-	.CT
-	{
-		padding-right:2em;
-	}
-
 	.Carte h3
 	{
 		font-size: 0.963em;
@@ -834,6 +818,18 @@ a
 		right:1em;
 		font-size:0.2em;
 	/*	border: 1px solid red; */
+	}
+
+	/* Footer */
+
+	.ML
+	{
+		font-size: 0.7em;
+	}
+	
+	.CT
+	{
+		font-size: 0.7em;
 	}
 
 	 /* Obsolète */
@@ -858,22 +854,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:22em;
-	}
-
-	a
-	{
-		font-size: 1.2em;
-	}
-
-	.ML
-	{
-		padding-left:0.5em;
-	}
-
-	.CT
-	{
-		padding-right:0.5em;
+		width:6.65em;
 	}
 
 	.Carte
@@ -966,11 +947,27 @@ a
 	/*	border: 1px solid red; */
 	}
 
-	 /* Obsolète */
-	 .OBS
-	 {
-		 display: none;
-	 }
+	/* Footer */
+
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
 }
 
 @media screen and (min-width:568px) and (max-width:663px) and (orientation: portrait)    	/* 36em - Smartphones  	*/
@@ -988,22 +985,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:22em;
-	}
-
-	a
-	{
-		font-size: 1.2em;
-	}
-
-	.ML
-	{
-		padding-left:0.5em;
-	}
-
-	.CT
-	{
-		padding-right:0.5em;
+		width:6.65em;
 	}
 
 	.Carte
@@ -1095,11 +1077,27 @@ a
 	/*	border: 1px solid red; */
 	}
 
-	 /* Obsolète */
-	 .OBS
-	 {
-		 display: none;
-	 }
+	/* Footer */
+
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
 }
 
 @media screen and (min-width:360px) and (max-width:567px) and (orientation: landscape)    	/* 23em - Smartphones  	*/
@@ -1113,22 +1111,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:18em;
-	}
-
-	a
-	{
-		font-size: 1.2em;
-	}
-
-	.ML
-	{
-		padding-left:0.5em;
-	}
-
-	.CT
-	{
-		padding-right:0.5em;
+		width:6em;
 	}
 
 	.Carte
@@ -1222,11 +1205,27 @@ a
 	/*	border: 1px solid red; */
 	}
 
-	 /* Obsolète */
-	 .OBS
-	 {
-		 display: none;
-	 }
+	/* Footer */
+	
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
 }
 
 @media screen and (min-width:360px) and (max-width:567px) and (orientation: portrait)    	/* 23em - Smartphones  	*/
@@ -1240,22 +1239,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:18em;
-	}
-
-	a
-	{
-		font-size: 1.2em;
-	}
-
-	.ML
-	{
-		padding-left:0.5em;
-	}
-
-	.CT
-	{
-		padding-right:0.5em;
+		width:6em;
 	}
 
 	.Carte
@@ -1349,11 +1333,27 @@ a
 	/*	border: 1px solid red; */
 	}
 
-	 /* Obsolète */
-	 .OBS
-	 {
-		 display: none;
-	 }
+	/* Footer */
+	
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
 }
 
 @media screen and (min-width:320px) and (max-width:359px) and (orientation: portrait)    	/* 20em - Smartphones  	*/
@@ -1367,22 +1367,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:18em;
-	}
-
-	a
-	{
-		font-size: 1em;
-	}
-
-	.ML
-	{
-		padding-left:0.5em;
-	}
-
-	.CT
-	{
-		padding-right:0.5em;
+		width:6em;
 	}
 
 	.Carte
@@ -1473,11 +1458,28 @@ a
 	/*	border: 1px solid red; */
 	}
 
-	 /* Obsolète */
-	 .OBS
-	 {
-		 display: none;
-	 }
+	/* Footer */
+	
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+
+	/* Obsolète */
+
+	.OBS
+	{
+		display: none;
+	}
 }
 
 @media screen and (max-width:319px) and (orientation: portrait)    							/* 		Obsolète  		*/

@@ -79,7 +79,7 @@ body
 
 /* élements */
 
-#T-Bloc, #B-Bloc, #T-Bloc-Menu
+#T-Bloc, #B-Bloc
 {
 	width: 100%;
     background-color:#579c87;
@@ -96,6 +96,7 @@ body
 
 .Prochainement h4
 {
+	display:inline-block;
 	width:11.354em;
 	position:relative;
 	top:-1.32em;
@@ -442,18 +443,6 @@ a
 		width:80em;
 	}
 
-	/* Elements */
-	
-	.ML
-	{
-		padding-left:1.5em;
-	}
-	
-	.CT
-	{
-		padding-right:1.5em;
-	}
-
 	/* navigation */
 
 	.MLNE, .MCAF, .MLDP, .MLPG
@@ -485,6 +474,17 @@ a
 		padding: 15.6em 4.5em; /* H - L */
 	}
 
+	/* Footer */
+	.ML
+	{
+		padding-left:1.5em;
+	}
+	
+	.CT
+	{
+		padding-right:1.5em;
+	}
+
 	/* Obsolète */
 	.OBS
 	{
@@ -499,18 +499,6 @@ a
 	.Flex2
 	{
 		width:68em;
-	}
-
-	/* Elements */
-	
-	.ML
-	{
-		padding-left:1.5em;
-	}
-	
-	.CT
-	{
-		padding-right:1.5em;
 	}
 
 	/* navigation */
@@ -537,6 +525,17 @@ a
 	.MLPG
 	{
 		padding: 15.6em 4.5em; /* H - L */
+	}
+
+	/* Footer */
+	.ML
+	{
+		padding-left:1.5em;
+	}
+	
+	.CT
+	{
+		padding-right:1.5em;
 	}
 
 	/* Obsolète */
@@ -556,16 +555,6 @@ a
 		display:column;
 	}
 
-	.ML
-	{
-		font-size: 0.8em;
-	}
-	
-	.CT
-	{
-		font-size: 0.8em;
-	}
-
 	/* navigation */
 
 	.MLNE, .MCAF, .MLDP, .MLPG
@@ -615,6 +604,17 @@ a
 	.MLPG-F, .MLPG-M
 	{
 		font-size:1.508em;
+	}
+
+	/* Footer */
+	.ML
+	{
+		font-size: 0.8em;
+	}
+	
+	.CT
+	{
+		font-size: 0.8em;
 	}
 	
 	/* Obsolète */
@@ -634,16 +634,6 @@ a
 		display:column;
 	}
 
-	.ML
-	{
-		font-size: 0.8em;
-	}
-	
-	.CT
-	{
-		font-size: 0.8em;
-	}
-
 	/* navigation */
 
 	.MLNE, .MCAF, .MLDP, .MLPG
@@ -694,6 +684,17 @@ a
 	{
 		font-size:1.508em;
 	}
+
+	/* Footer */
+	.ML
+	{
+		font-size: 0.8em;
+	}
+	
+	.CT
+	{
+		font-size: 0.8em;
+	}
 	
 	/* Obsolète */
 	.OBS
@@ -709,16 +710,6 @@ a
 	.Flex2
 	{
 		width:33.1em;
-	}
-
-	.ML
-	{
-		font-size: 0.7em;
-	}
-	
-	.CT
-	{
-		font-size: 0.7em;
 	}
 
 	/* navigation */
@@ -775,6 +766,18 @@ a
 	.Prochainement h4
 	{
 		font-size: 3em;
+	}
+
+	/* Footer */
+
+	.ML
+	{
+		font-size: 0.7em;
+	}
+	
+	.CT
+	{
+		font-size: 0.7em;
 	}
 	
 	/* Obsolète */
@@ -793,16 +796,6 @@ a
 		width:33.1em;
 	}
 
-	.ML
-	{
-		font-size: 0.7em;
-	}
-	
-	.CT
-	{
-		font-size: 0.7em;
-	}
-
 	/* navigation */
 
 	.MLNE, .MCAF, .MLDP, .MLPG
@@ -859,6 +852,18 @@ a
 		font-size: 3em;
 	}
 	
+	/* Footer */
+
+	.ML
+	{
+		font-size: 0.7em;
+	}
+	
+	.CT
+	{
+		font-size: 0.7em;
+	}
+
 	/* Obsolète */
 	.OBS
 	{
@@ -880,16 +885,6 @@ a
 		width:20em;
 	}
 
-	.ML
-	{
-		font-size: 0.4em;
-	}
-	
-	.CT
-	{
-		font-size: 0.4em;
-	}
-
 	/* navigation */
 
 	.MLNE, .MCAF, .MLDP, .MLPG
@@ -905,7 +900,7 @@ a
 
 	.MLNE-F, .MLNE-M
 	{
-		font-size: 0.58em;
+		font-size: 0.57em;
 	}
 
 	/* Le chic à la française */
@@ -943,13 +938,29 @@ a
 
 	.Prochainement h4
 	{
-		font-size: 1.587em;
+		font-size: 1.687em;
 		margin-bottom:4em;
 	}
 	
 	.Space
 	{
 		margin:0 0.859em;
+	}
+
+	/* Footer */
+
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
 
 	/* Obsolète */
@@ -973,16 +984,6 @@ a
 		width:20em;
 	}
 
-	.ML
-	{
-		font-size: 0.4em;
-	}
-	
-	.CT
-	{
-		font-size: 0.4em;
-	}
-
 	/* navigation */
 
 	.MLNE, .MCAF, .MLDP, .MLPG
@@ -998,7 +999,7 @@ a
 
 	.MLNE-F, .MLNE-M
 	{
-		font-size: 0.58em;
+		font-size: 0.57em;
 	}
 
 	/* Le chic à la française */
@@ -1036,13 +1037,29 @@ a
 
 	.Prochainement h4
 	{
-		font-size: 1.587em;
+		font-size: 1.687em;
 		margin-bottom:4em;
 	}
 	
 	.Space
 	{
 		margin:0 0.5em;
+	}
+
+	/* Footer */
+
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
 
 	/* Obsolète */
@@ -1067,16 +1084,6 @@ a
 		width:18em;
 	}
 
-	.ML
-	{
-		font-size: 0.3em;
-	}
-	
-	.CT
-	{
-		font-size: 0.3em;
-	}
-
 	/* navigation */
 
 	.MLNE, .MCAF, .MLDP, .MLPG
@@ -1129,9 +1136,7 @@ a
 	}
 
 	.Prochainement h4
-	{{
-
-}
+	{
 		font-size: 1.1em;
 		margin-bottom:5em;
 	}
@@ -1139,6 +1144,22 @@ a
 	.Space
 	{
 		margin:0 0.65em;
+	}
+
+	/* Footer */
+
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
 
 	/* Obsolète */
@@ -1163,16 +1184,6 @@ a
 		width:18em;
 	}
 
-	.ML
-	{
-		font-size: 0.3em;
-	}
-	
-	.CT
-	{
-		font-size: 0.3em;
-	}
-
 	/* navigation */
 
 	.MLNE, .MCAF, .MLDP, .MLPG
@@ -1235,7 +1246,24 @@ a
 		margin:0 0.65em;
 	}
 
+	/* Footer */
+
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+
 	/* Obsolète */
+
 	.OBS
 	{
 		display: none;
@@ -1257,16 +1285,6 @@ a
 		width:18em;
 	}
 
-	.ML
-	{
-		font-size: 0.3em;
-	}
-	
-	.CT
-	{
-		font-size: 0.3em;
-	}
-
 	/* navigation */
 
 	.MLNE, .MCAF, .MLDP, .MLPG
@@ -1327,6 +1345,21 @@ a
 	.Space
 	{
 		margin:0 0.65em;
+	}
+
+	/* Footer */
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
 
 	/* Obsolète */

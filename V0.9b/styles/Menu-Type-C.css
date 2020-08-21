@@ -252,6 +252,17 @@ a
 		width:10.55em;
 	}
 
+	/* Footer */
+	.ML
+	{
+		padding-left:1.5em;
+	}
+	
+	.CT
+	{
+		padding-right:1.5em;
+	}
+
 	/* Obsolète */
 	.OBS
 	{
@@ -288,6 +299,17 @@ a
 	{
 		font-size:0.28em;
 		right:2em;
+	}
+
+	/* Footer */
+	.ML
+	{
+		padding-left:1.5em;
+	}
+	
+	.CT
+	{
+		padding-right:1.5em;
 	}
 
 	/* Obsolète */
@@ -358,25 +380,15 @@ a
 		right:1.95em;
 	}
 
-	/* footer */
-
-	a
-	{
-		font-size: 2.5em;
-	}
-
+	/* Footer */
 	.ML
 	{
-		padding-left:1em;
-		padding-bottom:2.45em;
-		padding-top:1.5em;
+		font-size: 0.8em;
 	}
-
+	
 	.CT
 	{
-		padding-right:1em;
-		padding-bottom:2.45em;
-		padding-top:1.5em;
+		font-size: 0.8em;
 	}
 
 	/* Obsolète */
@@ -447,25 +459,15 @@ a
 		right:1.95em;
 	}
 
-	/* footer */
-
-	a
-	{
-		font-size: 2.5em;
-	}
-
+	/* Footer */
 	.ML
 	{
-		padding-left:1em;
-		padding-bottom:2.45em;
-		padding-top:1.5em;
+		font-size: 0.8em;
 	}
-
+	
 	.CT
 	{
-		padding-right:1em;
-		padding-bottom:2.45em;
-		padding-top:1.5em;
+		font-size: 0.8em;
 	}
 
 	/* Obsolète */
@@ -542,20 +544,16 @@ a
 		right:1.658em;
 	}
 
-	/*footer */
-	a
-	{
-		font-size: 2em;
-	}
+	/* Footer */
 
 	.ML
 	{
-		padding-left:2em;
+		font-size: 0.7em;
 	}
-
+	
 	.CT
 	{
-		padding-right:2em;
+		font-size: 0.7em;
 	}
 
 
@@ -633,21 +631,16 @@ a
 		right:1.658em;
 	}
 
-	/* footer */
-
-	a
-	{
-		font-size: 2em;
-	}
+	/* Footer */
 
 	.ML
 	{
-		padding-left:2em;
+		font-size: 0.7em;
 	}
-
+	
 	.CT
 	{
-		padding-right:2em;
+		font-size: 0.7em;
 	}
 
 	/* Obsolète */
@@ -672,7 +665,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:22em;
+		width:6.65em;
 	}
 
 	.Carte
@@ -729,20 +722,20 @@ a
 		right:0.95em;
 	}
 
-	/*footer */
-	a
-	{
-		font-size: 1.2em;
-	}
+	/* Footer */
 
 	.ML
 	{
-		padding-left:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
-
+	
 	.CT
 	{
-		padding-right:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
 
 	/* Obsolète */
@@ -767,7 +760,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:22em;
+		width:6.65em;
 	}
 
 	.Carte
@@ -823,22 +816,21 @@ a
 		right:0.95em;
 	}
 
-	/* footer */
-	a
-	{
-		font-size: 1.2em;
-	}
+	/* Footer */
 
 	.ML
 	{
-		padding-left:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
-
+	
 	.CT
 	{
-		padding-right:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
-
 
 	/* Obsolète */
 	.OBS
@@ -858,7 +850,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:18em;
+		width:6em;
 	}
 
 	.Carte
@@ -913,20 +905,20 @@ a
 		right:1.95em;
 	}
 
-	/* footer */
-	a
-	{
-		font-size: 1.2em;
-	}
-
+	/* Footer */
+	
 	.ML
 	{
-		padding-left:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
-
+	
 	.CT
 	{
-		padding-right:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
 
 	/* Obsolète */
@@ -947,7 +939,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:18em;
+		width:6em;
 	}
 
 	.Carte
@@ -1003,19 +995,19 @@ a
 	}
 
 	/* Footer */
-	a
-	{
-		font-size: 1.2em;
-	}
-
+	
 	.ML
 	{
-		padding-left:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
-
+	
 	.CT
 	{
-		padding-right:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
 
 
@@ -1037,7 +1029,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:18em;
+		width:6em;
 	}
 
 	.Carte
@@ -1093,22 +1085,23 @@ a
 	}
 
 	/* Footer */
-	a
-	{
-		font-size: 1em;
-	}
 
 	.ML
 	{
-		padding-left:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
-
+	
 	.CT
 	{
-		padding-right:0.5em;
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
 	}
 
 	/* Obsolète */
+
 	.OBS
 	{
 		display: none;
