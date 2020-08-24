@@ -47,7 +47,7 @@
 
 body
 {
-	font-family:Montserrat;
+	font-family:'Montserrat';
 /*  font-size: 16px; */
 	/* RESET*/
     margin:0; 
@@ -185,7 +185,7 @@ header
 .MLCAF-M
 {
 	color:#c77412;
-	font-family:LibreCaslon;
+	font-family:'LibreCaslon';
 	font-weight: bold;
 	font-size: 1.17em;
 }
@@ -259,7 +259,7 @@ header
 
 .MLPG-M, .MLDP-M
 {
-	font-family:Worstveld;
+	font-family:'Worstveld';
 	font-weight: bold;
 	font-size: 1.58em;
 }
@@ -415,31 +415,6 @@ header
 {
 	word-wrap:break-word;
 	margin:2em;
-}
-
-@media screen and (min-width:1920px) and (orientation: landscape)    /* 120em - Grand Ecran FHD+ */
-{
-	/* Header */
-	header
-	{
-		margin: 2.9em 0;
-	}
-
-	.Flex2
-	{
-		width:115em;
-	}
-
-	.Prochainement h4
-	{
-		margin-top:1.425em;
-	}
-
-	/* Obsolète */
-	.OBS
-	{
-		display: none;
-	}
 }
 
 @media screen and (min-width:1280px) and (orientation: landscape)    /* 80em - Grand Ecran HD	 */
