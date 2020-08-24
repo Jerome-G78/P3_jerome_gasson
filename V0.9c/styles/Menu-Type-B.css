@@ -60,6 +60,12 @@ body
 /*  border: 1px solid green;	/* DEBUG */
 }
 
+.Flex3
+{
+	width:100%;
+	justify-content:center;
+}
+
 /* élements */
 
 #B-Bloc, #T-Bloc-Menu
@@ -77,18 +83,20 @@ body
 	bottom:0em;
 }
 
-header
-{
-	margin: 3.95em 0;
-/*	border: 1px solid red;	/* DEBUG */
-}
-
 a
 {
-	font-size: 3em;
 	color: #fdcb46; /* Jaune foncé */
 	text-decoration:none;
 }
+
+/* Header */
+header
+{
+	margin: 5em 0;
+/*	border: 1px solid red;	/* DEBUG */
+}
+
+
 
 /* Mise en pages des menus */
 
@@ -253,7 +261,7 @@ a
 
 .Deco-EL, .Deco-PL, .Deco-DL
 {
-	width:15.15em;
+	width:4.5em;
 	position: relative;
 	top: 0.5em;
 	left:3.15em;
@@ -262,7 +270,7 @@ a
 
 .Deco-ER, .Deco-PR, .Deco-DR
 {
-	width:15.15em;
+	width:4.5em;
 	position: relative;
 	top:0.5em;
 	right:3.13em;
@@ -294,25 +302,32 @@ a
 }
 
 /* Footer */
+
+.ML, .CT
+{
+	padding-bottom:1.5em;
+	padding-top:0.9em;
+}
+
 .ML
 {
 	padding-left:2.5em;
-	padding-bottom:2.45em;
-	padding-top:1.5em;
 	float:left;
-	
 }
 
 .CT
 {
-	padding-right:2.40em;
-	padding-bottom:2.45em;
-	padding-top:1.5em;
+	padding-right:2.5em;
 	float:right;
 }
 
 @media screen and (min-width:1280px) and (orientation: landscape)    /* 80em - Grand Ecran FHD+  */
 {
+	.Flex2
+	{
+		width: 68em;
+	}
+
 	/* Obsolète */
 	.OBS
 	{
@@ -324,7 +339,7 @@ a
 {
 	.Flex2
 	{
-		width: 67em;
+		width: 68em;
 	}
 
 	/* Menu - La palette du goût */
@@ -345,14 +360,14 @@ a
 
 	.Deco-EL, .Deco-PL, .Deco-DL
 	{
-		width:22.5%;
+		width:6.5em;
 		top: 0.5em;
 		left:1.08em;
 	}
 
 	.Deco-ER, .Deco-PR, .Deco-DR
 	{
-		width:22.5%;
+		width:6.5em;
 		top:0.5em;
 		right:1.04em;
 	}
@@ -369,12 +384,515 @@ a
 		right:1.9em;
 	}
 
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:664px) and (max-width:1089px) and (orientation: landscape)    	/* 42em - Tablettes  	*/
+{
+	.Flex2
+	{
+		width: 39.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:12em;
+		padding:0 0;
+		margin-top:0.67em;
+	}
+
+	.Carte h3
+	{
+		font-size:0.963em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.6em;
+	}
+
+	/* Menu - Le délice des papilles */
+
+	.Menu-LDP h4
+	{
+		font-size:0.6em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h5
+	{
+		font-size:0.38em;
+	}
+
+	.Menu-CAF h4
+	{
+		font-size:0.8em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:3.76em;
+		top: 0.5em;
+		left:0.93em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:3.76em;
+		top:0.5em;
+		right:0.915em;
+	}
+
+	.P-Left
+	{
+		font-size:0.25em;
+		left:2em;
+	}
+
+	.P-Right
+	{
+		font-size:0.25em;
+		right:1.9em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:664px) and (max-width:1089px) and (orientation: portrait)    	/* 49em - Tablettes  	*/
+{
+	.Flex2
+	{
+		width: 39.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:12em;
+		padding:0 0;
+		margin-top:0.67em;
+	}
+
+	.Carte h3
+	{
+		font-size:0.963em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.6em;
+	}
+
+	/* Menu - Le délice des papilles */
+
+	.Menu-LDP h4
+	{
+		font-size:0.6em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h5
+	{
+		font-size:0.38em;
+	}
+
+	.Menu-CAF h4
+	{
+		font-size:0.8em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:3.76em;
+		top: 0.5em;
+		left:0.93em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:3.76em;
+		top:0.5em;
+		right:0.915em;
+	}
+
+	.P-Left
+	{
+		font-size:0.25em;
+		left:2em;
+	}
+
+	.P-Right
+	{
+		font-size:0.25em;
+		right:1.9em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:568px) and (max-width:663px) and (orientation: landscape)    	/* 36em - Smartphones  	*/
+{
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	/*	border: 1px solid red;	/* DEBUG */
+	}
+
+	/* élements */
+
+	.Flex2
+	{
+		width:35.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:9.88em;
+		padding:0 0;
+		margin-top:-0.13em;
+	/*	border: 1px solid blue; */
+	}
+
+	.Carte h3
+	{
+		font-size: 0.8em;
+		padding-top: 1em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.4em;
+	}
+
+	.Menu-LPG h5
+	{
+		font-size:0.16em;
+	}
+
+	/* Menu - Le délice des papilles */
+
+	.Menu-LDP h4
+	{
+		font-size:0.6em;
+	}
+
+	.Menu-LDP h5
+	{
+		font-size:0.16em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h5
+	{
+		font-size:0.13em;
+	}
+
+	.Menu-CAF h4
+	{
+		font-size:0.6em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:29.5%;
+		top: 0.5em;
+		left:0.45em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:29.5%;
+		top:0.5em;
+		right:0.615em;
+	}
+
+	.P-Left
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.19em;
+	/*	border: 1px solid blue; */
+	}
+
+	.P-Right
+	{
+		top:-1em;
+		right:1em;
+		font-size:0.19em;
+	/*	border: 1px solid red; */
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:568px) and (max-width:663px) and (orientation: portrait)    	/* 36em - Smartphones  	*/
+{
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	/*	border: 1px solid red;	/* DEBUG */
+	}
+
+	/* élements */
+
+	.Flex2
+	{
+		width:35.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:9.88em;
+		padding:0 0;
+		margin-top:-0.13em;
+	/*	border: 1px solid blue; */
+	}
+
+	.Carte h3
+	{
+		font-size: 0.8em;
+		padding-top: 1em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.4em;
+	}
+
+	.Menu-LPG h5
+	{
+		font-size:0.16em;
+	}
+
+	/* Menu - Le délice des papilles */
+
+	.Menu-LDP h4
+	{
+		font-size:0.6em;
+	}
+
+	.Menu-LDP h5
+	{
+		font-size:0.16em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h5
+	{
+		font-size:0.13em;
+	}
+
+	.Menu-CAF h4
+	{
+		font-size:0.6em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:29.5%;
+		top: 0.5em;
+		left:0.45em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:29.5%;
+		top:0.5em;
+		right:0.615em;
+	}
+
+	.P-Left
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.19em;
+	/*	border: 1px solid blue; */
+	}
+
+	.P-Right
+	{
+		top:-1em;
+		right:1em;
+		font-size:0.19em;
+	/*	border: 1px solid red; */
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:360px) and (max-width:567px) and (orientation: landscape)    	/* 23em - Smartphones  	*/
+{
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	/*	border: 1px solid red;	/* DEBUG */
+	}
+
+	/* élements */
+
+	.Flex2
+	{
+		width:22em;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:15em;
+	}
+
+	.Carte
+	{
+		width:6.88em;
+		padding:0 0;
+		margin-top:0.98em;
+	/*	border: 1px solid blue; */
+	}
+
+	.Carte h3
+	{
+		font-size: 0.6em;
+		padding-top: 1em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.3em;
+	}
+
+	.Menu-LPG h5
+	{
+		font-size:0.16em;
+	}
+
+	/* Menu - Le délice des papilles */
+
+	.Menu-LDP h4
+	{
+		font-size:0.3em;
+	}
+
+	.Menu-LDP h5
+	{
+		font-size:0.16em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h5
+	{
+		font-size:0.13em;
+	}
+
+	.Menu-CAF h4
+	{
+		font-size:0.5em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:25.9%;
+		top: 0.5em;
+		left:0.48em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:25.9%;
+		top:0.5em;
+		right:0.615em;
+	}
+
+	.P-Left
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.153em;
+	/*	border: 1px solid blue; */
+	}
+
+	.P-Right
+	{
+		top:-1em;
+		right:1em;
+		font-size:0.153em;
+	/*	border: 1px solid red; */
+	}
+
 	/* Footer */
+
+	.ML, .CT
+	{
+		padding-bottom:1.4em;
+		padding-top:0.65em;
+	}
+
 	.ML
 	{
 		padding-left:1.5em;
 	}
-	
+
 	.CT
 	{
 		padding-right:1.5em;
@@ -387,774 +905,15 @@ a
 	}
 }
 
-@media screen and (min-width:792px) and (max-width:1089px) and (orientation: landscape)    	/* 50em - Tablettes  	*/
-{
-	.Flex2
-	{
-		width: 49em;
-		display:flex;
-		justify-content:center;
-		align-items:center;
-		flex-wrap:wrap;
-	}
-
-	.Carte
-	{
-		width:12.5em;
-		padding:0 0;
-		margin-top:0.67em;
-	}
-
-	.Carte h3
-	{
-		font-size:0.963em;
-	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.6em;
-	}
-
-	/* Menu - Le délice des papilles */
-
-	.Menu-LDP h4
-	{
-		font-size:0.6em;
-	}
-
-	/* Menu - Le chic à la française */
-
-	.Menu-CAF h5
-	{
-		font-size:0.38em;
-	}
-
-	.Menu-CAF h4
-	{
-		font-size:0.8em;
-	}
-
-	/* Décoration */
-
-	.Deco-EL, .Deco-PL, .Deco-DL
-	{
-		width:23.5%;
-		top: 0.5em;
-		left:0.93em;
-	}
-
-	.Deco-ER, .Deco-PR, .Deco-DR
-	{
-		width:23.5%;
-		top:0.5em;
-		right:0.915em;
-	}
-
-	.P-Left
-	{
-		font-size:0.25em;
-		left:2em;
-	}
-
-	.P-Right
-	{
-		font-size:0.25em;
-		right:1.9em;
-	}
-
-	/* Footer */
-	.ML
-	{
-		font-size: 0.8em;
-	}
-	
-	.CT
-	{
-		font-size: 0.8em;
-	}
-
-	/* Obsolète */
-	.OBS
-	{
-		display: none;
-	}
-}
-
-@media screen and (min-width:792px) and (max-width:1089px) and (orientation: portrait)    	/* 49em - Tablettes  	*/
-{
-	.Flex2
-	{
-		width: 49em;
-		display:flex;
-		justify-content:center;
-		align-items:center;
-		flex-wrap:wrap;
-	}
-
-	.Carte
-	{
-		width:12.5em;
-		padding:0 0;
-		margin-top:0.67em;
-	}
-
-	.Carte h3
-	{
-		font-size:0.963em;
-	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.6em;
-	}
-
-	/* Menu - Le délice des papilles */
-
-	.Menu-LDP h4
-	{
-		font-size:0.6em;
-	}
-
-	/* Menu - Le chic à la française */
-
-	.Menu-CAF h5
-	{
-		font-size:0.38em;
-	}
-
-	.Menu-CAF h4
-	{
-		font-size:0.8em;
-	}
-
-	/* Décoration */
-
-	.Deco-EL, .Deco-PL, .Deco-DL
-	{
-		width:23.5%;
-		top: 0.5em;
-		left:0.93em;
-	}
-
-	.Deco-ER, .Deco-PR, .Deco-DR
-	{
-		width:23.5%;
-		top:0.5em;
-		right:0.915em;
-	}
-
-	.P-Left
-	{
-		font-size:0.25em;
-		left:2em;
-	}
-
-	.P-Right
-	{
-		font-size:0.25em;
-		right:1.9em;
-	}
-
-	/* Footer */
-	.ML
-	{
-		font-size: 0.8em;
-	}
-	
-	.CT
-	{
-		font-size: 0.8em;
-	}
-
-	/* Obsolète */
-	.OBS
-	{
-		display: none;
-	}
-}
-
-@media screen and (min-width:664px) and (max-width:791px) and (orientation: landscape)    	/* 42em - Smartphones  	*/
-{
-	/* Mise en page générale */
-
-	/* conteneurs */
-
-	.Flex2
-	{
-		width:41em;
-		display:flex;
-		justify-content:center;
-		align-items:center;
-		flex-wrap:wrap;
-	}
-
-	/* élements */
-
-	.Carte h3
-	{
-		font-size: 0.963em;
-	}
-
-	.Carte
-	{
-		width:12em;
-		padding:0 0;
-		margin-top:0.668em;
-	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.6em;
-	}
-
-	/* Menu - Le délice des papilles */
-
-	.Menu-LDP h4
-	{
-		font-size:0.6em;
-	}
-
-	/* Menu - Le chic à la française */
-
-	.Menu-CAF h5
-	{
-		font-size:0.3em;
-	}
-
-	.Menu-CAF h4
-	{
-		font-size:0.8em;
-	}
-
-	/* Décoration */
-
-	.Deco-EL, .Deco-PL, .Deco-DL
-	{
-		width:29.5%;
-		top: 0.5em;
-		left:0.58em;
-	}
-
-	.Deco-ER, .Deco-PR, .Deco-DR
-	{
-		width:29.5%;
-		top:0.5em;
-		right:0.615em;
-	}
-
-	.P-Left
-	{
-		top:-1em;
-		left:1em;
-		font-size:0.26em;
-	/*	border: 1px solid blue; */
-	}
-
-	.P-Right
-	{
-		top:-1em;
-		right:1em;
-		font-size:0.26em;
-	/*	border: 1px solid red; */
-	}
-
-	/* Footer */
-
-	.ML
-	{
-		font-size: 0.7em;
-	}
-	
-	.CT
-	{
-		font-size: 0.7em;
-	}
-
-	/* Obsolète */
-	.OBS
-	{
-		display: none;
-	}
-}
-
-@media screen and (min-width:664px) and (max-width:791px) and (orientation: portrait)    	/* 40em - Smartphones  	*/
-{
-	/* Mise en page générale */
-
-	/* conteneurs */
-
-	.Flex2
-	{
-		width:41em;
-		display:flex;
-		justify-content:center;
-		align-items:center;
-		flex-wrap:wrap;
-	}
-
-	/* élements */
-
-	.Carte h3
-	{
-		font-size: 0.963em;
-	}
-
-	.Carte
-	{
-		width:12em;
-		padding:0 0;
-		margin-top:0.668em;
-	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.6em;
-	}
-
-	/* Menu - Le délice des papilles */
-
-	.Menu-LDP h4
-	{
-		font-size:0.6em;
-	}
-	
-	/* Menu - Le chic à la française */
-
-	.Menu-CAF h5
-	{
-		font-size:0.3em;
-	}
-
-	.Menu-CAF h4
-	{
-		font-size:0.8em;
-	}
-
-	/* Décoration */
-
-	.Deco-EL, .Deco-PL, .Deco-DL
-	{
-		width:29.5%;
-		top: 0.5em;
-		left:0.58em;
-	}
-
-	.Deco-ER, .Deco-PR, .Deco-DR
-	{
-		width:29.5%;
-		top:0.5em;
-		right:0.615em;
-	}
-
-	.P-Left
-	{
-		top:-1em;
-		left:1em;
-		font-size:0.26em;
-	/*	border: 1px solid blue; */
-	}
-
-	.P-Right
-	{
-		top:-1em;
-		right:1em;
-		font-size:0.26em;
-	/*	border: 1px solid red; */
-	}
-
-	/* Footer */
-
-	.ML
-	{
-		font-size: 0.7em;
-	}
-	
-	.CT
-	{
-		font-size: 0.7em;
-	}
-
-	/* Obsolète */
-	.OBS
-	{
-		display: none;
-	}
-}
-
-@media screen and (min-width:568px) and (max-width:663px) and (orientation: landscape)    	/* 36em - Smartphones  	*/
-{
-	/* élements */
-
-	.Flex2
-	{
-		width:35.5em;
-		display:flex;
-		justify-content:center;
-		align-items:center;
-		flex-wrap:wrap;
-	}
-
-	#T-Bloc-Menu img
-	{
-		width:6.65em;
-	}
-
-	.Carte
-	{
-		width:9.88em;
-		padding:0 0;
-		margin-top:-0.13em;
-	/*	border: 1px solid blue; */
-	}
-
-	.Carte h3
-	{
-		font-size: 0.8em;
-		padding-top: 1em;
-	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.4em;
-	}
-
-	.Menu-LPG h5
-	{
-		font-size:0.16em;
-	}
-
-	/* Menu - Le délice des papilles */
-
-	.Menu-LDP h4
-	{
-		font-size:0.6em;
-	}
-
-	.Menu-LDP h5
-	{
-		font-size:0.16em;
-	}
-
-	/* Menu - Le chic à la française */
-
-	.Menu-CAF h5
-	{
-		font-size:0.13em;
-	}
-
-	.Menu-CAF h4
-	{
-		font-size:0.6em;
-	}
-
-	/* Décoration */
-
-	.Deco-EL, .Deco-PL, .Deco-DL
-	{
-		width:29.5%;
-		top: 0.5em;
-		left:0.45em;
-	}
-
-	.Deco-ER, .Deco-PR, .Deco-DR
-	{
-		width:29.5%;
-		top:0.5em;
-		right:0.615em;
-	}
-
-	.P-Left
-	{
-		top:-1em;
-		left:1em;
-		font-size:0.19em;
-	/*	border: 1px solid blue; */
-	}
-
-	.P-Right
-	{
-		top:-1em;
-		right:1em;
-		font-size:0.19em;
-	/*	border: 1px solid red; */
-	}
-
-	/* Footer */
-
-	.ML
-	{
-		font-size: 0.3em;
-		padding-top:0em;
-		padding-bottom:3.4em;
-	}
-	
-	.CT
-	{
-		font-size: 0.3em;
-		padding-top:0em;
-		padding-bottom:3.4em;
-	}
-
-	/* Obsolète */
-	.OBS
-	{
-		display: none;
-	}
-}
-
-@media screen and (min-width:568px) and (max-width:663px) and (orientation: portrait)    	/* 36em - Smartphones  	*/
-{
-	/* élements */
-
-	.Flex2
-	{
-		width:35.5em;
-		display:flex;
-		justify-content:center;
-		align-items:center;
-		flex-wrap:wrap;
-	}
-
-	#T-Bloc-Menu img
-	{
-		width:6.65em;
-	}
-
-	.Carte
-	{
-		width:9.88em;
-		padding:0 0;
-		margin-top:-0.13em;
-	}
-
-	.Carte h3
-	{
-		font-size: 0.8em;
-		padding-top: 1em;
-	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.4em;
-	}
-
-	.Menu-LPG h5
-	{
-		font-size:0.16em;
-	}
-
-	/* Menu - Le délice des papilles */
-
-	.Menu-LDP h4
-	{
-		font-size:0.6em;
-	}
-
-	.Menu-LDP h5
-	{
-		font-size:0.16em;
-	}
-
-	/* Menu - Le chic à la française */
-
-	.Menu-CAF h5
-	{
-		font-size:0.13em;
-	}
-
-	.Menu-CAF h4
-	{
-		font-size:0.6em;
-	}
-
-	/* Décoration */
-
-	.Deco-EL, .Deco-PL, .Deco-DL
-	{
-		width:29.5%;
-		top: 0.5em;
-		left:0.45em;
-	}
-
-	.Deco-ER, .Deco-PR, .Deco-DR
-	{
-		width:29.5%;
-		top:0.5em;
-		right:0.615em;
-	}
-
-	.P-Left
-	{
-		top:-1em;
-		left:1em;
-		font-size:0.19em;
-	/*	border: 1px solid blue; */
-	}
-
-	.P-Right
-	{
-		top:-1em;
-		right:1em;
-		font-size:0.19em;
-	/*	border: 1px solid red; */
-	}
-
-	/* Footer */
-
-	.ML
-	{
-		font-size: 0.3em;
-		padding-top:0em;
-		padding-bottom:3.4em;
-	}
-	
-	.CT
-	{
-		font-size: 0.3em;
-		padding-top:0em;
-		padding-bottom:3.4em;
-	}
-
-	/* Obsolète */
-	.OBS
-	{
-		display: none;
-	}
-}
-
-@media screen and (min-width:360px) and (max-width:567px) and (orientation: landscape)    	/* 23em - Smartphones  	*/
-{
-	/* élements */
-
-	.Flex2
-	{
-		width:22em;
-	}
-
-	#T-Bloc-Menu img
-	{
-		width:6em;
-	}
-
-	.Carte
-	{
-		width:6.88em;
-		padding:0 0;
-		margin-top:0.98em;
-	/*	border: 1px solid blue; */
-	}
-
-	.Carte h3
-	{
-		font-size: 0.6em;
-		padding-top: 1em;
-	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.3em;
-	}
-
-	.Menu-LPG h5
-	{
-		font-size:0.16em;
-	}
-
-	/* Menu - Le délice des papilles */
-
-	.Menu-LDP h4
-	{
-		font-size:0.3em;
-	}
-
-	.Menu-LDP h5
-	{
-		font-size:0.16em;
-	}
-
-	/* Menu - Le chic à la française */
-
-	.Menu-CAF h5
-	{
-		font-size:0.13em;
-	}
-
-	.Menu-CAF h4
-	{
-		font-size:0.5em;
-	}
-
-	/* Décoration */
-
-	.Deco-EL, .Deco-PL, .Deco-DL
-	{
-		width:25.9%;
-		top: 0.5em;
-		left:0.48em;
-	}
-
-	.Deco-ER, .Deco-PR, .Deco-DR
-	{
-		width:25.9%;
-		top:0.5em;
-		right:0.615em;
-	}
-
-	.P-Left
-	{
-		top:-1em;
-		left:1em;
-		font-size:0.153em;
-	/*	border: 1px solid blue; */
-	}
-
-	.P-Right
-	{
-		top:-1em;
-		right:1em;
-		font-size:0.153em;
-	/*	border: 1px solid red; */
-	}
-
-	/* footer */
-	
-	.ML
-	{
-		font-size: 0.3em;
-		padding-top:0em;
-		padding-bottom:3.4em;
-	}
-	
-	.CT
-	{
-		font-size: 0.3em;
-		padding-top:0em;
-		padding-bottom:3.4em;
-	}
-
-	/* Obsolète */
-	.OBS
-	{
-		display: none;
-	}
-}
-
 @media screen and (min-width:360px) and (max-width:567px) and (orientation: portrait)    	/* 23em - Smartphones  	*/
 {
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	/*	border: 1px solid red;	/* DEBUG */
+	}
+
 	/* élements */
 
 	.Flex2
@@ -1164,7 +923,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:6em;
+		width:15em;
 	}
 
 	.Carte
@@ -1249,20 +1008,22 @@ a
 	/*	border: 1px solid red; */
 	}
 
-	/* footer */
-	
+	/* Footer */
+
+	.ML, .CT
+	{
+		padding-bottom:1.4em;
+		padding-top:0.65em;
+	}
+
 	.ML
 	{
-		font-size: 0.3em;
-		padding-top:0em;
-		padding-bottom:3.4em;
+		padding-left:1.5em;
 	}
-	
+
 	.CT
 	{
-		font-size: 0.3em;
-		padding-top:0em;
-		padding-bottom:3.4em;
+		padding-right:1.5em;
 	}
 
 	/* Obsolète */
@@ -1274,6 +1035,13 @@ a
 
 @media screen and (min-width:320px) and (max-width:359px) and (orientation: portrait)    	/* 20em - Smartphones  	*/
 {
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	/*	border: 1px solid red;	/* DEBUG */
+	}
+
 	/* élements */
 
 	.Flex2
@@ -1283,7 +1051,7 @@ a
 
 	#T-Bloc-Menu img
 	{
-		width:6em;
+		width:15em;
 	}
 
 	.Carte
@@ -1368,20 +1136,22 @@ a
 	/*	border: 1px solid red; */
 	}
 
-	/* footer */
+	/* Footer */
+
+	.ML, .CT
+	{
+		padding-bottom:1.4em;
+		padding-top:0.65em;
+	}
 
 	.ML
 	{
-		font-size: 0.3em;
-		padding-top:0em;
-		padding-bottom:3.4em;
+		padding-left:0.5em;
 	}
-	
+
 	.CT
 	{
-		font-size: 0.3em;
-		padding-top:0em;
-		padding-bottom:3.4em;
+		padding-right:0.5em;
 	}
 
 	/* Obsolète */
