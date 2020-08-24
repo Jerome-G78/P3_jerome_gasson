@@ -1,0 +1,1438 @@
+/* CSS Style */
+
+@font-face 
+{
+	/* Police Générale */
+
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+	/* Police La note enchantée */
+
+	font-family: 'Komilka';
+	src: url('../fonts/Komika/Komilka.woff') format('woff');
+}
+
+@font-face 
+{
+	/* Police Le délice des papilles */
+
+	font-family: 'Dancing';
+	src: url('../fonts/dancing/DancingScript-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+	/* Police La palette du goût */
+	font-family: 'Worstveld';
+	src: url('../fonts/Worstveld_Sling/worstveldsling.woff') format('woff');
+}
+
+@font-face 
+{
+	/*Police  Le chic à la française 1 */
+	font-family: 'CroissantOne';
+	src: url('../fonts/croissant-one/CroissantOne-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+	/*Police  Le chic à la française 2 */
+	font-family: 'LibreCaslon';
+	src: url('../fonts/libre-caslon/librecaslondisplay-regular.woff') format('woff');
+}
+
+body
+{
+	font-family:Montserrat;
+/*  font-size: 16px; */
+/*  RESET   */
+    margin:0; 
+    padding:0;
+}
+
+/* Mise en page générale */
+
+/* conteneurs */
+.Flex
+{
+	width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+	flex-wrap:wrap;
+	margin: 0 auto; /* centrage */
+/*  border: 1px solid green;	/* DEBUG */
+}
+
+/* élements */
+
+#B-Bloc, #T-Bloc-Menu
+{
+	width: 100%;
+    background-color:#579c87;
+	text-align: center;
+/*	border: 1px solid blue;	/* DEBUG */
+}
+
+#B-Bloc
+{
+	width: 100%;
+	position:fixed;
+	bottom:0em;
+}
+
+header
+{
+	margin: 3.95em 0;
+/*	border: 1px solid red;	/* DEBUG */
+}
+
+a
+{
+	font-size: 3em;
+	color: #fdcb46; /* Jaune foncé */
+	text-decoration:none;
+}
+
+.ML
+{
+	padding-left:2.5em;
+	padding-bottom:2.45em;
+	padding-top:1.5em;
+	float:left;
+	
+}
+
+.CT
+{
+	padding-right:2.40em;
+	padding-bottom:2.45em;
+	padding-top:1.5em;
+	float:right;
+}
+
+/* Mise en pages des menus */
+
+.Carte
+{
+	font-size:3.2em;
+	text-align: center;
+	margin-top:-0.76em;
+	margin-bottom:4.12em;
+	padding-bottom: 3.6em;
+	padding: 1.2em 3.05em; /* H - L */
+/*	border: 1px solid red; */
+}
+
+/* Menus */ 
+
+/* La note enchantée */
+
+.Menu-LNE
+{
+	font-family: 'Komilka';
+	color: #3c1218;
+	font-size:1.552em;
+	background-color:#fcdfdb;
+/*	text-align: center; */
+	box-shadow:0 0 16px #f1ebe9;
+	padding-top:0.001em;
+	padding-bottom:0.29em;
+/*	border: 1px solid red; /* DEBUG */
+}
+
+.fab
+{
+	background:
+	-webkit-linear-gradient(to right, #f05261, #f6916a);
+	background:
+	-moz-linear-gradient(to right, #f05261, #f6916a);
+	background:
+	-o-linear-gradient(to right, #f05261, #f6916a);
+	background:
+	linear-gradient(to right, #f05261, #f6916a);
+
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-o-background-clip: text;
+	background-clip:text;
+	color:transparent;
+
+	font-size: 2em;
+	position: relative;
+	top:0.12em;
+}
+
+.Menu-LNE h5
+{
+	display:inline-block;
+	font-size:0.5em;
+/*	border: 1px solid red; /* DEBUG */
+}
+
+.MLNE-MB i
+{
+	font-size:1.13em;
+}
+
+/* Menu - La palette du goût */
+
+.Menu-LPG
+{
+	font-family: 'Dancing';
+	font-size:1.552em;
+	background-color:#fdfffd;
+	text-align: center;
+	box-shadow:0 0 16px #f1ebe9;
+	padding-top:0.595em;
+	padding-bottom:6.18em;
+/*	border: 1px solid red; /* DEBUG */
+}
+
+.MLPG-F
+{
+	background:
+	-webkit-linear-gradient(to right, #42973c, #bfff7e);
+	background:
+	-moz-linear-gradient(to right, #42973c, #bfff7e);
+	background:
+	-o-linear-gradient(to right, #42973c, #bfff7e);
+	background:
+	linear-gradient(to right, #42973c, #bfff7e);
+
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-o-background-clip: text;
+	background-clip:text;
+	color:transparent;
+
+	font-family:Worstveld;
+	font-weight: bold;
+	font-size: 1.955em;
+}
+
+.Menu-LPG h5
+{
+	display:inline-block;
+	font-size:0.34em;
+	text-align: center;
+/*	border: 1px solid red; /* DEBUG */
+}
+
+/* Décoration */
+
+.Deco-EL, .Deco-PL, .Deco-DL
+{
+	position: relative;
+	top: 0.5em;
+	right:-3.15em;
+	float: left;
+}
+
+.Deco-ER, .Deco-PR, .Deco-DR
+{
+	position: relative;
+	top:0.5em;
+	left:-3.13em;
+	float: right;
+}
+
+.P-Left
+{
+	position: relative;
+	top:-2.5em;
+	left:5em;
+
+	font-size:0.32em;
+	text-align: left;
+	float: left;
+/*	border: 1px solid blue; */
+}
+
+.P-Right
+{
+	position: relative;
+	top:-2.5em;
+	right:4.45em;
+
+	font-size:0.359em;
+	text-align: right;
+	float: right;
+/*	border: 1px solid red; */
+}
+
+/* Bottom LNE */
+
+.MLNE-MB
+{
+	display:inline-block;
+	font-size:0.75em;
+/*	border: 1px solid grey; */
+}
+
+@media screen and (min-width:1280px) and (orientation: landscape)    /* 80em - Grand Ecran FHD+  */
+{
+
+	/* Obsolète */
+	.OBS
+	{
+		 display: none;
+	}
+}
+
+@media screen and (min-width:1090px) and (max-width:1279px) and (orientation: landscape)    /* 68em - Ecran FHD  	*/
+{
+	.Flex2
+	{
+		width: 67em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.Menu-LNE h5
+	{
+		font-size:0.492em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.6em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:22.5%;
+		top: 0.5em;
+		right:-1.08em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:22.5%;
+		top:0.5em;
+		left:-1.04em;
+	}
+
+	.P-Left
+	{
+		font-size:0.28em;
+		left:2em;
+	}
+
+	.P-Right
+	{
+		font-size:0.28em;
+		right:1.9em;
+	}
+
+	/* Footer */
+	.ML
+	{
+		padding-left:1.5em;
+	}
+	
+	.CT
+	{
+		padding-right:1.5em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:792px) and (max-width:1089px) and (orientation: landscape)    	/* 50em - Tablettes  	*/
+{
+	.Flex2
+	{
+		width: 49em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:12.5em;
+		padding:0 0;
+		margin-top:0.67em;
+	}
+
+	.Carte h3
+	{
+		font-size:0.963em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.fab
+	{
+		font-size: 2em;
+		top:0.265em;		
+	}
+
+	.MLNE-F
+	{
+		font-size:0.6em;
+	}
+
+	.Menu-LNE h5
+	{
+		font-size:0.4em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.6em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:23.5%;
+		top: 0.5em;
+		right:-0.93em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:23.5%;
+		top:0.5em;
+		left:-0.915em;
+	}
+
+	.P-Left
+	{
+		font-size:0.2em;
+		left:2em;
+	}
+
+	.P-Right
+	{
+		font-size:0.2em;
+		right:1.9em;
+	}
+
+	/* Footer */
+	.ML
+	{
+		font-size: 0.8em;
+	}
+	
+	.CT
+	{
+		font-size: 0.8em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:792px) and (max-width:1089px) and (orientation: portrait)    	/* 49em - Tablettes  	*/
+{
+	.Flex2
+	{
+		width: 49em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:12.5em;
+		padding:0 0;
+		margin-top:0.67em;
+	}
+
+	.Carte h3
+	{
+		font-size:0.963em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.fab
+	{
+		font-size: 2em;
+		top:0.265em;		
+	}
+
+	.MLNE-F
+	{
+		font-size:0.6em;
+	}
+
+	.Menu-LNE h5
+	{
+		font-size:0.4em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.6em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.6em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:23.5%;
+		top: 0.5em;
+		right:-0.93em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:23.5%;
+		top:0.5em;
+		left:-0.915em;
+	}
+
+	.P-Left
+	{
+		font-size:0.2em;
+		left:2em;
+	}
+
+	.P-Right
+	{
+		font-size:0.2em;
+		right:1.9em;
+	}
+
+	/* Footer */
+	.ML
+	{
+		font-size: 0.8em;
+	}
+	
+	.CT
+	{
+		font-size: 0.8em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:664px) and (max-width:791px) and (orientation: landscape)    	/* 42em - Smartphones  	*/
+{
+	/* Mise en page générale */
+
+	/* conteneurs */
+
+	.Flex2
+	{
+		width:41em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	/* élements */
+
+	.Carte h3
+	{
+		font-size: 0.963em;
+	}
+
+	.Carte
+	{
+		width:12em;
+		padding:0 0;
+		margin-top:0.668em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.Menu-LNE i
+	{
+		top:0.165em;
+	}
+
+	.MLNE-MB i
+	{
+		top:0.43em;
+	}
+
+	.MLNE-F
+	{
+		font-size:0.9em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.7em;
+	}
+
+	.Menu-LNE h5
+	{
+		font-size:0.3em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.6em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:29.5%;
+		top: 0.5em;
+		right:-0.58em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:29.5%;
+		top:0.5em;
+		left:-0.615em;
+	}
+
+	.P-Left
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.2em;
+	/*	border: 1px solid blue; */
+	}
+
+	.P-Right
+	{
+		top:-1em;
+		right:1em;
+		font-size:0.2em;
+	/*	border: 1px solid red; */
+	}
+
+	/* Footer */
+
+	.ML
+	{
+		font-size: 0.7em;
+	}
+	
+	.CT
+	{
+		font-size: 0.7em;
+	}
+
+	 /* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:664px) and (max-width:791px) and (orientation: portrait)    	/* 40em - Smartphones  	*/
+{
+	/* Mise en page générale */
+
+	/* conteneurs */
+
+	.Flex2
+	{
+		width:41em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	/* élements */
+
+	.Carte h3
+	{
+		font-size: 0.963em;
+	}
+
+	.Carte
+	{
+		width:12em;
+		padding:0 0;
+		margin-top:0.668em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.Menu-LNE i
+	{
+		top:0.165em;
+	}
+
+	.MLNE-MB i
+	{
+		top:0.43em;
+	}
+
+	.MLNE-F
+	{
+		font-size:0.9em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.7em;
+	}
+
+	.Menu-LNE h5
+	{
+		font-size:0.3em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.6em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:29.5%;
+		top: 0.5em;
+		right:-0.58em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:29.5%;
+		top:0.5em;
+		left:-0.615em;
+	}
+
+	.P-Left
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.2em;
+	/*	border: 1px solid blue; */
+	}
+
+	.P-Right
+	{
+		top:-1em;
+		right:1em;
+		font-size:0.2em;
+	/*	border: 1px solid red; */
+	}
+
+	/* Footer */
+
+	.ML
+	{
+		font-size: 0.7em;
+	}
+	
+	.CT
+	{
+		font-size: 0.7em;
+	}
+
+	 /* Obsolète */
+	 .OBS
+	 {
+		 display: none;
+	 }
+}
+
+@media screen and (min-width:568px) and (max-width:663px) and (orientation: landscape)    	/* 36em - Smartphones  	*/
+{
+	/* élements */
+
+	.Flex2
+	{
+		width:35.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:6.65em;
+	}
+
+	.Carte
+	{
+		width:9.88em;
+		padding:0 0;
+		margin-top:-0.13em;
+	/*	border: 1px solid blue; */
+	}
+
+	.Carte h3
+	{
+		font-size: 0.9em;
+		padding-top: 1em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.7em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.Menu-LNE i
+	{
+		top:0.3em;
+	}
+
+	.MLNE-MB i
+	{
+		top:0.43em;
+	}
+
+	.MLNE-F
+	{
+		font-size:0.5em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.35em;
+	}
+
+	.Menu-LNE h5
+	{
+		font-size:0.2em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.5em;
+	}
+
+	.Menu-LPG h5
+	{
+		font-size:0.16em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:29.5%;
+		top: 0.5em;
+		right:-0.45em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:29.5%;
+		top:0.5em;
+		left:-0.615em;
+	}
+
+	.P-Left
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.133em;
+	/*	border: 1px solid blue; */
+	}
+
+	.P-Right
+	{
+		top:-1em;
+		right:1em;
+		font-size:0.133em;
+	/*	border: 1px solid red; */
+	}
+
+	/* Footer */
+
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:568px) and (max-width:663px) and (orientation: portrait)    	/* 36em - Smartphones  	*/
+{
+	/* élements */
+
+	.Flex2
+	{
+		width:35.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:6.65em;
+	}
+
+	.Carte
+	{
+		width:9.88em;
+		padding:0 0;
+		margin-top:-0.13em;
+	}
+
+	.Carte h3
+	{
+		font-size: 0.9em;
+		padding-top: 1em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.7em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.Menu-LNE i
+	{
+		top:0.3em;
+	}
+
+	.MLNE-MB i
+	{
+		top:0.43em;
+	}
+
+	.MLNE-F
+	{
+		font-size:0.5em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.35em;
+	}
+
+	.Menu-LNE h5
+	{
+		font-size:0.2em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.5em;
+	}
+
+	.Menu-LPG h5
+	{
+		font-size:0.16em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:29.5%;
+		top: 0.5em;
+		right:-0.45em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:29.5%;
+		top:0.5em;
+		left:-0.615em;
+	}
+
+	.P-Left
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.133em;
+	/*	border: 1px solid blue; */
+	}
+
+	.P-Right
+	{
+		top:-1em;
+		right:1em;
+		font-size:0.133em;
+	/*	border: 1px solid red; */
+	}
+
+	/* Footer */
+
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:360px) and (max-width:567px) and (orientation: landscape)    	/* 23em - Smartphones  	*/
+{
+	/* élements */
+
+	.Flex2
+	{
+		width:22em;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:6em;
+	}
+
+	.Carte
+	{
+		width:6.88em;
+		padding:0 0;
+		margin-top:0.98em;
+	/*	border: 1px solid blue; */
+	}
+
+	.Carte h3
+	{
+		font-size: 0.73em;
+		padding-top: 1em; /* EDIT */
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.4em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.Menu-LNE i
+	{
+		top:0.75em;
+	}
+
+	.MLNE-MB i
+	{
+		top:0.43em;
+	}
+
+	.MLNE-F
+	{
+		font-size: 0.53em;
+	/*	border: 1px solid grey; */
+	}
+
+	.fab
+	{
+		font-size:0.9em;
+	}
+
+	.Menu-LNE h5
+	{
+		font-size:0.18em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.3em;
+	}
+
+	.Menu-LPG h5
+	{
+		font-size:0.16em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:25.9%;
+		top: 0.5em;
+		right:-0.48em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:25.9%;
+		top:0.5em;
+		left:-0.615em;
+	}
+
+	.P-Left
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.13em;
+	/*	border: 1px solid blue; */
+	}
+
+	.P-Right
+	{
+		top:-1em;
+		right:1em;
+		font-size:0.13em;
+	/*	border: 1px solid red; */
+	}
+
+	/* Footer */
+	
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:360px) and (max-width:567px) and (orientation: portrait)    	/* 23em - Smartphones  	*/
+{
+	/* élements */
+
+	.Flex2
+	{
+		width:22em;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:6em;
+	}
+
+	.Carte
+	{
+		width:6.88em;
+		padding:0 0;
+		margin-top:0.98em;
+	/*	border: 1px solid blue; */
+	}
+
+	.Carte h3
+	{
+		font-size: 0.7em;
+		padding-top: 1em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.4em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.Menu-LNE i
+	{
+		top:0.75em;
+	}
+
+	.MLNE-MB i
+	{
+		top:0.43em;
+	}
+
+	.MLNE-F
+	{
+		font-size: 0.53em;
+	/*	border: 1px solid grey; */
+	}
+
+	.fab
+	{
+		font-size:0.9em;
+	}
+
+	.Menu-LNE h5
+	{
+		font-size:0.18em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.3em;
+	}
+
+	.Menu-LPG h5
+	{
+		font-size:0.16em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:25.9%;
+		top: 0.5em;
+		right:-0.48em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:25.9%;
+		top:0.5em;
+		left:-0.615em;
+	}
+
+	.P-Left
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.13em;
+	/*	border: 1px solid blue; */
+	}
+
+	.P-Right
+	{
+		top:-1em;
+		right:1em;
+		font-size:0.13em;
+	/*	border: 1px solid red; */
+	}
+
+	/* Footer */
+	
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+
+	/* Obsolète */
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:359px) and (orientation: portrait)    	/* 20em - Smartphones  	*/
+{
+	/* élements */
+
+	.Flex2
+	{
+		width:18.8em;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:6em;
+	}
+
+	.Carte
+	{
+		width:5.85em;
+		padding:0 0;
+		margin-top:1.15em;
+	/*	border: 1px solid grey; */
+	}
+
+	.Carte h3
+	{
+		font-size: 0.5em;
+		padding-top: 1.28em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.35em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.MLNE-F
+	{
+		font-size: 0.4em;
+	/*	border: 1px solid grey; */
+	}
+
+	.Menu-LNE i
+	{
+		font-size:0.9em;
+		top:0.82em;
+	}
+
+	.MLNE-MB i
+	{
+		top:0.395em;
+	}
+
+	.Menu-LNE h5
+	{
+		font-size:0.15em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.Menu-LPG h4
+	{
+		font-size:0.3em;
+	}
+
+	.Menu-LPG h5
+	{
+		font-size:0.16em;
+	}
+
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:24.9%;
+		top: 0.5em;
+		right:-0.48em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:24.9%;
+		top:0.5em;
+		left:-0.615em;
+	}
+
+	.P-Left
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.11em;
+	/*	border: 1px solid blue; */
+	}
+
+	.P-Right
+	{
+		top:-1em;
+		right:1em;
+		font-size:0.11em;
+	/*	border: 1px solid red; */
+	}
+
+	/* Footer */
+	
+	.ML
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+	
+	.CT
+	{
+		font-size: 0.3em;
+		padding-top:0em;
+		padding-bottom:3.4em;
+	}
+
+	/* Obsolète */
+
+	.OBS
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width:319px) and (orientation: portrait)    							/* 		Obsolète  		*/
+{
+	body
+	{
+		background-color:#579c87;
+	}
+
+	.Flex, .Flex2
+	{
+		display: none;
+	}
+
+	.OBS
+	{
+		margin-top: 50%;
+		color: #fdcb46;
+		text-align: center;
+	}
+}
