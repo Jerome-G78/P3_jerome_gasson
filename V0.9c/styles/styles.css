@@ -1051,7 +1051,7 @@ header
 }
 @media screen and (max-width:319px) and (orientation: portrait)    							/* 		Obsolète  		*/
 {
-	.Flex
+	#T-Bloc, #B-Bloc, .Flex2
 	{
 		display: none;
 	}
