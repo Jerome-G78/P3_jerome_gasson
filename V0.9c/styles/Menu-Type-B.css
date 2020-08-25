@@ -107,8 +107,8 @@ header
 {
 	font-size:3.2em;
 	text-align: center;
-	margin-top:-0.76em;
-	margin-bottom:2.865em;
+	margin-top:-1.9em;
+	margin-bottom:1.2em;
 	padding: 1.2em 3.05em; /* H - L */
 /*	border: 1px solid red; */
 }
@@ -389,7 +389,7 @@ header
 	{
 		width:12em;
 		padding:0 0;
-		margin-top:0.67em;
+		margin-top:-0.7em;
 	}
 
 	/* Menu - La palette du goût */
@@ -468,7 +468,7 @@ header
 	{
 		width:12em;
 		padding:0 0;
-		margin-top:0.67em;
+		margin-top:-0.7em;
 	}
 
 	/* Menu - La palette du goût */
@@ -556,7 +556,7 @@ header
 	{
 		width:9.88em;
 		padding:0 0;
-		margin-top:-0.13em;
+		margin-top:-0.875em;
 	/*	border: 1px solid blue; */
 	}
 
@@ -665,7 +665,7 @@ header
 	{
 		width:9.88em;
 		padding:0 0;
-		margin-top:-0.13em;
+		margin-top:-0.875em;
 	/*	border: 1px solid blue; */
 	}
 
@@ -775,7 +775,7 @@ header
 	{
 		width:6.88em;
 		padding:0 0;
-		margin-top:0.98em;
+		margin-top:-0.875em;
 	/*	border: 1px solid blue; */
 	}
 
@@ -904,7 +904,7 @@ header
 	{
 		width:6.88em;
 		padding:0 0;
-		margin-top:0.98em;
+		margin-top:-0.875em;
 	/*	border: 1px solid blue; */
 	}
 
@@ -1021,7 +1021,8 @@ header
 
 	.Flex2
 	{
-		width:18.8em;
+		width:20em;
+		align-items:center;
 	}
 
 	#T-Bloc-Menu img
@@ -1031,83 +1032,78 @@ header
 
 	.Carte
 	{
-		width:5.85em;
+		width:6.25em;
 		padding:0 0;
-		margin-top:1.15em;
-	/*	border: 1px solid grey; */
+		margin-top:-0.109em;
+	/*	border: 1px solid grey; /* DEBUG */
 	}
 
 	.Title
 	{
-		font-size: 0.4em;
-		padding-top: 1.28em;
+		font-size: 0.45em;
 	}
 
 	/* Menu - La palette du goût */
 
 	.MLPG-F
 	{
-		font-size:0.5em;
+		font-size:0.4em;
+		padding-bottom:0.15em;
 	}
 
 	.Menu-LPG h3
 	{
-		font-size:0.16em;
+		font-size:0.33em;
 	}
 
 	/* Menu - Le délice des papilles */
 
 	.MLDP-F
 	{
-		font-size:0.3em;
+		font-size:0.4em;
 	}
 
 	.Menu-LDP h3
 	{
-		font-size:0.16em;
+		font-size:0.33em;
 	}
 
 	/* Menu - Le chic à la française */
 
-	.Menu-CAF h3
-	{
-		font-size:0.15em;
-	}
-
 	.MLCAF-F
 	{
-		font-size:0.4em;
+		font-size:0.3em;
+	}
+
+	.Menu-CAF h3
+	{
+		font-size:0.33em;
 	}
 
 	/* Décoration */
 
 	.Deco-EL, .Deco-PL, .Deco-DL
 	{
-		width:24.9%;
-		top: 0.5em;
-		left:0.48em;
+		display:none;
 	}
 
 	.Deco-ER, .Deco-PR, .Deco-DR
 	{
-		width:24.9%;
-		top:0.5em;
-		right:0.615em;
+		display:none;
 	}
 
 	.P-Left
 	{
-		top:-1em;
-		left:1em;
-		font-size:0.129em;
+		left:0.1em;
+		font-size:0.155em;
 	/*	border: 1px solid blue; */
 	}
 
 	.P-Right
 	{
-		top:-1em;
-		right:1em;
-		font-size:0.129em;
+		right:0.1em;
+		text-align: center;
+		font-size:0.15em;
 	/*	border: 1px solid red; */
 	}
 
