@@ -295,7 +295,7 @@ header
 	font-size: 2em;
 	text-align: center;
 
-	padding: 0.42em 0em;
+	padding: 0.42em 1em;
 	margin-bottom:2.53em;
 /*	border: 0.5px solid red;	/* DEBUG */
 }
@@ -406,7 +406,7 @@ header
 }
 
 /* Mentions légales */
-.MLG h3
+.MLG h1
 {
 	text-align: center;
 }

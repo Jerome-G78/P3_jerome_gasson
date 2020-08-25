@@ -16,35 +16,6 @@
 	src: url('../fonts/Komika/Komilka.woff') format('woff');
 }
 
-@font-face 
-{
-	/* Police Le délice des papilles */
-
-	font-family: 'Dancing';
-	src: url('../fonts/dancing/DancingScript-Regular.woff') format('woff');
-}
-
-@font-face 
-{
-	/* Police La palette du goût */
-	font-family: 'Worstveld';
-	src: url('../fonts/Worstveld_Sling/worstveldsling.woff') format('woff');
-}
-
-@font-face 
-{
-	/*Police  Le chic à la française 1 */
-	font-family: 'CroissantOne';
-	src: url('../fonts/croissant-one/CroissantOne-Regular.woff') format('woff');
-}
-
-@font-face 
-{
-	/*Police  Le chic à la française 2 */
-	font-family: 'LibreCaslon';
-	src: url('../fonts/libre-caslon/librecaslondisplay-regular.woff') format('woff');
-}
-
 body
 {
 	font-family:Montserrat;
@@ -104,6 +75,11 @@ header
 /*	border: 1px solid red;	/* DEBUG */
 }
 
+.Title
+{
+	font-size:0.963em;
+}
+
 /* Mise en pages des menus */
 
 .Carte
@@ -135,14 +111,10 @@ header
 
 .fab
 {
-	background:
-	-webkit-linear-gradient(to right, #f05261, #f6916a);
-	background:
-	-moz-linear-gradient(to right, #f05261, #f6916a);
-	background:
-	-o-linear-gradient(to right, #f05261, #f6916a);
-	background:
-	linear-gradient(to right, #f05261, #f6916a);
+	background:-webkit-linear-gradient(to right, #f05261, #f6916a);
+	background:-moz-linear-gradient(to right, #f05261, #f6916a);
+	background:-o-linear-gradient(to right, #f05261, #f6916a);
+	background:linear-gradient(to right, #f05261, #f6916a);
 
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
@@ -150,12 +122,17 @@ header
 	background-clip:text;
 	color:transparent;
 
-	font-size: 2em;
+	font-size: 1.7em;
 	position: relative;
 	top:0.12em;
 }
 
-.Menu-LNE h5
+.MLNE-F, .MLNE-MB
+{
+	font-size:0.6em;
+}
+
+.Flex3
 {
 	display:inline-block;
 	font-size:0.5em;
@@ -164,26 +141,26 @@ header
 
 .MLNE-MB i
 {
-	font-size:1.13em;
+	font-size:1em;
 }
 
 /* Décoration */
 
 .Deco-EL, .Deco-PL, .Deco-DL
 {
-	width:4.5em;
+	width:5.5em;
 	position: relative;
 	top: 0.5em;
-	left:3.15em;
+	left:2.4em;
 	float: left;
 }
 
 .Deco-ER, .Deco-PR, .Deco-DR
 {
-	width:4.5em;
+	width:5.5em;
 	position: relative;
 	top:0.5em;
-	right:3.13em;
+	right:2.4em;
 	float: right;
 }
 
@@ -193,7 +170,7 @@ header
 	top:-2.5em;
 	left:5em;
 
-	font-size:0.32em;
+	font-size:0.3em;
 	text-align: left;
 	float: left;
 /*	border: 1px solid blue; */
@@ -205,7 +182,7 @@ header
 	top:-2.5em;
 	right:4.45em;
 
-	font-size:0.359em;
+	font-size:0.3em;
 	text-align: right;
 	float: right;
 /*	border: 1px solid red; */
@@ -244,7 +221,7 @@ header
 {
 	.Flex2
 	{
-		width: 68em;
+		width: 79em;
 	}
 
 	/* Obsolète */
@@ -263,16 +240,9 @@ header
 
 	/* Menu - La note enchantée */
 
-	.Menu-LNE h5
+	.Flex3
 	{
 		font-size:0.492em;
-	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.6em;
 	}
 
 	/* Décoration */
@@ -328,7 +298,7 @@ header
 		margin-top:0.67em;
 	}
 
-	.Carte h3
+	.Title
 	{
 		font-size:0.963em;
 	}
@@ -346,16 +316,9 @@ header
 		font-size:0.6em;
 	}
 
-	.Menu-LNE h5
+	.Flex3
 	{
 		font-size:0.4em;
-	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.6em;
 	}
 
 	/* Décoration */
@@ -411,7 +374,7 @@ header
 		margin-top:0.67em;
 	}
 
-	.Carte h3
+	.Title
 	{
 		font-size:0.963em;
 	}
@@ -429,16 +392,9 @@ header
 		font-size:0.6em;
 	}
 
-	.Menu-LNE h5
+	.Flex3
 	{
 		font-size:0.4em;
-	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.6em;
 	}
 
 	/* Décoration */
@@ -504,9 +460,9 @@ header
 	/*	border: 1px solid blue; */
 	}
 
-	.Carte h3
+	.Title
 	{
-		font-size: 0.9em;
+		font-size: 0.8em;
 		padding-top: 1em;
 	}
 
@@ -537,21 +493,9 @@ header
 		font-size:0.35em;
 	}
 
-	.Menu-LNE h5
+	.Flex3
 	{
 		font-size:0.2em;
-	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.5em;
-	}
-
-	.Menu-LPG h5
-	{
-		font-size:0.16em;
 	}
 
 	/* Décoration */
@@ -621,9 +565,9 @@ header
 	/*	border: 1px solid blue; */
 	}
 
-	.Carte h3
+	.Title
 	{
-		font-size: 0.9em;
+		font-size: 0.8em;
 		padding-top: 1em;
 	}
 
@@ -654,21 +598,9 @@ header
 		font-size:0.35em;
 	}
 
-	.Menu-LNE h5
+	.Flex3
 	{
 		font-size:0.2em;
-	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.5em;
-	}
-
-	.Menu-LPG h5
-	{
-		font-size:0.16em;
 	}
 
 	/* Décoration */
@@ -739,7 +671,7 @@ header
 	/*	border: 1px solid blue; */
 	}
 
-	.Carte h3
+	.Title
 	{
 		font-size: 0.73em;
 		padding-top: 1em; /* EDIT */
@@ -773,21 +705,9 @@ header
 		font-size:0.9em;
 	}
 
-	.Menu-LNE h5
+	.Flex3
 	{
-		font-size:0.18em;
-	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.3em;
-	}
-
-	.Menu-LPG h5
-	{
-		font-size:0.16em;
+		font-size:0.2em;
 	}
 
 	/* Décoration */
@@ -876,7 +796,7 @@ header
 	/*	border: 1px solid blue; */
 	}
 
-	.Carte h3
+	.Title
 	{
 		font-size: 0.73em;
 		padding-top: 1em; /* EDIT */
@@ -910,21 +830,9 @@ header
 		font-size:0.9em;
 	}
 
-	.Menu-LNE h5
+	.Flex3
 	{
-		font-size:0.18em;
-	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.3em;
-	}
-
-	.Menu-LPG h5
-	{
-		font-size:0.16em;
+		font-size:0.2em;
 	}
 
 	/* Décoration */
@@ -1013,7 +921,7 @@ header
 	/*	border: 1px solid grey; */
 	}
 
-	.Carte h3
+	.Title
 	{
 		font-size: 0.5em;
 		padding-top: 1.28em;
@@ -1043,23 +951,10 @@ header
 		top:0.395em;
 	}
 
-	.Menu-LNE h5
+	.Flex3
 	{
 		font-size:0.15em;
 	}
-
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.3em;
-	}
-
-	.Menu-LPG h5
-	{
-		font-size:0.16em;
-	}
-
 
 	/* Décoration */
 
@@ -1126,7 +1021,7 @@ header
 		background-color:#579c87;
 	}
 
-	.Flex, .Flex2
+	#T-Bloc-Menu, #B-Bloc, .Flex2
 	{
 		display: none;
 	}

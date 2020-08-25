@@ -39,7 +39,7 @@
 
 body
 {
-	font-family:Montserrat;
+	font-family:'Montserrat';
 /*  font-size: 16px; */
 /*  RESET   */
     margin:0; 
@@ -96,7 +96,10 @@ header
 /*	border: 1px solid red;	/* DEBUG */
 }
 
-
+.Title
+{
+	font-size:0.963em;
+}
 
 /* Mise en pages des menus */
 
@@ -128,18 +131,14 @@ header
 
 .MLCAF-F
 {
-	background:
-	-webkit-linear-gradient(to bottom right, #d8852e, #905bfd);
-	background:
-	-moz-linear-gradient(to bottom right, #d8852e, #905bfd);
-	background:
-	-o-linear-gradient(to bottom right, #d8852e, #905bfd);
-	background:
-	linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:-webkit-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:-moz-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:-o-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:linear-gradient(to bottom right, #d8852e, #905bfd);
 
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	-o-background-clip: text;
+	-webkit-background-clip:text;
+	-moz-background-clip:text;
+	-o-background-clip:text;
 	background-clip:text;
 	color:transparent;
 
@@ -147,7 +146,7 @@ header
 	font-size: 0.716em;
 }
 
-.Menu-CAF h5
+.Flex3
 {
 	display:inline-block;
 	font-weight:bold;
@@ -186,14 +185,10 @@ header
 
 .MLPG-F
 {
-	background:
-	-webkit-linear-gradient(to right, #42973c, #bfff7e);
-	background:
-	-moz-linear-gradient(to right, #42973c, #bfff7e);
-	background:
-	-o-linear-gradient(to right, #42973c, #bfff7e);
-	background:
-	linear-gradient(to right, #42973c, #bfff7e);
+	background:-webkit-linear-gradient(to right, #42973c, #bfff7e);
+	background:-moz-linear-gradient(to right, #42973c, #bfff7e);
+	background:-o-linear-gradient(to right, #42973c, #bfff7e);
+	background:linear-gradient(to right, #42973c, #bfff7e);
 
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
@@ -201,12 +196,12 @@ header
 	background-clip:text;
 	color:transparent;
 
-	font-family:Worstveld;
+	font-family:'Worstveld';
 	font-weight: bold;
-	font-size: 1.955em;
+	font-size: 1.5em;
 }
 
-.Menu-LPG h5
+.Menu-LPG h3
 {
 	display:inline-block;
 	font-size:0.34em;
@@ -230,14 +225,10 @@ header
 
 .MLDP-F
 {
-	background:
-	-webkit-linear-gradient(to right, #0431df, #0887fb);
-	background:
-	-moz-linear-gradient(to right, #0431df, #0887fb);
-	background:
-	-o-linear-gradient(to right, #0431df, #0887fb);
-	background:
-	linear-gradient(to right, #0431df, #0887fb);
+	background:-webkit-linear-gradient(to right, #0431df, #0887fb);
+	background:-moz-linear-gradient(to right, #0431df, #0887fb);
+	background:-o-linear-gradient(to right, #0431df, #0887fb);
+	background:linear-gradient(to right, #0431df, #0887fb);
 
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
@@ -245,11 +236,11 @@ header
 	background-clip:text;
 	color:transparent;
 
-	font-family:Dancing;
+	font-family:'Dancing';
 	font-size: 1.315em;
 }
 
-.Menu-LDP h5
+.Menu-LDP h3
 {
 	display:inline-block;
 	font-size:0.33em;
@@ -260,7 +251,7 @@ header
 
 .Deco-EL, .Deco-PL, .Deco-DL
 {
-	width:4.5em;
+	width:6.5em;
 	position: relative;
 	top: 0.5em;
 	left:3.15em;
@@ -269,7 +260,7 @@ header
 
 .Deco-ER, .Deco-PR, .Deco-DR
 {
-	width:4.5em;
+	width:6.5em;
 	position: relative;
 	top:0.5em;
 	right:3.13em;
@@ -282,7 +273,7 @@ header
 	top:-0.3em;
 	left:6.25em;
 
-	font-size:0.32em;
+	font-size:0.3em;
 	text-align: left;
 	float: left;
 /*	border: 1px solid blue; /* DEBUG */
@@ -294,7 +285,7 @@ header
 	top:-0.55em;
 	right:5.58em;
 
-	font-size:0.359em;
+	font-size:0.3em;
 	text-align: right;
 	float: right;
 /*	border: 1px solid red; /* DEBUG */
@@ -324,7 +315,7 @@ header
 {
 	.Flex2
 	{
-		width: 68em;
+		width: 79em;
 	}
 
 	/* Obsolète */
@@ -341,18 +332,11 @@ header
 		width: 68em;
 	}
 
-	/* Menu - La palette du goût */
-
-	.Menu-LPG h4
-	{
-		font-size:0.6em;
-	}
-
 	/* Menu - Le délice des papilles */
 
-	.Menu-LDP h4
+	.MLDP-F, .MLPG-F
 	{
-		font-size:0.6em;
+		font-size:0.8em;
 	}
 
 	/* Décoration */
@@ -408,35 +392,30 @@ header
 		margin-top:0.67em;
 	}
 
-	.Carte h3
-	{
-		font-size:0.963em;
-	}
-
 	/* Menu - La palette du goût */
 
-	.Menu-LPG h4
+	.MLPG-F
 	{
-		font-size:0.6em;
+		font-size:0.7em;
 	}
 
 	/* Menu - Le délice des papilles */
 
-	.Menu-LDP h4
+	.MLDP-F
 	{
 		font-size:0.6em;
 	}
 
 	/* Menu - Le chic à la française */
 
-	.Menu-CAF h5
+	.Flex3
 	{
 		font-size:0.38em;
 	}
 
-	.Menu-CAF h4
+	.MLCAF-F
 	{
-		font-size:0.8em;
+		font-size:0.55em;
 	}
 
 	/* Décoration */
@@ -492,35 +471,30 @@ header
 		margin-top:0.67em;
 	}
 
-	.Carte h3
-	{
-		font-size:0.963em;
-	}
-
 	/* Menu - La palette du goût */
 
-	.Menu-LPG h4
+	.MLPG-F
 	{
-		font-size:0.6em;
+		font-size:0.7em;
 	}
 
 	/* Menu - Le délice des papilles */
 
-	.Menu-LDP h4
+	.MLDP-F
 	{
 		font-size:0.6em;
 	}
 
 	/* Menu - Le chic à la française */
 
-	.Menu-CAF h5
+	.Flex3
 	{
 		font-size:0.38em;
 	}
 
-	.Menu-CAF h4
+	.MLCAF-F
 	{
-		font-size:0.8em;
+		font-size:0.55em;
 	}
 
 	/* Décoration */
@@ -586,7 +560,7 @@ header
 	/*	border: 1px solid blue; */
 	}
 
-	.Carte h3
+	.Title
 	{
 		font-size: 0.8em;
 		padding-top: 1em;
@@ -594,52 +568,52 @@ header
 
 	/* Menu - La palette du goût */
 
-	.Menu-LPG h4
+	.MLPG-F
 	{
 		font-size:0.4em;
 	}
 
-	.Menu-LPG h5
+	.Menu-LPG h3
 	{
 		font-size:0.16em;
 	}
 
 	/* Menu - Le délice des papilles */
 
-	.Menu-LDP h4
+	.MLDP-F
 	{
 		font-size:0.6em;
 	}
 
-	.Menu-LDP h5
+	.Menu-LDP h3
 	{
 		font-size:0.16em;
 	}
 
 	/* Menu - Le chic à la française */
 
-	.Menu-CAF h5
+	.Menu-CAF h3
 	{
-		font-size:0.13em;
+		font-size:0.25em;
 	}
 
-	.Menu-CAF h4
+	.MLCAF-F
 	{
-		font-size:0.6em;
+		font-size:0.45em;
 	}
 
 	/* Décoration */
 
 	.Deco-EL, .Deco-PL, .Deco-DL
 	{
-		width:29.5%;
+		width:23%;
 		top: 0.5em;
 		left:0.45em;
 	}
 
 	.Deco-ER, .Deco-PR, .Deco-DR
 	{
-		width:29.5%;
+		width:23%;
 		top:0.5em;
 		right:0.615em;
 	}
@@ -648,7 +622,7 @@ header
 	{
 		top:-1em;
 		left:1em;
-		font-size:0.19em;
+		font-size:0.18em;
 	/*	border: 1px solid blue; */
 	}
 
@@ -656,7 +630,7 @@ header
 	{
 		top:-1em;
 		right:1em;
-		font-size:0.19em;
+		font-size:0.18em;
 	/*	border: 1px solid red; */
 	}
 
@@ -695,7 +669,7 @@ header
 	/*	border: 1px solid blue; */
 	}
 
-	.Carte h3
+	.Title
 	{
 		font-size: 0.8em;
 		padding-top: 1em;
@@ -703,52 +677,52 @@ header
 
 	/* Menu - La palette du goût */
 
-	.Menu-LPG h4
+	.MLPG-F
 	{
 		font-size:0.4em;
 	}
 
-	.Menu-LPG h5
+	.Menu-LPG h3
 	{
 		font-size:0.16em;
 	}
 
 	/* Menu - Le délice des papilles */
 
-	.Menu-LDP h4
+	.MLDP-F
 	{
 		font-size:0.6em;
 	}
 
-	.Menu-LDP h5
+	.Menu-LDP h3
 	{
 		font-size:0.16em;
 	}
 
 	/* Menu - Le chic à la française */
 
-	.Menu-CAF h5
+	.Menu-CAF h3
 	{
-		font-size:0.13em;
+		font-size:0.25em;
 	}
 
-	.Menu-CAF h4
+	.MLCAF-F
 	{
-		font-size:0.6em;
+		font-size:0.45em;
 	}
 
 	/* Décoration */
 
 	.Deco-EL, .Deco-PL, .Deco-DL
 	{
-		width:29.5%;
+		width:23%;
 		top: 0.5em;
 		left:0.45em;
 	}
 
 	.Deco-ER, .Deco-PR, .Deco-DR
 	{
-		width:29.5%;
+		width:23%;
 		top:0.5em;
 		right:0.615em;
 	}
@@ -757,7 +731,7 @@ header
 	{
 		top:-1em;
 		left:1em;
-		font-size:0.19em;
+		font-size:0.18em;
 	/*	border: 1px solid blue; */
 	}
 
@@ -765,7 +739,7 @@ header
 	{
 		top:-1em;
 		right:1em;
-		font-size:0.19em;
+		font-size:0.18em;
 	/*	border: 1px solid red; */
 	}
 
@@ -805,7 +779,7 @@ header
 	/*	border: 1px solid blue; */
 	}
 
-	.Carte h3
+	.Title
 	{
 		font-size: 0.6em;
 		padding-top: 1em;
@@ -813,38 +787,39 @@ header
 
 	/* Menu - La palette du goût */
 
-	.Menu-LPG h4
+	.MLPG-F
 	{
-		font-size:0.3em;
+		font-size:0.4em;
+		padding-bottom:0.15em;
 	}
 
-	.Menu-LPG h5
+	.Menu-LPG h3
 	{
 		font-size:0.16em;
 	}
 
 	/* Menu - Le délice des papilles */
 
-	.Menu-LDP h4
+	.MLDP-F
 	{
-		font-size:0.3em;
+		font-size:0.4em;
 	}
 
-	.Menu-LDP h5
+	.Menu-LDP h3
 	{
 		font-size:0.16em;
 	}
 
 	/* Menu - Le chic à la française */
 
-	.Menu-CAF h5
+	.Menu-CAF h3
 	{
-		font-size:0.13em;
+		font-size:0.2em;
 	}
 
-	.Menu-CAF h4
+	.MLCAF-F
 	{
-		font-size:0.5em;
+		font-size:0.3em;
 	}
 
 	/* Décoration */
@@ -933,7 +908,7 @@ header
 	/*	border: 1px solid blue; */
 	}
 
-	.Carte h3
+	.Title
 	{
 		font-size: 0.6em;
 		padding-top: 1em;
@@ -941,38 +916,39 @@ header
 
 	/* Menu - La palette du goût */
 
-	.Menu-LPG h4
+	.MLPG-F
 	{
-		font-size:0.3em;
+		font-size:0.5em;
+		padding-bottom:0.15em;
 	}
 
-	.Menu-LPG h5
+	.Menu-LPG h3
 	{
-		font-size:0.16em;
+		font-size:0.2em;
 	}
 
 	/* Menu - Le délice des papilles */
 
-	.Menu-LDP h4
+	.MLDP-F
 	{
-		font-size:0.3em;
+		font-size:0.4em;
 	}
 
-	.Menu-LDP h5
+	.Menu-LDP h3
 	{
-		font-size:0.16em;
+		font-size:0.2em;
 	}
 
 	/* Menu - Le chic à la française */
 
-	.Menu-CAF h5
+	.Menu-CAF h3
 	{
-		font-size:0.13em;
+		font-size:0.2em;
 	}
 
-	.Menu-CAF h4
+	.MLCAF-F
 	{
-		font-size:0.5em;
+		font-size:0.3em;
 	}
 
 	/* Décoration */
@@ -1061,7 +1037,7 @@ header
 	/*	border: 1px solid grey; */
 	}
 
-	.Carte h3
+	.Title
 	{
 		font-size: 0.4em;
 		padding-top: 1.28em;
@@ -1069,36 +1045,36 @@ header
 
 	/* Menu - La palette du goût */
 
-	.Menu-LPG h4
+	.MLPG-F
 	{
-		font-size:0.3em;
+		font-size:0.5em;
 	}
 
-	.Menu-LPG h5
+	.Menu-LPG h3
 	{
 		font-size:0.16em;
 	}
 
 	/* Menu - Le délice des papilles */
 
-	.Menu-LDP h4
+	.MLDP-F
 	{
 		font-size:0.3em;
 	}
 
-	.Menu-LDP h5
+	.Menu-LDP h3
 	{
 		font-size:0.16em;
 	}
 
 	/* Menu - Le chic à la française */
 
-	.Menu-CAF h5
+	.Menu-CAF h3
 	{
 		font-size:0.15em;
 	}
 
-	.Menu-CAF h4
+	.MLCAF-F
 	{
 		font-size:0.4em;
 	}
@@ -1168,7 +1144,7 @@ header
 		background-color:#579c87;
 	}
 
-	.Flex, .Flex2
+	#T-Bloc-Menu, #B-Bloc, .Flex2
 	{
 		display: none;
 	}
