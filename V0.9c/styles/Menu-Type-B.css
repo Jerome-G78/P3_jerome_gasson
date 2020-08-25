@@ -318,6 +318,11 @@ header
 		width: 79em;
 	}
 
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:2.5em;
+	}
+
 	/* Obsolète */
 	.OBS
 	{
@@ -330,6 +335,11 @@ header
 	.Flex2
 	{
 		width: 68em;
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:2.5em;
 	}
 
 	/* Menu - Le délice des papilles */
@@ -391,6 +401,11 @@ header
 		padding:0 0;
 		margin-top:-0.7em;
 		margin-bottom:2.4em;
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:2.5em;
 	}
 
 	/* Menu - La palette du goût */
@@ -471,6 +486,11 @@ header
 		padding:0 0;
 		margin-top:-0.7em;
 		margin-bottom:2.4em;
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:2.5em;
 	}
 
 	/* Menu - La palette du goût */
@@ -561,6 +581,11 @@ header
 		margin-top:-0.875em;
 		margin-bottom:2.4em;
 	/*	border: 1px solid blue; */
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:1.5em;
 	}
 
 	.Title
@@ -673,6 +698,11 @@ header
 	/*	border: 1px solid blue; */
 	}
 
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:1.5em;
+	}
+
 	.Title
 	{
 		font-size: 0.8em;
@@ -782,6 +812,11 @@ header
 		margin-top:-0.875em;
 		margin-bottom:2.3em;
 	/*	border: 1px solid blue; */
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:1.5em;
 	}
 
 	.Title
@@ -914,6 +949,11 @@ header
 	/*	border: 1px solid blue; */
 	}
 
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:1.5em;
+	}
+
 	.Title
 	{
 		font-size: 0.6em;
@@ -1029,6 +1069,7 @@ header
 	{
 		width:20em;
 		align-items:center;
+	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	#T-Bloc-Menu img
@@ -1038,7 +1079,7 @@ header
 
 	.Carte
 	{
-		width:6.25em;
+		width:5.91em;
 		padding:0 0;
 		margin-top:-0.109em;
 		margin-bottom:2.3em;
@@ -1048,6 +1089,11 @@ header
 	.Title
 	{
 		font-size: 0.45em;
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:2.5em;
 	}
 
 	/* Menu - La palette du goût */
@@ -1102,14 +1148,14 @@ header
 	.P-Left
 	{
 		left:0.1em;
-		font-size:0.155em;
+		font-size:0.139em;
 	/*	border: 1px solid blue; */
 	}
 
 	.P-Right
 	{
+		top:1em;
 		right:0.1em;
-		text-align: center;
 		font-size:0.15em;
 	/*	border: 1px solid red; */
 	}

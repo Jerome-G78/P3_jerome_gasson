@@ -1015,14 +1015,15 @@ header
 
 	.Prochainement h4
 	{
-		font-size: 1.5em;
+		font-size: 1.43em;
+		padding: 0.4em 0.1em;
 	/*	border: 0.5px solid red;	/* DEBUG */
 	}
 
-	.Dots
+	.Space
 	{
-		font-size:0.9em;
-	/*	border: 1px solid fuchsia;	/* DEBUG */
+		margin:0 0.8em;
+	/*	border: 0.5px solid green;	/* DEBUG */
 	}
 
 	/* Footer */
