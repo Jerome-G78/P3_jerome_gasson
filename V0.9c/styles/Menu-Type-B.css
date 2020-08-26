@@ -871,13 +871,13 @@ header
 
 	.MLPG-F
 	{
-		font-size:0.4em;
+		font-size:0.5em;
 		padding-bottom:0.15em;
 	}
 
 	.Menu-LPG h3
 	{
-		font-size:0.16em;
+		font-size:0.2em;
 	}
 
 	/* Menu - Le délice des papilles */
@@ -889,7 +889,7 @@ header
 
 	.Menu-LDP h3
 	{
-		font-size:0.16em;
+		font-size:0.2em;
 	}
 
 	/* Menu - Le chic à la française */
@@ -922,18 +922,12 @@ header
 
 	.P-Left
 	{
-		top:-1em;
-		left:1em;
-		font-size:0.153em;
-	/*	border: 1px solid blue; */
+		display:none;
 	}
 
 	.P-Right
 	{
-		top:-1em;
-		right:1em;
-		font-size:0.153em;
-	/*	border: 1px solid red; */
+		display:none;
 	}
 
 	/* Footer */
@@ -956,9 +950,10 @@ header
 
 	/* Responsive */
 	
-	.P-R320px
+	.P-R360px
 	{
-		display:none;
+		font-size:0.25em;
+		padding: 0 0.3em; /* H - L*/
 	}
 
 	/* Obsolète */
@@ -1064,18 +1059,12 @@ header
 
 	.P-Left
 	{
-		top:-1em;
-		left:1em;
-		font-size:0.153em;
-	/*	border: 1px solid blue; */
+		display:none;
 	}
 
 	.P-Right
 	{
-		top:-1em;
-		right:1em;
-		font-size:0.153em;
-	/*	border: 1px solid red; */
+		display:none;
 	}
 
 	/* Footer */
@@ -1098,9 +1087,10 @@ header
 
 	/* Responsive */
 	
-	.P-R320px
+	.P-R360px
 	{
-		display:none;
+		font-size:0.25em;
+		padding: 0 0.3em; /* H - L*/
 	}
 
 	/* Obsolète */
@@ -1234,6 +1224,7 @@ header
 	.P-R320px
 	{
 		font-size:0.25em;
+		padding: 0 0.3em; /* H - L*/
 	}
 
 	/* Obsolète */

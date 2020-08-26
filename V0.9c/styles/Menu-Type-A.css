@@ -227,7 +227,7 @@ header
 
 	/* Responsive */
 
-	.P-R320px
+	.P-R320px, .P-R360px
 	{
 		display: none;
 	}
@@ -283,7 +283,7 @@ header
 
 	/* Responsive */
 
-	.P-R320px
+	.P-R320px, .P-R360px
 	{
 		display: none;
 	}
@@ -367,7 +367,7 @@ header
 
 	/* Responsive */
 
-	.P-R320px
+	.P-R320px, .P-R360px
 	{
 		display: none;
 	}
@@ -451,7 +451,7 @@ header
 
 	/* Responsive */
 
-	.P-R320px
+	.P-R320px, .P-R360px
 	{
 		display: none;
 	}
@@ -564,7 +564,7 @@ header
 
 	/* Responsive */
 
-	.P-R320px
+	.P-R320px, .P-R360px
 	{
 		display: none;
 	}
@@ -677,7 +677,7 @@ header
 
 	/* Responsive */
 
-	.P-R320px
+	.P-R320px, .P-R360px
 	{
 		display: none;
 	}
@@ -776,18 +776,12 @@ header
 
 	.P-Left
 	{
-		top:-1em;
-		left:1em;
-		font-size:0.13em;
-	/*	border: 1px solid blue; */
+		display:none;
 	}
 
 	.P-Right
 	{
-		top:-1em;
-		right:1em;
-		font-size:0.13em;
-	/*	border: 1px solid red; */
+		display:none;
 	}
 
 	/* Footer */
@@ -810,9 +804,13 @@ header
 
 	/* Responsive */
 
-	.P-R320px
+	.P-R360px
 	{
-		display: none;
+		top:-1em;
+		left:1em;
+		font-size:0.2em;
+		padding: 0 0.3em; /* H - L*/
+	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	/* Obsolète */
@@ -909,18 +907,12 @@ header
 
 	.P-Left
 	{
-		top:-1em;
-		left:1em;
-		font-size:0.13em;
-	/*	border: 1px solid blue; */
+		display:none;
 	}
 
 	.P-Right
 	{
-		top:-1em;
-		right:1em;
-		font-size:0.13em;
-	/*	border: 1px solid red; */
+		display:none;
 	}
 
 	/* Footer */
@@ -943,9 +935,13 @@ header
 
 	/* Responsive */
 
-	.P-R320px
+	.P-R360px
 	{
-		display: none;
+		top:-1em;
+		left:1em;
+		font-size:0.2em;
+		padding: 0 0.3em; /* H - L*/
+	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	/* Obsolète */
@@ -1066,6 +1062,7 @@ header
 		top:-1em;
 		left:1em;
 		font-size:0.2em;
+		padding: 0 0.3em; /* H - L*/
 	}
 
 	/* Obsolète */
