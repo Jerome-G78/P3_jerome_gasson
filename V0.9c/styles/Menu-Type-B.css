@@ -142,7 +142,7 @@ header
 	background-clip:text;
 	color:transparent;
 
-	font-family:CroissantOne;
+	font-family:'CroissantOne';
 	font-size: 0.716em;
 }
 
@@ -190,9 +190,9 @@ header
 	background:-o-linear-gradient(to right, #42973c, #bfff7e);
 	background:linear-gradient(to right, #42973c, #bfff7e);
 
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	-o-background-clip: text;
+	-webkit-background-clip:text;
+	-moz-background-clip:text;
+	-o-background-clip:text;
 	background-clip:text;
 	color:transparent;
 
