@@ -128,14 +128,10 @@ header
 
 .fab
 {
-	background:
-	-webkit-linear-gradient(to right, #f05261, #f6916a);
-	background:
-	-moz-linear-gradient(to right, #f05261, #f6916a);
-	background:
-	-o-linear-gradient(to right, #f05261, #f6916a);
-	background:
-	linear-gradient(to right, #f05261, #f6916a);
+	background:-webkit-linear-gradient(to right, #f05261, #f6916a);
+	background:-moz-linear-gradient(to right, #f05261, #f6916a);
+	background:-o-linear-gradient(to right, #f05261, #f6916a);
+	background:linear-gradient(to right, #f05261, #f6916a);
 
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
@@ -163,14 +159,10 @@ header
 
 .MLCAF-F
 {
-	background:
-	-webkit-linear-gradient(to bottom right, #d8852e, #905bfd);
-	background:
-	-moz-linear-gradient(to bottom right, #d8852e, #905bfd);
-	background:
-	-o-linear-gradient(to bottom right, #d8852e, #905bfd);
-	background:
-	linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:-webkit-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:-moz-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:-o-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:linear-gradient(to bottom right, #d8852e, #905bfd);
 
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
@@ -199,14 +191,10 @@ header
 
 .MLDP-F
 {
-	background:
-	-webkit-linear-gradient(to right, #0431df, #0887fb);
-	background:
-	-moz-linear-gradient(to right, #0431df, #0887fb);
-	background:
-	-o-linear-gradient(to right, #0431df, #0887fb);
-	background:
-	linear-gradient(to right, #0431df, #0887fb);
+	background:-webkit-linear-gradient(to right, #0431df, #0887fb);
+	background:-moz-linear-gradient(to right, #0431df, #0887fb);
+	background:-o-linear-gradient(to right, #0431df, #0887fb);
+	background:linear-gradient(to right, #0431df, #0887fb);
 
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
@@ -232,14 +220,10 @@ header
 
 .MLPG-F
 {
-	background:
-	-webkit-linear-gradient(to right, #42973c, #bfff7e);
-	background:
-	-moz-linear-gradient(to right, #42973c, #bfff7e);
-	background:
-	-o-linear-gradient(to right, #42973c, #bfff7e);
-	background:
-	linear-gradient(to right, #42973c, #bfff7e);
+	background:-webkit-linear-gradient(to right, #42973c, #bfff7e);
+	background:-moz-linear-gradient(to right, #42973c, #bfff7e);
+	background:-o-linear-gradient(to right, #42973c, #bfff7e);
+	background:linear-gradient(to right, #42973c, #bfff7e);
 
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
@@ -406,6 +390,11 @@ header
 }
 
 /* Mentions légales */
+
+.MLG
+{
+	padding-bottom: 2.4em;
+}
 .MLG h1
 {
 	text-align: center;

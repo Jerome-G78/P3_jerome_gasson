@@ -94,42 +94,26 @@ header
 
 /* Menus */ 
 
-/* La note enchantée */
+/* Mention Légales */
 
 .Menu-LNE
 {
 	font-family: 'Komilka';
 	color: #3c1218;
-	font-size:1.552em;
+	font-size:1.2em;
 	background-color:#fcdfdb;
-/*	text-align: center; */
+	text-align: center;
 	box-shadow:0 0 16px #f1ebe9;
 	padding-top:0.001em;
-	padding-bottom:0.29em;
+	padding-bottom:1.5em;
 /*	border: 1px solid red; /* DEBUG */
 }
 
-.fab
+.ML-F
 {
-	background:-webkit-linear-gradient(to right, #f05261, #f6916a);
-	background:-moz-linear-gradient(to right, #f05261, #f6916a);
-	background:-o-linear-gradient(to right, #f05261, #f6916a);
-	background:linear-gradient(to right, #f05261, #f6916a);
-
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	-o-background-clip: text;
-	background-clip:text;
-	color:transparent;
-
-	font-size: 1.7em;
-	position: relative;
-	top:0.12em;
-}
-
-.MLNE-F, .MLNE-MB
-{
-	font-size:0.6em;
+	font-size:0.3em;
+	padding: 0 0.5em;
+/*	border: 1px solid red; /* DEBUG */
 }
 
 .Flex3
@@ -139,64 +123,23 @@ header
 /*	border: 1px solid red; /* DEBUG */
 }
 
-.MLNE-MB i
-{
-	font-size:1em;
-}
-
-/* Décoration */
-
-.Deco-EL, .Deco-PL, .Deco-DL
-{
-	width:5.5em;
-	position: relative;
-	top: 0.5em;
-	left:2.4em;
-	float: left;
-}
-
-.Deco-ER, .Deco-PR, .Deco-DR
-{
-	width:5.5em;
-	position: relative;
-	top:0.5em;
-	right:2.4em;
-	float: right;
-}
-
 .P-Left
 {
 	position: relative;
-	top:-2.5em;
-	left:5em;
+	top:-1.5em;
+	left:0.5em;
 
 	font-size:0.3em;
 	word-wrap:break-word;
-	text-align: left;
+	text-align: justify;
 	float: left;
+
+	padding: 0 0.5em;
+	margin: 0 0.5em;
 /*	border: 1px solid blue; */
 }
 
-.P-Right
-{
-	position: relative;
-	top:-2.5em;
-	right:4.45em;
-
-	font-size:0.3em;
-	text-align: right;
-	float: right;
-/*	border: 1px solid red; */
-}
-
-/* Bottom LNE */
-
-.MLNE-MB
-{
-	display:inline-block;
-	font-size:0.75em;
-/*	border: 1px solid grey; */
-}
+/* Décoration - Animations */
 
 /* Footer */
 
@@ -225,13 +168,6 @@ header
 		width: 79em;
 	}
 
-	/* Responsive */
-
-	.P-R320px
-	{
-		display: none;
-	}
-
 	/* Obsolète */
 	.OBS
 	{
@@ -246,7 +182,7 @@ header
 		width: 68em;
 	}
 
-	/* Menu - La note enchantée */
+	/* Mention Légales */
 
 	.Flex3
 	{
@@ -272,20 +208,6 @@ header
 	.P-Left
 	{
 		font-size:0.28em;
-		left:2em;
-	}
-
-	.P-Right
-	{
-		font-size:0.28em;
-		right:1.9em;
-	}
-
-	/* Responsive */
-
-	.P-R320px
-	{
-		display: none;
 	}
 
 	/* Obsolète */
@@ -319,17 +241,12 @@ header
 		font-size:0.963em;
 	}
 
-	/* Menu - La note enchantée */
+	/* Mention Légales */
 
-	.fab
-	{
-		font-size: 2em;
-		top:0.265em;		
-	}
 
-	.MLNE-F
+	.ML-F
 	{
-		font-size:0.6em;
+		font-size:0.3em;
 	}
 
 	.Flex3
@@ -339,37 +256,9 @@ header
 
 	/* Décoration */
 
-	.Deco-EL, .Deco-PL, .Deco-DL
-	{
-		width:3.76em;
-		top: 0.5em;
-		left:0.93em;
-	}
-
-	.Deco-ER, .Deco-PR, .Deco-DR
-	{
-		width:3.76em;
-		top:0.5em;
-		right:0.915em;
-	}
-
 	.P-Left
 	{
 		font-size:0.2em;
-		left:2em;
-	}
-
-	.P-Right
-	{
-		font-size:0.2em;
-		right:1.9em;
-	}
-
-	/* Responsive */
-
-	.P-R320px
-	{
-		display: none;
 	}
 
 	/* Obsolète */
@@ -403,17 +292,12 @@ header
 		font-size:0.963em;
 	}
 
-	/* Menu - La note enchantée */
+	/* Mention Légales */
 
-	.fab
-	{
-		font-size: 2em;
-		top:0.265em;		
-	}
 
-	.MLNE-F
+	.ML-F
 	{
-		font-size:0.6em;
+		font-size:0.3em;
 	}
 
 	.Flex3
@@ -423,37 +307,9 @@ header
 
 	/* Décoration */
 
-	.Deco-EL, .Deco-PL, .Deco-DL
-	{
-		width:3.76em;
-		top: 0.5em;
-		left:0.93em;
-	}
-
-	.Deco-ER, .Deco-PR, .Deco-DR
-	{
-		width:3.76em;
-		top:0.5em;
-		right:0.915em;
-	}
-
 	.P-Left
 	{
 		font-size:0.2em;
-		left:2em;
-	}
-
-	.P-Right
-	{
-		font-size:0.2em;
-		right:1.9em;
-	}
-
-	/* Responsive */
-
-	.P-R320px
-	{
-		display: none;
 	}
 
 	/* Obsolète */
@@ -498,31 +354,9 @@ header
 		padding-top: 1em;
 	}
 
-	.MLNE-MB
+	.ML-F
 	{
-		font-size:0.7em;
-	}
-
-	/* Menu - La note enchantée */
-
-	.Menu-LNE i
-	{
-		top:0.3em;
-	}
-
-	.MLNE-MB i
-	{
-		top:0.43em;
-	}
-
-	.MLNE-F
-	{
-		font-size:0.5em;
-	}
-
-	.MLNE-MB
-	{
-		font-size:0.35em;
+		font-size:0.3em;
 	}
 
 	.Flex3
@@ -532,41 +366,11 @@ header
 
 	/* Décoration */
 
-	.Deco-EL, .Deco-PL, .Deco-DL
-	{
-		width:29.5%;
-		top: 0.5em;
-		left:0.45em;
-	}
-
-	.Deco-ER, .Deco-PR, .Deco-DR
-	{
-		width:29.5%;
-		top:0.5em;
-		right:0.615em;
-	}
-
 	.P-Left
 	{
 		top:-1em;
-		left:1em;
 		font-size:0.133em;
 	/*	border: 1px solid blue; */
-	}
-
-	.P-Right
-	{
-		top:-1em;
-		right:1em;
-		font-size:0.133em;
-	/*	border: 1px solid red; */
-	}
-
-	/* Responsive */
-
-	.P-R320px
-	{
-		display: none;
 	}
 
 	/* Obsolète */
@@ -611,31 +415,9 @@ header
 		padding-top: 1em;
 	}
 
-	.MLNE-MB
+	.ML-F
 	{
-		font-size:0.7em;
-	}
-
-	/* Menu - La note enchantée */
-
-	.Menu-LNE i
-	{
-		top:0.3em;
-	}
-
-	.MLNE-MB i
-	{
-		top:0.43em;
-	}
-
-	.MLNE-F
-	{
-		font-size:0.5em;
-	}
-
-	.MLNE-MB
-	{
-		font-size:0.35em;
+		font-size:0.3em;
 	}
 
 	.Flex3
@@ -645,41 +427,11 @@ header
 
 	/* Décoration */
 
-	.Deco-EL, .Deco-PL, .Deco-DL
-	{
-		width:29.5%;
-		top: 0.5em;
-		left:0.45em;
-	}
-
-	.Deco-ER, .Deco-PR, .Deco-DR
-	{
-		width:29.5%;
-		top:0.5em;
-		right:0.615em;
-	}
-
 	.P-Left
 	{
 		top:-1em;
-		left:1em;
 		font-size:0.133em;
 	/*	border: 1px solid blue; */
-	}
-
-	.P-Right
-	{
-		top:-1em;
-		right:1em;
-		font-size:0.133em;
-	/*	border: 1px solid red; */
-	}
-
-	/* Responsive */
-
-	.P-R320px
-	{
-		display: none;
 	}
 
 	/* Obsolète */
@@ -725,32 +477,12 @@ header
 		padding-top: 1em; /* EDIT */
 	}
 
-	.MLNE-MB
-	{
-		font-size:0.4em;
-	}
+	/* Mention Légales */
 
-	/* Menu - La note enchantée */
-
-	.Menu-LNE i
+	.ML-F
 	{
-		top:0.75em;
-	}
-
-	.MLNE-MB i
-	{
-		top:0.43em;
-	}
-
-	.MLNE-F
-	{
-		font-size: 0.53em;
+		font-size: 0.2em;
 	/*	border: 1px solid grey; */
-	}
-
-	.fab
-	{
-		font-size:0.9em;
 	}
 
 	.Flex3
@@ -760,34 +492,11 @@ header
 
 	/* Décoration */
 
-	.Deco-EL, .Deco-PL, .Deco-DL
-	{
-		width:25.9%;
-		top: 0.5em;
-		left:0.48em;
-	}
-
-	.Deco-ER, .Deco-PR, .Deco-DR
-	{
-		width:25.9%;
-		top:0.5em;
-		right:0.615em;
-	}
-
 	.P-Left
 	{
 		top:-1em;
-		left:1em;
 		font-size:0.13em;
 	/*	border: 1px solid blue; */
-	}
-
-	.P-Right
-	{
-		top:-1em;
-		right:1em;
-		font-size:0.13em;
-	/*	border: 1px solid red; */
 	}
 
 	/* Footer */
@@ -806,13 +515,6 @@ header
 	.CT
 	{
 		padding-right:1.5em;
-	}
-
-	/* Responsive */
-
-	.P-R320px
-	{
-		display: none;
 	}
 
 	/* Obsolète */
@@ -858,32 +560,12 @@ header
 		padding-top: 1em; /* EDIT */
 	}
 
-	.MLNE-MB
-	{
-		font-size:0.4em;
-	}
+	/* Mention Légales */
 
-	/* Menu - La note enchantée */
-
-	.Menu-LNE i
+	.ML-F
 	{
-		top:0.75em;
-	}
-
-	.MLNE-MB i
-	{
-		top:0.43em;
-	}
-
-	.MLNE-F
-	{
-		font-size: 0.53em;
+		font-size: 0.2em;
 	/*	border: 1px solid grey; */
-	}
-
-	.fab
-	{
-		font-size:0.9em;
 	}
 
 	.Flex3
@@ -893,34 +575,11 @@ header
 
 	/* Décoration */
 
-	.Deco-EL, .Deco-PL, .Deco-DL
-	{
-		width:25.9%;
-		top: 0.5em;
-		left:0.48em;
-	}
-
-	.Deco-ER, .Deco-PR, .Deco-DR
-	{
-		width:25.9%;
-		top:0.5em;
-		right:0.615em;
-	}
-
 	.P-Left
 	{
 		top:-1em;
-		left:1em;
 		font-size:0.13em;
 	/*	border: 1px solid blue; */
-	}
-
-	.P-Right
-	{
-		top:-1em;
-		right:1em;
-		font-size:0.13em;
-	/*	border: 1px solid red; */
 	}
 
 	/* Footer */
@@ -939,13 +598,6 @@ header
 	.CT
 	{
 		padding-right:1.5em;
-	}
-
-	/* Responsive */
-
-	.P-R320px
-	{
-		display: none;
 	}
 
 	/* Obsolète */
@@ -990,28 +642,12 @@ header
 		font-size: 0.45em;
 	}
 
-	.MLNE-MB
-	{
-		font-size:0.3em;
-	}
+	/* Mention Légales */
 
-	/* Menu - La note enchantée */
-
-	.MLNE-F
+	.ML-F
 	{
-		font-size: 0.3em;
+		font-size: 0.2em;
 	/*	border: 1px solid grey; */
-	}
-
-	.Menu-LNE i
-	{
-		font-size:0.9em;
-		top:0.82em;
-	}
-
-	.MLNE-MB i
-	{
-		top:0.395em;
 	}
 
 	.Flex3
@@ -1021,24 +657,11 @@ header
 
 	/* Décoration */
 
-	.Deco-EL, .Deco-PL, .Deco-DL
-	{
-		display:none;
-	}
-
-	.Deco-ER, .Deco-PR, .Deco-DR
-	{
-		display:none;
-	}
-
 	.P-Left
 	{
-		display:none;
-	}
-
-	.P-Right
-	{
-		display:none;
+		top:-1em;
+		font-size:0.125em;
+	/*	border: 1px solid blue; */
 	}
 
 	/* Footer */
@@ -1057,15 +680,6 @@ header
 	.CT
 	{
 		padding-right:0.5em;
-	}
-
-	/* Responsive */
-
-	.P-R320px
-	{
-		top:-1em;
-		left:1em;
-		font-size:0.2em;
 	}
 
 	/* Obsolète */
