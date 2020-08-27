@@ -116,26 +116,16 @@ header
 	margin: 0.6em 0.6em; /* H - L */ 
 	text-align: center;
 	box-shadow:0 0 16px #f1ebe9;
-	cursor: pointer;
+
+	transition-property:transform;
+	transition-duration:3s;
 /*	border: 1px solid grey; /* DEBUG */
 }
 
 .MLNE:hover, .MCAF:hover, .MLDP:hover, .MLPG:hover
 {
-animation-name: RotationCarte3D;
-animation-duration: 3s;
-animation-timing-function: linear;
-animation-delay: 0s;
-animation-iteration-count: infinite;
+	transform:perspective(800px) rotateY(360deg) scale(1.14);
 }
-
-@keyframes RotationCarte3D
-{
-	0% 		{transform:perspective(800px) rotateY(0deg);}
-	50% 	{transform:perspective(800px) rotateY(180deg);}
-	100% 	{transform:perspective(800px) rotateY(360deg);}
-}
-
 
 /* La note enchantée */
 .MLNE
@@ -394,22 +384,14 @@ animation-iteration-count: infinite;
 	cursor: pointer;
 	padding-bottom:1.5em;
 	padding-top:0.9em;
+
+	transition-property:transform;
+	transition-duration:1s;
 }
 
 .ML:hover, .CT:hover
 {
-	animation-name: Zoom;
-	animation-duration: 1s;
-	animation-timing-function: linear;
-	animation-delay: 0s;
-	animation-iteration-count: infinite;
-}
-	
-@keyframes Zoom
-{
-	0% 		{transform: scale(1);}
-	50% 	{transform: scale(0.8);}
-	100% 	{transform: scale(1);}
+	transform: scale(0.9);
 }
 
 .ML
