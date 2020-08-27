@@ -116,8 +116,26 @@ header
 	margin: 0.6em 0.6em; /* H - L */ 
 	text-align: center;
 	box-shadow:0 0 16px #f1ebe9;
+	cursor: pointer;
 /*	border: 1px solid grey; /* DEBUG */
 }
+
+.MLNE:hover, .MCAF:hover, .MLDP:hover, .MLPG:hover
+{
+animation-name: RotationCarte3D;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+}
+
+@keyframes RotationCarte3D
+{
+	0% 		{transform:perspective(800px) rotateY(0deg);}
+	50% 	{transform:perspective(800px) rotateY(180deg);}
+	100% 	{transform:perspective(800px) rotateY(360deg);}
+}
+
 
 /* La note enchantée */
 .MLNE
@@ -170,7 +188,7 @@ header
 	background-clip:text;
 	color:transparent;
 
-	font-family:CroissantOne;
+	font-family:'CroissantOne';
 	font-size: 0.75em;
 }
 
@@ -202,7 +220,7 @@ header
 	background-clip:text;
 	color:transparent;
 
-	font-family:Dancing;
+	font-family:'Dancing';
 	font-size: 1.15em;
 }
 
@@ -231,7 +249,7 @@ header
 	background-clip:text;
 	color:transparent;
 
-	font-family:Worstveld;
+	font-family:'Worstveld';
 	font-weight: bold;
 	font-size: 1.395em;
 }
@@ -373,8 +391,25 @@ header
 
 .ML, .CT
 {
+	cursor: pointer;
 	padding-bottom:1.5em;
 	padding-top:0.9em;
+}
+
+.ML:hover, .CT:hover
+{
+	animation-name: Zoom;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+}
+	
+@keyframes Zoom
+{
+	0% 		{transform: scale(1);}
+	50% 	{transform: scale(0.8);}
+	100% 	{transform: scale(1);}
 }
 
 .ML
