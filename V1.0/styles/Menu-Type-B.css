@@ -165,7 +165,7 @@ header
 	-webkit-background-clip:text;
 	-moz-background-clip:text;
 	-o-background-clip:text;
-	background-clip:text;
+/*	background-clip:text; */
 	color:transparent;
 
 	font-family:'CroissantOne';
@@ -246,7 +246,7 @@ header
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	-o-background-clip: text;
-	background-clip:text;
+/*	background-clip:text; */
 	color:transparent;
 
 	font-family:'Worstveld';
@@ -307,7 +307,7 @@ header
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	-o-background-clip: text;
-	background-clip:text;
+/*	background-clip:text; */
 	color:transparent;
 
 	font-family:'Dancing';

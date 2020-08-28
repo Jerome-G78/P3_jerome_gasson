@@ -144,7 +144,7 @@ header
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	-o-background-clip: text;
-	background-clip:text;
+/*	background-clip:text; */
 	color:transparent;
 
 	font-size: 1.7em;
