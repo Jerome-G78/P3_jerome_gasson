@@ -82,6 +82,12 @@ header
 
 /* Mise en pages des menus */
 
+@keyframes Apparition /* Apparition */
+{
+	from 	{opacity:0;}
+	to		{opacity:1;}
+}
+
 .Carte
 {
 	font-size:3.2em;
@@ -89,12 +95,24 @@ header
 	margin-top:-1.9em;
 	margin-bottom:1.2em;
 	padding: 1.2em 3.05em; /* H - L */
+
+	animation-name: Apparition;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+	animation-iteration-count:1;
 /*	border: 1px solid red; */
 }
 
 /* Menus */ 
 
 /* La note enchantée */
+
+@keyframes Rotation90
+{
+	0% 		{transform: perspective(800px) rotateY(90deg);}
+	100%	{transform: perspective(400px) rotateY(0deg);}
+}
 
 .Menu-LNE
 {
@@ -106,6 +124,13 @@ header
 	box-shadow:0 0 16px #f1ebe9;
 	padding-top:0.001em;
 	padding-bottom:0.29em;
+
+	animation-name: Rotation90;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+	animation-iteration-count:1;
+
 /*	border: 1px solid red; /* DEBUG */
 }
 

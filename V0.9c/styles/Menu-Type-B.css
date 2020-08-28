@@ -103,6 +103,12 @@ header
 
 /* Mise en pages des menus */
 
+@keyframes Apparition /* Apparition */
+{
+	from 	{opacity:0;}
+	to		{opacity:1;}
+}
+
 .Carte
 {
 	font-size:3.2em;
@@ -110,12 +116,25 @@ header
 	margin-top:-1.9em;
 	margin-bottom:1.2em;
 	padding: 1.2em 3.05em; /* H - L */
+
+	animation-name: Apparition;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+	animation-iteration-count:1;
 /*	border: 1px solid red; */
 }
 
 /* Menus */
 
+@keyframes Rotation90 /* Rotation des cartes */
+{
+	from 	{transform: perspective(800px) rotateY(90deg);}
+	to		{transform: perspective(400px) rotateY(0deg);}
+}
+
 /* Menu - Le chic à la française */
+
 
 .Menu-CAF
 {
@@ -126,6 +145,13 @@ header
 	box-shadow:0 0 16px #f1ebe9;
 	padding-top:0.754em;
 	padding-bottom:5.6em;
+
+	animation-name: Rotation90;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+	animation-iteration-count:1;
+
 /*	border: 1px solid red; /* DEBUG */
 }
 
@@ -180,6 +206,13 @@ header
 	box-shadow:0 0 16px #f1ebe9;
 	padding-top:0.595em;
 	padding-bottom:6.18em;
+
+	animation-name: Rotation90;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+	animation-iteration-count:1;
+
 /*	border: 1px solid red; /* DEBUG */
 }
 
@@ -220,6 +253,12 @@ header
 	box-shadow:0 0 16px #f1ebe9;
 	padding-top:0.69em;
 	padding-bottom:6.7em;
+
+	animation-name: Rotation90;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+	animation-iteration-count:1;
 /*	border: 1px solid red; /* DEBUG */
 }
 
@@ -288,6 +327,7 @@ header
 	font-size:0.3em;
 	text-align: right;
 	float: right;
+
 /*	border: 1px solid red; /* DEBUG */
 }
 
