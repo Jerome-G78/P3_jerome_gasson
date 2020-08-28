@@ -174,10 +174,30 @@ header
 
 .Flex3
 {
+	cursor: pointer;
 	display:inline-block;
 	font-weight:bold;
 	font-size:0.39em;
 /*	border: 1px solid red; /* DEBUG */
+}
+
+/* Effondrement des prix */
+
+.effondrement1, .effondrement2
+{
+	transition-property:transform;
+	transition-timing-function:ease-out;
+	transition-duration:0.3s;
+}
+
+.Flex3:hover + .effondrement1
+{
+	transform:translateY(200px) rotateX(90deg);
+}
+
+.Flex3:hover + .effondrement2
+{
+	transform:translateY(200px) rotateX(90deg);
 }
 
 .C1
@@ -239,7 +259,22 @@ header
 	display:inline-block;
 	font-size:0.34em;
 	text-align: center;
+	cursor: pointer;
 /*	border: 1px solid red; /* DEBUG */
+}
+
+/* Animation La Palette des couleurs */
+.LPDC
+{
+	transition-property:transform;
+	transition-timing-function:ease;
+	transition-duration:1s;
+}
+
+.LPDC:hover
+{
+	transform:perspective(800px) rotateY(180deg);
+	color:#42973c;
 }
 
 /* Menu - Le délice des papilles */
@@ -284,6 +319,21 @@ header
 	display:inline-block;
 	font-size:0.33em;
 /*	border: 1px solid red; /* DEBUG */
+}
+
+/* Animation La Palette des couleurs */
+
+.LDDP
+{
+	transition-property:transform;
+	transition-timing-function:ease-in-out;
+	transition-duration:1s;
+}
+
+.LDDP:hover
+{
+	transform:perspective(800px) rotateY(180deg);
+	color:#0431df;
 }
 
 /* Décoration */

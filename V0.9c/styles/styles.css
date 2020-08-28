@@ -386,6 +386,7 @@ header
 	padding-top:0.9em;
 
 	transition-property:transform;
+	transition-timing-function:ease-out;
 	transition-duration:1s;
 }
 
