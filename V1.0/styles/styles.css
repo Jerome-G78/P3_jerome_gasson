@@ -48,11 +48,10 @@
 body
 {
 	font-family:'Montserrat';
-/*  font-size: 16px; */
+/*  BASE EM 16px */
 	/* RESET*/
     margin:0; 
 	padding:0;
-/*	background-color:grey; /* DEBUG */
 }
 
 /* Mise en page générale */
@@ -65,7 +64,6 @@ body
     justify-content:center;
     align-items:center;
 	flex-wrap:wrap;
-/*  border: 1px solid green;	/* DEBUG */
 }
 
 .Flex2
@@ -75,7 +73,6 @@ body
 	justify-content:center;
 	align-items:center;
 	flex-wrap:wrap;
-/*	border: 1px solid green;	/* DEBUG */
 }
 
 /* élements */
@@ -85,7 +82,6 @@ body
 	width: 100%;
     background-color:#579c87;
 	text-align: center;
-/*	border: 1px solid blue;	/* DEBUG */
 }
 
 #B-Bloc
@@ -105,7 +101,6 @@ a
 header
 {
 	margin: 5em 0;
-/*	border: 1px solid red;	/* DEBUG */
 }
 
 /* navigation */
@@ -119,7 +114,6 @@ header
 
 	transition-property:transform;
 	transition-duration:3s;
-/*	border: 1px solid grey; /* DEBUG */
 }
 
 .MLNE:hover, .MCAF:hover, .MLDP:hover, .MLPG:hover
@@ -144,7 +138,6 @@ header
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	-o-background-clip: text;
-	/* background-clip:text; */
 	color:transparent;
 
 	font-size: 2em;
@@ -175,7 +168,6 @@ header
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	-o-background-clip: text;
-	/* background-clip:text; */
 	color:transparent;
 
 	font-family:'CroissantOne';
@@ -207,7 +199,6 @@ header
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	-o-background-clip: text;
-/*	background-clip:text; */
 	color:transparent;
 
 	font-family:'Dancing';
@@ -236,7 +227,6 @@ header
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	-o-background-clip: text;
-/*	background-clip:text; */
 	color:transparent;
 
 	font-family:'Worstveld';
@@ -289,7 +279,6 @@ header
 
 	padding: 0.42em 1em;
 	margin-bottom:2.53em;
-/*	border: 0.5px solid red;	/* DEBUG */
 }
 
 .Dots
@@ -300,7 +289,6 @@ header
 .Space
 {
 	margin:0 1.2em;
-/*	border: 0.5px solid green;	/* DEBUG */
 }
 
 .Dots1
@@ -343,8 +331,6 @@ header
     animation-timing-function: linear;
     animation-delay: 0.5s;
 	animation-iteration-count: infinite;
-	
-/*	border: 1px solid red;	/* DEBUG */
 }
 
 .Dots3
@@ -365,8 +351,6 @@ header
     animation-timing-function: linear;
     animation-delay: 1s;
 	animation-iteration-count: infinite;
-	
-/*	border: 1px solid blue;	/* DEBUG */
 }
 
 /* Animation - Prochainement */
@@ -584,7 +568,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 	
 	/* Conteneur */
@@ -644,13 +627,11 @@ header
 	.Prochainement h4
 	{
 		font-size: 1.5em;
-	/*	border: 0.5px solid red;	/* DEBUG */
 	}
 
 	.Dots
 	{
 		font-size:0.9em;
-	/*	border: 1px solid fuchsia;	/* DEBUG */
 	}
 	
 	/* Obsolète */
@@ -667,7 +648,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 	
 	/* Conteneur */
@@ -727,13 +707,11 @@ header
 	.Prochainement h4
 	{
 		font-size: 1.5em;
-	/*	border: 0.5px solid red;	/* DEBUG */
 	}
 
 	.Dots
 	{
 		font-size:0.9em;
-	/*	border: 1px solid fuchsia;	/* DEBUG */
 	}
 	
 	/* Obsolète */
@@ -750,7 +728,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 	
 	/* Conteneur */
@@ -814,13 +791,11 @@ header
 	.Prochainement h4
 	{
 		font-size: 1.5em;
-	/*	border: 0.5px solid red;	/* DEBUG */
 	}
 
 	.Dots
 	{
 		font-size:0.9em;
-	/*	border: 1px solid fuchsia;	/* DEBUG */
 	}
 
 	/* Footer */
@@ -855,7 +830,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 	
 	/* Conteneur */
@@ -919,13 +893,11 @@ header
 	.Prochainement h4
 	{
 		font-size: 1.5em;
-	/*	border: 0.5px solid red;	/* DEBUG */
 	}
 
 	.Dots
 	{
 		font-size:0.9em;
-	/*	border: 1px solid fuchsia;	/* DEBUG */
 	}
 
 	/* Footer */
@@ -959,7 +931,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 	
 	/* Conteneur */
@@ -1024,13 +995,11 @@ header
 	{
 		font-size: 1.43em;
 		padding: 0.4em 0.1em;
-	/*	border: 0.5px solid red;	/* DEBUG */
 	}
 
 	.Space
 	{
 		margin:0 0.8em;
-	/*	border: 0.5px solid green;	/* DEBUG */
 	}
 
 	/* Footer */

@@ -19,7 +19,7 @@
 body
 {
 	font-family:'Montserrat';
-/*  font-size: 16px; */
+/*  BASE EM 16px; */
 /*  RESET   */
     margin:0; 
     padding:0;
@@ -36,7 +36,6 @@ body
     align-items:center;
 	flex-wrap:wrap;
 	margin: 0 auto; /* centrage */
-/*  border: 1px solid green;	/* DEBUG */
 }
 
 .Flex3
@@ -52,7 +51,6 @@ body
 	width: 100%;
     background-color:#579c87;
 	text-align: center;
-/*	border: 1px solid blue;	/* DEBUG */
 }
 
 #B-Bloc
@@ -72,7 +70,6 @@ a
 header
 {
 	margin: 5em 0;
-/*	border: 1px solid red;	/* DEBUG */
 }
 
 .Title
@@ -101,7 +98,6 @@ header
     animation-timing-function: linear;
     animation-delay: 0s;
 	animation-iteration-count:1;
-/*	border: 1px solid red; */
 }
 
 /* Menus */ 
@@ -120,7 +116,6 @@ header
 	color: #3c1218;
 	font-size:1.552em;
 	background-color:#fcdfdb;
-/*	text-align: center; */
 	box-shadow:0 0 16px #f1ebe9;
 	padding-top:0.001em;
 	padding-bottom:0.29em;
@@ -130,8 +125,6 @@ header
     animation-timing-function: ease-out;
     animation-delay: 0s;
 	animation-iteration-count:1;
-
-/*	border: 1px solid red; /* DEBUG */
 }
 
 .fab
@@ -144,7 +137,6 @@ header
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	-o-background-clip: text;
-/*	background-clip:text; */
 	color:transparent;
 
 	font-size: 1.7em;
@@ -164,7 +156,6 @@ header
 
 	transition-property:transform;
 	transition-duration:1s;
-/*	border: 1px solid red; /* DEBUG */
 }
 
 /* Animation Rotation & Zoom */
@@ -210,7 +201,6 @@ header
 	word-wrap:break-word;
 	text-align: left;
 	float: left;
-/*	border: 1px solid blue; */
 }
 
 .P-Right
@@ -222,7 +212,6 @@ header
 	font-size:0.3em;
 	text-align: right;
 	float: right;
-/*	border: 1px solid red; */
 }
 
 /* Bottom LNE */
@@ -231,7 +220,6 @@ header
 {
 	display:inline-block;
 	font-size:0.75em;
-/*	border: 1px solid grey; */
 }
 
 /* Footer */
@@ -514,7 +502,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	/* élements */
@@ -534,7 +521,6 @@ header
 		padding:0 0;
 		margin-top:-0.875em;
 		margin-bottom:2.4em;
-	/*	border: 1px solid blue; */
 	}
 
 	.Title
@@ -596,7 +582,6 @@ header
 		top:-1em;
 		left:1em;
 		font-size:0.133em;
-	/*	border: 1px solid blue; */
 	}
 
 	.P-Right
@@ -604,7 +589,6 @@ header
 		top:-1em;
 		right:1em;
 		font-size:0.133em;
-	/*	border: 1px solid red; */
 	}
 
 	/* Responsive */
@@ -627,7 +611,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	/* élements */
@@ -647,7 +630,6 @@ header
 		padding:0 0;
 		margin-top:-0.875em;
 		margin-bottom:2.4em;
-	/*	border: 1px solid blue; */
 	}
 
 	.Title
@@ -709,7 +691,6 @@ header
 		top:-1em;
 		left:1em;
 		font-size:0.133em;
-	/*	border: 1px solid blue; */
 	}
 
 	.P-Right
@@ -717,7 +698,6 @@ header
 		top:-1em;
 		right:1em;
 		font-size:0.133em;
-	/*	border: 1px solid red; */
 	}
 
 	/* Responsive */
@@ -740,7 +720,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	/* élements */
@@ -761,13 +740,12 @@ header
 		padding:0 0;
 		margin-top:-0.875em;
 		margin-bottom:2.3em;
-	/*	border: 1px solid blue; */
 	}
 
 	.Title
 	{
 		font-size: 0.6em;
-		padding-top: 1em; /* EDIT */
+		padding-top: 1em;
 	}
 
 	.MLNE-MB
@@ -790,7 +768,6 @@ header
 	.MLNE-F
 	{
 		font-size: 0.53em;
-	/*	border: 1px solid grey; */
 	}
 
 	.fab
@@ -855,7 +832,6 @@ header
 		left:1em;
 		font-size:0.2em;
 		padding: 0 0.3em; /* H - L*/
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	/* Obsolète */
@@ -871,7 +847,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	/* élements */
@@ -892,13 +867,12 @@ header
 		padding:0 0;
 		margin-top:-0.875em;
 		margin-bottom:2.3em;
-	/*	border: 1px solid blue; */
 	}
 
 	.Title
 	{
 		font-size: 0.6em;
-		padding-top: 1em; /* EDIT */
+		padding-top: 1em;
 	}
 
 	.MLNE-MB
@@ -921,7 +895,6 @@ header
 	.MLNE-F
 	{
 		font-size: 0.53em;
-	/*	border: 1px solid grey; */
 	}
 
 	.fab
@@ -986,7 +959,6 @@ header
 		left:1em;
 		font-size:0.2em;
 		padding: 0 0.3em; /* H - L*/
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	/* Obsolète */
@@ -1002,7 +974,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	/* élements */
@@ -1023,7 +994,6 @@ header
 		padding:0 0;
 		margin-top:-0.109em;
 		margin-bottom:2.3em;
-	/*	border: 1px solid grey; /* DEBUG */
 	}
 
 	.Title
@@ -1041,7 +1011,6 @@ header
 	.MLNE-F
 	{
 		font-size: 0.3em;
-	/*	border: 1px solid grey; */
 	}
 
 	.Menu-LNE i

@@ -19,7 +19,7 @@
 body
 {
 	font-family:Montserrat;
-/*  font-size: 16px; */
+/*  BASE EM 16px */
 /*  RESET   */
     margin:0; 
     padding:0;
@@ -36,7 +36,6 @@ body
     align-items:center;
 	flex-wrap:wrap;
 	margin: 0 auto; /* centrage */
-/*  border: 1px solid green;	/* DEBUG */
 }
 
 .Flex3
@@ -52,7 +51,6 @@ body
 	width: 100%;
     background-color:#579c87;
 	text-align: center;
-/*	border: 1px solid blue;	/* DEBUG */
 }
 
 #B-Bloc
@@ -72,7 +70,6 @@ a
 header
 {
 	margin: 5em 0;
-/*	border: 1px solid red;	/* DEBUG */
 }
 
 .Title
@@ -89,7 +86,6 @@ header
 	margin-top:-1.9em;
 	margin-bottom:1.2em;
 	padding: 1.2em 3.05em; /* H - L */
-/*	border: 1px solid red; */
 }
 
 /* Menus */ 
@@ -106,14 +102,12 @@ header
 	box-shadow:0 0 16px #f1ebe9;
 	padding-top:0.001em;
 	padding-bottom:1.5em;
-/*	border: 1px solid red; /* DEBUG */
 }
 
 .ML-F
 {
 	font-size:0.3em;
 	padding: 0 0.5em;
-/*	border: 1px solid red; /* DEBUG */
 }
 
 .Flex3
@@ -124,7 +118,6 @@ header
 
 	transition-property:transform;
 	transition-duration:1s;
-/*	border: 1px solid red; /* DEBUG */
 }
 
 .Flex3:hover
@@ -146,7 +139,6 @@ header
 
 	padding: 0 0.5em;
 	margin: 0 0.5em;
-/*	border: 1px solid blue; */
 }
 
 /* Décoration - Animations */
@@ -344,7 +336,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	/* élements */
@@ -364,7 +355,6 @@ header
 		padding:0 0;
 		margin-top:-0.875em;
 		margin-bottom:2.4em;
-	/*	border: 1px solid blue; */
 	}
 
 	.Title
@@ -389,7 +379,6 @@ header
 	{
 		top:-1em;
 		font-size:0.133em;
-	/*	border: 1px solid blue; */
 	}
 
 	/* Obsolète */
@@ -405,7 +394,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	/* élements */
@@ -425,7 +413,6 @@ header
 		padding:0 0;
 		margin-top:-0.875em;
 		margin-bottom:2.4em;
-	/*	border: 1px solid blue; */
 	}
 
 	.Title
@@ -450,7 +437,6 @@ header
 	{
 		top:-1em;
 		font-size:0.133em;
-	/*	border: 1px solid blue; */
 	}
 
 	/* Obsolète */
@@ -466,7 +452,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	/* élements */
@@ -487,13 +472,12 @@ header
 		padding:0 0;
 		margin-top:-0.875em;
 		margin-bottom:2.3em;
-	/*	border: 1px solid blue; */
 	}
 
 	.Title
 	{
 		font-size: 0.6em;
-		padding-top: 1em; /* EDIT */
+		padding-top: 1em;
 	}
 
 	/* Mention Légales */
@@ -501,7 +485,6 @@ header
 	.ML-F
 	{
 		font-size: 0.2em;
-	/*	border: 1px solid grey; */
 	}
 
 	.Flex3
@@ -515,7 +498,6 @@ header
 	{
 		top:-1em;
 		font-size:0.13em;
-	/*	border: 1px solid blue; */
 	}
 
 	/* Footer */
@@ -549,7 +531,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	/* élements */
@@ -570,13 +551,12 @@ header
 		padding:0 0;
 		margin-top:-0.875em;
 		margin-bottom:2.3em;
-	/*	border: 1px solid blue; */
 	}
 
 	.Title
 	{
 		font-size: 0.6em;
-		padding-top: 1em; /* EDIT */
+		padding-top: 1em;
 	}
 
 	/* Mention Légales */
@@ -584,7 +564,6 @@ header
 	.ML-F
 	{
 		font-size: 0.2em;
-	/*	border: 1px solid grey; */
 	}
 
 	.Flex3
@@ -598,7 +577,6 @@ header
 	{
 		top:-1em;
 		font-size:0.13em;
-	/*	border: 1px solid blue; */
 	}
 
 	/* Footer */
@@ -632,7 +610,6 @@ header
 	header
 	{
 		margin: 0.5em 0;
-	/*	border: 1px solid red;	/* DEBUG */
 	}
 
 	/* élements */
@@ -653,7 +630,6 @@ header
 		padding:0 0;
 		margin-top:-0.109em;
 		margin-bottom:2.3em;
-	/*	border: 1px solid grey; /* DEBUG */
 	}
 
 	.Title
@@ -666,7 +642,6 @@ header
 	.ML-F
 	{
 		font-size: 0.2em;
-	/*	border: 1px solid grey; */
 	}
 
 	.Flex3
@@ -680,7 +655,6 @@ header
 	{
 		top:-1em;
 		font-size:0.125em;
-	/*	border: 1px solid blue; */
 	}
 
 	/* Footer */
