@@ -68,7 +68,7 @@ body
 
 .Flex2
 {
-	width:55em;
+	width:56em;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -264,7 +264,7 @@ header
 .Prochainement h4
 {
 	display:inline-block;
-	width:11.354em;
+	width:12.354em;
 	position:relative;
 	top:-1.32em;
 
