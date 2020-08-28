@@ -457,7 +457,7 @@ header
 	.Flex2
 	{
 		width:39.5em;
-		display:column;
+		flex-direction:column;
 	}
 
 	/* navigation */
@@ -521,7 +521,7 @@ header
 	.Flex2
 	{
 		width:39.5em;
-		display:column;
+		flex-direction:column;
 	}
 
 	/* navigation */
@@ -592,7 +592,7 @@ header
 	.Flex2
 	{
 		width:39.5em;
-		display:column;
+		flex-direction:column;
 	}
 
 	/* navigation */
@@ -675,7 +675,7 @@ header
 	.Flex2
 	{
 		width:39.5em;
-		display:column;
+		flex-direction:column;
 	}
 
 	/* navigation */
