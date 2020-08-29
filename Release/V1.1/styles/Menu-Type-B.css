@@ -1,0 +1,1342 @@
+/* CSS Style */
+
+@font-face 
+{
+	/* Police Générale */
+
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+	/* Police Le délice des papilles */
+
+	font-family: 'Dancing';
+	src: url('../fonts/dancing/DancingScript-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+	/* Police La palette du goût */
+	font-family: 'Worstveld';
+	src: url('../fonts/Worstveld_Sling/worstveldsling.woff') format('woff');
+}
+
+@font-face 
+{
+	/*Police  Le chic à la française 1 */
+	font-family: 'CroissantOne';
+	src: url('../fonts/croissant-one/CroissantOne-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+	/*Police  Le chic à la française 2 */
+	font-family: 'LibreCaslon';
+	src: url('../fonts/libre-caslon/librecaslondisplay-regular.woff') format('woff');
+}
+
+body
+{
+	font-family:'Montserrat';
+/*  BASE EM 16px; */
+/*  RESET   */
+    margin:0; 
+    padding:0;
+}
+
+/* Mise en page générale */
+
+/* conteneurs */
+.Flex
+{
+	width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+	flex-wrap:wrap;
+	margin: 0 auto; /* centrage */
+}
+
+.Flex3
+{
+	width:100%;
+	justify-content:center;
+}
+
+/* Animation Soulignement */
+
+.Underline_B
+{
+	text-decoration: none;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 5%, transparent 5.01%) no-repeat left bottom / 0 100%;
+	transition: background-size .5s;
+}
+
+.Underline_B:hover
+{
+	background-size: 100% 100%;
+}
+
+.Underline_C1
+{
+	text-decoration: none;
+	background: linear-gradient(to top, rgba(198, 116, 18, 0.9) 0%, rgba(198, 116, 18, 0.9) 5%, transparent 5.01%) no-repeat left bottom / 0 100%;
+	transition: background-size .5s;
+}
+
+.Underline_C1:hover
+{
+	background-size: 100% 100%;
+}
+
+.Underline_C2
+{
+	text-decoration: none;
+	background: linear-gradient(to top, rgba(165, 103, 153, 0.9) 0%, rgba(165, 103, 153, 0.9) 5%, transparent 5.01%) no-repeat left bottom / 0 100%;
+	transition: background-size .5s;
+}
+
+.Underline_C2:hover
+{
+	background-size: 100% 100%;
+}
+
+.Underline_C3
+{
+	text-decoration: none;
+	background: linear-gradient(to top, rgba(110, 76, 204, 0.9) 0%, rgba(110, 76, 204, 0.9) 5%, transparent 5.01%) no-repeat left bottom / 0 100%;
+	transition: background-size .5s;
+}
+
+.Underline_C3:hover
+{
+	background-size: 100% 100%;
+}
+
+/* élements */
+
+#B-Bloc, #T-Bloc-Menu
+{
+	width: 100%;
+    background-color:#579c87;
+	text-align: center;
+}
+
+#B-Bloc
+{
+	width: 100%;
+	position:fixed;
+	bottom:0em;
+}
+
+a
+{
+	color: #fdcb46; /* Jaune foncé */
+	text-decoration:none;
+}
+
+/* Header */
+header
+{
+	margin: 5em 0;
+}
+
+.Title
+{
+	font-size:0.963em;
+}
+
+/* Mise en pages des menus */
+
+.Carte
+{
+	font-size:3.2em;
+	text-align: center;
+	margin-top:-1.9em;
+	margin-bottom:1.2em;
+	padding: 1.2em 3.05em; /* H - L */
+}
+
+/* Menus */
+
+/* Menu - Le chic à la française */
+
+
+.Menu-CAF
+{
+	font-family: 'LibreCaslon';
+	font-size:1.552em;
+	background-color:#fff5fe;
+	text-align: center;
+	box-shadow:0 0 16px #f1ebe9;
+	padding-top:0.754em;
+	padding-bottom:5.6em;
+}
+
+.MLCAF-F
+{
+	background:-webkit-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:-moz-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:-o-linear-gradient(to bottom right, #d8852e, #905bfd);
+	background:linear-gradient(to bottom right, #d8852e, #905bfd);
+
+	-webkit-background-clip:text;
+	-moz-background-clip:text;
+	-o-background-clip:text;
+	color:transparent;
+
+	font-family:'CroissantOne';
+	font-size: 0.716em;
+}
+
+.Flex3
+{
+	cursor: pointer;
+	display:inline-block;
+	font-weight:bold;
+	font-size:0.39em;
+}
+
+.C1
+{
+	color:#c67412;
+}
+
+.C2
+{
+	color:#a56799;
+}
+
+.C3
+{
+	color:#6e4ccc;
+}
+
+/* Menu - La palette du goût */
+
+.Menu-LPG
+{
+	font-family: 'Dancing';
+	font-size:1.552em;
+	background-color:#fdfffd;
+	text-align: center;
+	box-shadow:0 0 16px #f1ebe9;
+	padding-top:0.595em;
+	padding-bottom:6.18em;
+}
+
+.MLPG-F
+{
+	background:-webkit-linear-gradient(to right, #42973c, #bfff7e);
+	background:-moz-linear-gradient(to right, #42973c, #bfff7e);
+	background:-o-linear-gradient(to right, #42973c, #bfff7e);
+	background:linear-gradient(to right, #42973c, #bfff7e);
+
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-o-background-clip: text;
+	color:transparent;
+
+	font-family:'Worstveld';
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.Menu-LPG h3
+{
+	display:inline-block;
+	font-size:0.34em;
+	text-align: center;
+	cursor: pointer;
+}
+
+/* Menu - Le délice des papilles */
+
+.Menu-LDP
+{
+	font-family: 'Dancing';
+	font-size:1.552em;
+	background-color:#f9f9f9;
+	text-align: center;
+	box-shadow:0 0 16px #f1ebe9;
+	padding-top:0.69em;
+	padding-bottom:6.7em;
+}
+
+.MLDP-F
+{
+	background:-webkit-linear-gradient(to right, #0431df, #0887fb);
+	background:-moz-linear-gradient(to right, #0431df, #0887fb);
+	background:-o-linear-gradient(to right, #0431df, #0887fb);
+	background:linear-gradient(to right, #0431df, #0887fb);
+
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-o-background-clip: text;
+	color:transparent;
+
+	font-family:'Dancing';
+	font-size: 1.315em;
+}
+
+.Menu-LDP h3
+{
+	display:inline-block;
+	font-size:0.33em;
+}
+
+/* Animation La Palette des couleurs */
+
+/* Décoration */
+
+.Deco-EL, .Deco-PL, .Deco-DL
+{
+	width:6.5em;
+	position: relative;
+	top: 0.5em;
+	left:3.15em;
+	float: left;
+}
+
+.Deco-ER, .Deco-PR, .Deco-DR
+{
+	width:6.5em;
+	position: relative;
+	top:0.5em;
+	right:3.13em;
+	float: right;
+}
+
+.P-Left
+{
+	position: relative;
+	top:-0.3em;
+	left:6.25em;
+
+	font-size:0.3em;
+	text-align: left;
+	float: left;
+}
+
+.P-Right
+{
+	position: relative;
+	top:-0.55em;
+	right:5.58em;
+
+	font-size:0.3em;
+	text-align: right;
+	float: right;
+}
+
+/* Footer */
+
+.ML, .CT
+{
+	cursor: pointer;
+	padding-bottom:1.5em;
+	padding-top:0.9em;
+
+	transition-property:transform;
+	transition-duration:1s;
+}
+
+.ML:hover, .CT:hover
+{
+	animation-name: Wiggle;
+    animation-duration: 0.1s;
+    animation-timing-function: linear;
+	animation-iteration-count:3;
+}
+
+@keyframes Wiggle
+{
+	0% { transform: translate(2px, 0);}
+	50% { transform: translate(-2px, 0);}
+	100% { transform: translate(2px, 0);}
+}
+
+.ML
+{
+	padding-left:2.5em;
+	float:left;
+}
+
+.CT
+{
+	padding-right:2.5em;
+	float:right;
+}
+
+@media screen and (min-width:1280px) and (orientation: landscape)    /* 80em - Grand Ecran FHD+  */
+{
+	.Flex2
+	{
+		width: 79em;
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:2.5em;
+	}
+
+	/* Responsive */
+
+	.P-R320px
+	{
+		display:none;
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:1090px) and (max-width:1279px) and (orientation: landscape)    /* 68em - Ecran FHD  	*/
+{
+	.Flex2
+	{
+		width: 68em;
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:2.5em;
+	}
+
+	/* Menu - Le délice des papilles */
+
+	.MLDP-F, .MLPG-F
+	{
+		font-size:0.8em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:6.5em;
+		top: 0.5em;
+		left:1.08em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:6.5em;
+		top:0.5em;
+		right:1.04em;
+	}
+
+	.P-Left
+	{
+		font-size:0.28em;
+		left:2em;
+	}
+
+	.P-Right
+	{
+		font-size:0.28em;
+		right:1.9em;
+	}
+
+	/* Responsive */
+	
+	.P-R320px
+	{
+		display:none;
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:664px) and (max-width:1089px) and (orientation: landscape)    	/* 42em - Tablettes  	*/
+{
+	.Flex2
+	{
+		width: 39.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:12em;
+		padding:0 0;
+		margin-top:-0.7em;
+		margin-bottom:2.4em;
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:2.5em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.MLPG-F
+	{
+		font-size:0.7em;
+	}
+
+	/* Menu - Le délice des papilles */
+
+	.MLDP-F
+	{
+		font-size:0.6em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Flex3
+	{
+		font-size:0.38em;
+	}
+
+	.MLCAF-F
+	{
+		font-size:0.55em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:3.76em;
+		top: 0.5em;
+		left:0.93em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:3.76em;
+		top:0.5em;
+		right:0.915em;
+	}
+
+	.P-Left
+	{
+		font-size:0.25em;
+		left:2em;
+	}
+
+	.P-Right
+	{
+		font-size:0.25em;
+		right:1.9em;
+	}
+
+	/* Responsive */
+	
+	.P-R320px
+	{
+		display:none;
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:664px) and (max-width:1089px) and (orientation: portrait)    	/* 49em - Tablettes  	*/
+{
+	.Flex2
+	{
+		width: 39.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:12em;
+		padding:0 0;
+		margin-top:-0.7em;
+		margin-bottom:2.4em;
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:2.5em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.MLPG-F
+	{
+		font-size:0.7em;
+	}
+
+	/* Menu - Le délice des papilles */
+
+	.MLDP-F
+	{
+		font-size:0.6em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Flex3
+	{
+		font-size:0.38em;
+	}
+
+	.MLCAF-F
+	{
+		font-size:0.55em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:3.76em;
+		top: 0.5em;
+		left:0.93em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:3.76em;
+		top:0.5em;
+		right:0.915em;
+	}
+
+	.P-Left
+	{
+		font-size:0.25em;
+		left:2em;
+	}
+
+	.P-Right
+	{
+		font-size:0.25em;
+		right:1.9em;
+	}
+
+	/* Responsive */
+	
+	.P-R320px
+	{
+		display:none;
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:568px) and (max-width:663px) and (orientation: landscape)    	/* 36em - Smartphones  	*/
+{
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	}
+
+	/* élements */
+
+	.Flex2
+	{
+		width:35.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:9.88em;
+		padding:0 0;
+		margin-top:-0.875em;
+		margin-bottom:2.4em;
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:1.5em;
+	}
+
+	.Title
+	{
+		font-size: 0.8em;
+		padding-top: 1em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.MLPG-F
+	{
+		font-size:0.4em;
+	}
+
+	.Menu-LPG h3
+	{
+		font-size:0.16em;
+	}
+
+	/* Menu - Le délice des papilles */
+
+	.MLDP-F
+	{
+		font-size:0.6em;
+	}
+
+	.Menu-LDP h3
+	{
+		font-size:0.16em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h3
+	{
+		font-size:0.25em;
+	}
+
+	.MLCAF-F
+	{
+		font-size:0.45em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:23%;
+		top: 0.5em;
+		left:0.45em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:23%;
+		top:0.5em;
+		right:0.615em;
+	}
+
+	.P-Left
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.18em;
+	}
+
+	.P-Right
+	{
+		top:-1em;
+		right:1em;
+		font-size:0.18em;
+	}
+
+	/* Responsive */
+	
+	.P-R320px
+	{
+		display:none;
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:568px) and (max-width:663px) and (orientation: portrait)    	/* 36em - Smartphones  	*/
+{
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	}
+
+	/* élements */
+
+	.Flex2
+	{
+		width:35.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:9.88em;
+		padding:0 0;
+		margin-top:-0.875em;
+		margin-bottom:2.4em;
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:1.5em;
+	}
+
+	.Title
+	{
+		font-size: 0.8em;
+		padding-top: 1em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.MLPG-F
+	{
+		font-size:0.4em;
+	}
+
+	.Menu-LPG h3
+	{
+		font-size:0.16em;
+	}
+
+	/* Menu - Le délice des papilles */
+
+	.MLDP-F
+	{
+		font-size:0.6em;
+	}
+
+	.Menu-LDP h3
+	{
+		font-size:0.16em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h3
+	{
+		font-size:0.25em;
+	}
+
+	.MLCAF-F
+	{
+		font-size:0.45em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:23%;
+		top: 0.5em;
+		left:0.45em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:23%;
+		top:0.5em;
+		right:0.615em;
+	}
+
+	.P-Left
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.18em;
+	}
+
+	.P-Right
+	{
+		top:-1em;
+		right:1em;
+		font-size:0.18em;
+	}
+
+	/* Responsive */
+	
+	.P-R320px
+	{
+		display:none;
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:360px) and (max-width:567px) and (orientation: landscape)    	/* 23em - Smartphones  	*/
+{
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	}
+
+	/* élements */
+
+	.Flex2
+	{
+		width:22em;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:15em;
+	}
+
+	.Carte
+	{
+		width:6.88em;
+		padding:0 0;
+		margin-top:-0.875em;
+		margin-bottom:2.3em;
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:1.5em;
+	}
+
+	.Title
+	{
+		font-size: 0.6em;
+		padding-top: 1em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.MLPG-F
+	{
+		font-size:0.5em;
+		padding-bottom:0.15em;
+	}
+
+	.Menu-LPG h3
+	{
+		font-size:0.2em;
+	}
+
+	/* Menu - Le délice des papilles */
+
+	.MLDP-F
+	{
+		font-size:0.4em;
+	}
+
+	.Menu-LDP h3
+	{
+		font-size:0.2em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h3
+	{
+		font-size:0.2em;
+	}
+
+	.MLCAF-F
+	{
+		font-size:0.3em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:25.9%;
+		top: 0.5em;
+		left:0.48em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:25.9%;
+		top:0.5em;
+		right:0.615em;
+	}
+
+	.P-Left
+	{
+		display:none;
+	}
+
+	.P-Right
+	{
+		display:none;
+	}
+
+	/* Footer */
+
+	.ML, .CT
+	{
+		padding-bottom:1.4em;
+		padding-top:0.65em;
+	}
+
+	.ML
+	{
+		padding-left:1.5em;
+	}
+
+	.CT
+	{
+		padding-right:1.5em;
+	}
+
+	/* Responsive */
+	
+	.P-R360px
+	{
+		font-size:0.25em;
+		padding: 0 0.3em; /* H - L*/
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:360px) and (max-width:567px) and (orientation: portrait)    	/* 23em - Smartphones  	*/
+{
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	}
+
+	/* élements */
+
+	.Flex2
+	{
+		width:22em;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:15em;
+	}
+
+	.Carte
+	{
+		width:6.88em;
+		padding:0 0;
+		margin-top:-0.875em;
+		margin-bottom:2.3em;
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:1.5em;
+	}
+
+	.Title
+	{
+		font-size: 0.6em;
+		padding-top: 1em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.MLPG-F
+	{
+		font-size:0.5em;
+		padding-bottom:0.15em;
+	}
+
+	.Menu-LPG h3
+	{
+		font-size:0.2em;
+	}
+
+	/* Menu - Le délice des papilles */
+
+	.MLDP-F
+	{
+		font-size:0.4em;
+	}
+
+	.Menu-LDP h3
+	{
+		font-size:0.2em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.Menu-CAF h3
+	{
+		font-size:0.2em;
+	}
+
+	.MLCAF-F
+	{
+		font-size:0.3em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:25.9%;
+		top: 0.5em;
+		left:0.48em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:25.9%;
+		top:0.5em;
+		right:0.615em;
+	}
+
+	.P-Left
+	{
+		display:none;
+	}
+
+	.P-Right
+	{
+		display:none;
+	}
+
+	/* Footer */
+
+	.ML, .CT
+	{
+		padding-bottom:1.4em;
+		padding-top:0.65em;
+	}
+
+	.ML
+	{
+		padding-left:1.5em;
+	}
+
+	.CT
+	{
+		padding-right:1.5em;
+	}
+
+	/* Responsive */
+	
+	.P-R360px
+	{
+		font-size:0.25em;
+		padding: 0 0.3em; /* H - L*/
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:359px) and (orientation: portrait)    	/* 20em - Smartphones  	*/
+{
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	}
+
+	/* élements */
+
+	.Flex2
+	{
+		width:20em;
+		align-items:center;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:15em;
+	}
+
+	.Carte
+	{
+		width:5.91em;
+		padding:0 0;
+		margin-top:-0.109em;
+		margin-bottom:2.3em;
+	}
+
+	.Title
+	{
+		font-size: 0.45em;
+	}
+
+	.Menu-CAF, .Menu-LPG, .Menu-LDP
+	{
+		padding-bottom:2.5em;
+	}
+
+	/* Menu - La palette du goût */
+
+	.MLPG-F
+	{
+		font-size:0.4em;
+		padding-bottom:0.15em;
+	}
+
+	.Menu-LPG h3
+	{
+		font-size:0.33em;
+	}
+
+	/* Menu - Le délice des papilles */
+
+	.MLDP-F
+	{
+		font-size:0.4em;
+	}
+
+	.Menu-LDP h3
+	{
+		font-size:0.33em;
+	}
+
+	/* Menu - Le chic à la française */
+
+	.MLCAF-F
+	{
+		font-size:0.3em;
+	}
+
+	.Menu-CAF h3
+	{
+		font-size:0.33em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		display:none;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		display:none;
+	}
+
+	.P-Left
+	{
+		display: none;
+	}
+
+	.P-Right
+	{
+		display: none;
+	}
+
+	/* Footer */
+
+	.ML, .CT
+	{
+		padding-bottom:1.4em;
+		padding-top:0.65em;
+	}
+
+	.ML
+	{
+		padding-left:0.5em;
+	}
+
+	.CT
+	{
+		padding-right:0.5em;
+	}
+
+	/* Responsive */
+	
+	.P-R320px
+	{
+		font-size:0.25em;
+		padding: 0 0.3em; /* H - L*/
+	}
+
+	/* Obsolète */
+
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width:319px) and (orientation: portrait)    							/* 		Obsolète  		*/
+{
+	#T-Bloc-Menu, #B-Bloc, .Flex2
+	{
+		display: none;
+	}
+
+	/* Obsolète */
+	
+	body
+	{
+		background-color:#579c87;
+	}
+
+	.Alert img
+	{
+		position: relative;
+		top:10em;
+		left:7em;
+		width:5em;
+		height:auto;
+
+		animation-name: switch;
+		animation-duration: 2s;
+		animation-timing-function: linear;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes switch
+	{
+		0%	{transform: perspective(400px) rotateY(0deg) rotateX(0deg) scale(1);}
+		50%	{transform: perspective(800px) rotateY(180deg) rotateX(180deg) scale(1.2);}
+		100%{transform: perspective(400px) rotateY(360deg) rotateX(360deg) scale(1);}
+	}
+
+	img:hover
+	{
+		animation-play-state: paused;
+	}
+
+	img:hover + .OBS
+	{
+		transform: perspective(800px) rotateY(0deg);
+	}
+
+	.OBS
+	{
+		font-size: 1.12em;
+		margin:0 0.3em;
+		margin-top: 50%;
+		color: #3c1218;
+		background-color: #fcdfdb;
+		text-align: center;
+		border:0.2px solid #fdcb46;
+
+		transition-property:transform;
+		transition-duration:0.5s;
+		transform: rotateY(90deg);
+	}
+}
