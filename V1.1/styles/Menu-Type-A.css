@@ -1,0 +1,1139 @@
+/* CSS Style */
+
+@font-face 
+{
+	/* Police Générale */
+
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+	/* Police La note enchantée */
+
+	font-family: 'Komilka';
+	src: url('../fonts/Komika/Komilka.woff') format('woff');
+}
+
+body
+{
+	font-family:'Montserrat';
+/*  BASE EM 16px; */
+/*  RESET   */
+    margin:0; 
+    padding:0;
+}
+
+/* Mise en page générale */
+
+/* conteneurs */
+.Flex
+{
+	width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+	flex-wrap:wrap;
+	margin: 0 auto; /* centrage */
+}
+
+.Flex3
+{
+	width:100%;
+	justify-content:center;
+}
+
+/* élements */
+
+#B-Bloc, #T-Bloc-Menu
+{
+	width: 100%;
+    background-color:#579c87;
+	text-align: center;
+}
+
+#B-Bloc
+{
+	width: 100%;
+	position:fixed;
+	bottom:0em;
+}
+
+a
+{
+	color: #fdcb46; /* Jaune foncé */
+	text-decoration:none;
+}
+
+/* Header */
+header
+{
+	margin: 5em 0;
+}
+
+.Title
+{
+	font-size:0.963em;
+}
+
+/* Mise en pages des menus */
+
+.Carte
+{
+	font-size:3.2em;
+	text-align: center;
+	margin-top:-1.9em;
+	margin-bottom:1.2em;
+	padding: 1.2em 3.05em; /* H - L */
+}
+
+/* Menus */ 
+
+/* La note enchantée */
+
+.Menu-LNE
+{
+	font-family: 'Komilka';
+	color: #3c1218;
+	font-size:1.552em;
+	background-color:#fcdfdb;
+	box-shadow:0 0 16px #f1ebe9;
+	padding-top:0.001em;
+	padding-bottom:0.29em;
+}
+
+.fab
+{
+	background:-webkit-linear-gradient(to right, #f05261, #f6916a);
+	background:-moz-linear-gradient(to right, #f05261, #f6916a);
+	background:-o-linear-gradient(to right, #f05261, #f6916a);
+	background:linear-gradient(to right, #f05261, #f6916a);
+
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-o-background-clip: text;
+	color:transparent;
+
+	font-size: 1.7em;
+	position: relative;
+	top:0.12em;
+}
+
+.MLNE-F, .MLNE-MB
+{
+	font-size:0.6em;
+}
+
+.Flex3
+{
+	display:inline-block;
+	font-size:0.5em;
+}
+
+/* Animation Soulignement */
+
+.Underline
+{
+	text-decoration: none;
+	background: linear-gradient(to top, rgba(60, 18, 24, 0.9) 0%, rgba(60, 18, 24, 0.9) 5%, transparent 5.01%) no-repeat left bottom / 0 100%;
+	transition: background-size .5s;
+}
+
+.Underline:hover
+{
+	background-size: 100% 100%;
+}
+
+.MLNE-MB i
+{
+	font-size:1em;
+}
+
+/* Décoration */
+
+.Deco-EL, .Deco-PL, .Deco-DL
+{
+	width:5.5em;
+	position: relative;
+	top: 0.5em;
+	left:2.4em;
+	float: left;
+}
+
+.Deco-ER, .Deco-PR, .Deco-DR
+{
+	width:5.5em;
+	position: relative;
+	top:0.5em;
+	right:2.4em;
+	float: right;
+}
+
+.P-Left
+{
+	position: relative;
+	top:-2.5em;
+	left:5em;
+
+	font-size:0.3em;
+	word-wrap:break-word;
+	text-align: left;
+	float: left;
+}
+
+.P-Right
+{
+	position: relative;
+	top:-2.5em;
+	right:4.45em;
+
+	font-size:0.3em;
+	text-align: right;
+	float: right;
+}
+
+/* Bottom LNE */
+
+.MLNE-MB
+{
+	display:inline-block;
+	font-size:0.75em;
+}
+
+/* Footer */
+
+.ML, .CT
+{
+	cursor: pointer;
+	padding-bottom:1.5em;
+	padding-top:0.9em;
+
+	transition-property:transform;
+	transition-duration:1s;
+}
+
+.ML:hover, .CT:hover
+{
+	animation-name: Wiggle;
+    animation-duration: 0.1s;
+    animation-timing-function: linear;
+	animation-iteration-count:3;
+}
+
+@keyframes Wiggle
+{
+	0% { transform: translate(2px, 0);}
+	50% { transform: translate(-2px, 0);}
+	100% { transform: translate(2px, 0);}
+}
+
+.ML
+{
+	padding-left:2.5em;
+	float:left;
+}
+
+.CT
+{
+	padding-right:2.5em;
+	float:right;
+}
+
+@media screen and (min-width:1280px) and (orientation: landscape)    /* 80em - Grand Ecran FHD+  */
+{
+	.Flex2
+	{
+		width: 79em;
+	}
+
+	/* Responsive */
+
+	.P-R320px, .P-R360px
+	{
+		display: none;
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		 display: none;
+	}
+}
+
+@media screen and (min-width:1090px) and (max-width:1279px) and (orientation: landscape)    /* 68em - Ecran FHD  	*/
+{
+	.Flex2
+	{
+		width: 68em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.Flex3
+	{
+		font-size:0.492em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:5.6em;
+		top: 0.5em;
+		left:1.08em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:5.6em;
+		top:0.5em;
+		right:1.04em;
+	}
+
+	.P-Left
+	{
+		font-size:0.28em;
+		left:2em;
+	}
+
+	.P-Right
+	{
+		font-size:0.28em;
+		right:1.9em;
+	}
+
+	/* Responsive */
+
+	.P-R320px, .P-R360px
+	{
+		display: none;
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:664px) and (max-width:1089px) and (orientation: landscape)    	/* 42em - Tablettes  	*/
+{
+	.Flex2
+	{
+		width: 39.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:12em;
+		padding:0 0;
+		margin-top:-0.7em;
+		margin-bottom:2.4em;
+	}
+
+	.Title
+	{
+		font-size:0.963em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.fab
+	{
+		font-size: 2em;
+		top:0.265em;		
+	}
+
+	.MLNE-F
+	{
+		font-size:0.6em;
+	}
+
+	.Flex3
+	{
+		font-size:0.4em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:3.76em;
+		top: 0.5em;
+		left:0.93em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:3.76em;
+		top:0.5em;
+		right:0.915em;
+	}
+
+	.P-Left
+	{
+		font-size:0.2em;
+		left:2em;
+	}
+
+	.P-Right
+	{
+		font-size:0.2em;
+		right:1.9em;
+	}
+
+	/* Responsive */
+
+	.P-R320px, .P-R360px
+	{
+		display: none;
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:664px) and (max-width:1089px) and (orientation: portrait)    	/* 49em - Tablettes  	*/
+{
+	.Flex2
+	{
+		width: 39.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:12em;
+		padding:0 0;
+		margin-top:-0.7em;
+		margin-bottom:2.4em;
+	}
+
+	.Title
+	{
+		font-size:0.963em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.fab
+	{
+		font-size: 2em;
+		top:0.265em;		
+	}
+
+	.MLNE-F
+	{
+		font-size:0.6em;
+	}
+
+	.Flex3
+	{
+		font-size:0.4em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:3.76em;
+		top: 0.5em;
+		left:0.93em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:3.76em;
+		top:0.5em;
+		right:0.915em;
+	}
+
+	.P-Left
+	{
+		font-size:0.2em;
+		left:2em;
+	}
+
+	.P-Right
+	{
+		font-size:0.2em;
+		right:1.9em;
+	}
+
+	/* Responsive */
+
+	.P-R320px, .P-R360px
+	{
+		display: none;
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:568px) and (max-width:663px) and (orientation: landscape)    	/* 36em - Smartphones  	*/
+{
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	}
+
+	/* élements */
+
+	.Flex2
+	{
+		width:35.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:9.88em;
+		padding:0 0;
+		margin-top:-0.875em;
+		margin-bottom:2.4em;
+	}
+
+	.Title
+	{
+		font-size: 0.8em;
+		padding-top: 1em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.7em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.Menu-LNE i
+	{
+		top:0.3em;
+	}
+
+	.MLNE-MB i
+	{
+		top:0.43em;
+	}
+
+	.MLNE-F
+	{
+		font-size:0.5em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.35em;
+	}
+
+	.Flex3
+	{
+		font-size:0.2em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:29.5%;
+		top: 0.5em;
+		left:0.45em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:29.5%;
+		top:0.5em;
+		right:0.615em;
+	}
+
+	.P-Left
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.133em;
+	}
+
+	.P-Right
+	{
+		top:-1em;
+		right:1em;
+		font-size:0.133em;
+	}
+
+	/* Responsive */
+
+	.P-R320px, .P-R360px
+	{
+		display: none;
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:568px) and (max-width:663px) and (orientation: portrait)    	/* 36em - Smartphones  	*/
+{
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	}
+
+	/* élements */
+
+	.Flex2
+	{
+		width:35.5em;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+	}
+
+	.Carte
+	{
+		width:9.88em;
+		padding:0 0;
+		margin-top:-0.875em;
+		margin-bottom:2.4em;
+	}
+
+	.Title
+	{
+		font-size: 0.8em;
+		padding-top: 1em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.7em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.Menu-LNE i
+	{
+		top:0.3em;
+	}
+
+	.MLNE-MB i
+	{
+		top:0.43em;
+	}
+
+	.MLNE-F
+	{
+		font-size:0.5em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.35em;
+	}
+
+	.Flex3
+	{
+		font-size:0.2em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:29.5%;
+		top: 0.5em;
+		left:0.45em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:29.5%;
+		top:0.5em;
+		right:0.615em;
+	}
+
+	.P-Left
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.133em;
+	}
+
+	.P-Right
+	{
+		top:-1em;
+		right:1em;
+		font-size:0.133em;
+	}
+
+	/* Responsive */
+
+	.P-R320px, .P-R360px
+	{
+		display: none;
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:360px) and (max-width:567px) and (orientation: landscape)    	/* 23em - Smartphones  	*/
+{
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	}
+
+	/* élements */
+
+	.Flex2
+	{
+		width:22em;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:15em;
+	}
+
+	.Carte
+	{
+		width:6.88em;
+		padding:0 0;
+		margin-top:-0.875em;
+		margin-bottom:2.3em;
+	}
+
+	.Title
+	{
+		font-size: 0.6em;
+		padding-top: 1em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.4em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.Menu-LNE i
+	{
+		top:0.75em;
+	}
+
+	.MLNE-MB i
+	{
+		top:0.43em;
+	}
+
+	.MLNE-F
+	{
+		font-size: 0.53em;
+	}
+
+	.fab
+	{
+		font-size:0.9em;
+	}
+
+	.Flex3
+	{
+		font-size:0.2em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:25.9%;
+		top: 0.5em;
+		left:0.48em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:25.9%;
+		top:0.5em;
+		right:0.615em;
+	}
+
+	.P-Left
+	{
+		display:none;
+	}
+
+	.P-Right
+	{
+		display:none;
+	}
+
+	/* Footer */
+
+	.ML, .CT
+	{
+		padding-bottom:1.4em;
+		padding-top:0.65em;
+	}
+
+	.ML
+	{
+		padding-left:1.5em;
+	}
+
+	.CT
+	{
+		padding-right:1.5em;
+	}
+
+	/* Responsive */
+
+	.P-R360px
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.2em;
+		padding: 0 0.3em; /* H - L*/
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:360px) and (max-width:567px) and (orientation: portrait)    	/* 23em - Smartphones  	*/
+{
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	}
+
+	/* élements */
+
+	.Flex2
+	{
+		width:22em;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:15em;
+	}
+
+	.Carte
+	{
+		width:6.88em;
+		padding:0 0;
+		margin-top:-0.875em;
+		margin-bottom:2.3em;
+	}
+
+	.Title
+	{
+		font-size: 0.6em;
+		padding-top: 1em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.4em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.Menu-LNE i
+	{
+		top:0.75em;
+	}
+
+	.MLNE-MB i
+	{
+		top:0.43em;
+	}
+
+	.MLNE-F
+	{
+		font-size: 0.53em;
+	}
+
+	.fab
+	{
+		font-size:0.9em;
+	}
+
+	.Flex3
+	{
+		font-size:0.2em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		width:25.9%;
+		top: 0.5em;
+		left:0.48em;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		width:25.9%;
+		top:0.5em;
+		right:0.615em;
+	}
+
+	.P-Left
+	{
+		display:none;
+	}
+
+	.P-Right
+	{
+		display:none;
+	}
+
+	/* Footer */
+
+	.ML, .CT
+	{
+		padding-bottom:1.4em;
+		padding-top:0.65em;
+	}
+
+	.ML
+	{
+		padding-left:1.5em;
+	}
+
+	.CT
+	{
+		padding-right:1.5em;
+	}
+
+	/* Responsive */
+
+	.P-R360px
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.2em;
+		padding: 0 0.3em; /* H - L*/
+	}
+
+	/* Obsolète */
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:359px) and (orientation: portrait)    	/* 20em - Smartphones  	*/
+{
+	/* Header */
+	header
+	{
+		margin: 0.5em 0;
+	}
+
+	/* élements */
+
+	.Flex2
+	{
+		width:18.8em;
+	}
+
+	#T-Bloc-Menu img
+	{
+		width:15em;
+	}
+
+	.Carte
+	{
+		width:5.91em;
+		padding:0 0;
+		margin-top:-0.109em;
+		margin-bottom:2.3em;
+	}
+
+	.Title
+	{
+		font-size: 0.45em;
+	}
+
+	.MLNE-MB
+	{
+		font-size:0.3em;
+	}
+
+	/* Menu - La note enchantée */
+
+	.MLNE-F
+	{
+		font-size: 0.3em;
+	}
+
+	.Menu-LNE i
+	{
+		font-size:0.9em;
+		top:0.82em;
+	}
+
+	.MLNE-MB i
+	{
+		top:0.395em;
+	}
+
+	.Flex3
+	{
+		font-size:0.33em;
+	}
+
+	/* Décoration */
+
+	.Deco-EL, .Deco-PL, .Deco-DL
+	{
+		display:none;
+	}
+
+	.Deco-ER, .Deco-PR, .Deco-DR
+	{
+		display:none;
+	}
+
+	.P-Left
+	{
+		display:none;
+	}
+
+	.P-Right
+	{
+		display:none;
+	}
+
+	/* Footer */
+
+	.ML, .CT
+	{
+		padding-bottom:1.4em;
+		padding-top:0.65em;
+	}
+
+	.ML
+	{
+		padding-left:0.5em;
+	}
+
+	.CT
+	{
+		padding-right:0.5em;
+	}
+
+	/* Responsive */
+
+	.P-R320px
+	{
+		top:-1em;
+		left:1em;
+		font-size:0.2em;
+		padding: 0 0.3em; /* H - L*/
+	}
+
+	/* Obsolète */
+
+	.OBS, .Alert
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width:319px) and (orientation: portrait)    							/* 		Obsolète  		*/
+{
+	#T-Bloc-Menu, #B-Bloc, .Flex2
+	{
+		display: none;
+	}
+
+	/* Obsolète */
+	
+	body
+	{
+		background-color:#579c87;
+	}
+
+	.Alert img
+	{
+		position: relative;
+		top:10em;
+		left:7em;
+		width:5em;
+		height:auto;
+
+		animation-name: switch;
+		animation-duration: 2s;
+		animation-timing-function: linear;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes switch
+	{
+		0%	{transform: perspective(400px) rotateY(0deg) rotateX(0deg) scale(1);}
+		50%	{transform: perspective(800px) rotateY(180deg) rotateX(180deg) scale(1.2);}
+		100%{transform: perspective(400px) rotateY(360deg) rotateX(360deg) scale(1);}
+	}
+
+	img:hover
+	{
+		animation-play-state: paused;
+	}
+
+	img:hover + .OBS
+	{
+		transform: perspective(800px) rotateY(0deg);
+	}
+
+	.OBS
+	{
+		font-size: 1.12em;
+		margin:0 0.3em;
+		margin-top: 50%;
+		color: #3c1218;
+		background-color: #fcdfdb;
+		text-align: center;
+		border:0.2px solid #fdcb46;
+
+		transition-property:transform;
+		transition-duration:0.5s;
+		transform: rotateY(90deg);
+	}
+}
