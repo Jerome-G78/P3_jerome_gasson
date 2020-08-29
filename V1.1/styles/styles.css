@@ -319,8 +319,6 @@ header
     animation-timing-function: linear;
     animation-delay: 0s;
 	animation-iteration-count: infinite;
-	
-/*	border: 1px solid fuchsia;	/* DEBUG */
 }
 
 .Dots2
